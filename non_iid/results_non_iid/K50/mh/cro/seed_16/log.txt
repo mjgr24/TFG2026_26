@@ -1,0 +1,4621 @@
+Agregador: MH
+Solver MH: cro
+Dispositivo: cuda
+Escenario: non_iid
+Config cargada desde: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\config_non_iid.yaml
+Número de hospitales: 50
+Hospitales: ['Hospital_1', 'Hospital_2', 'Hospital_3', 'Hospital_4', 'Hospital_5', 'Hospital_6', 'Hospital_7', 'Hospital_8', 'Hospital_9', 'Hospital_10', 'Hospital_11', 'Hospital_12', 'Hospital_13', 'Hospital_14', 'Hospital_15', 'Hospital_16', 'Hospital_17', 'Hospital_18', 'Hospital_19', 'Hospital_20', 'Hospital_21', 'Hospital_22', 'Hospital_23', 'Hospital_24', 'Hospital_25', 'Hospital_26', 'Hospital_27', 'Hospital_28', 'Hospital_29', 'Hospital_30', 'Hospital_31', 'Hospital_32', 'Hospital_33', 'Hospital_34', 'Hospital_35', 'Hospital_36', 'Hospital_37', 'Hospital_38', 'Hospital_39', 'Hospital_40', 'Hospital_41', 'Hospital_42', 'Hospital_43', 'Hospital_44', 'Hospital_45', 'Hospital_46', 'Hospital_47', 'Hospital_48', 'Hospital_49', 'Hospital_50']
+Rondas federadas: 50
+Épocas locales por ronda: 10
+Fracción de clientes por ronda: 0.6
+Semilla aleatoria: 16
+Learning rate: 0.05
+Early stopping patience: 5
+MH lambda_reg: 1e-05
+MH gamma_reg: 0.01
+Resultados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K50\mh\cro\seed_16
+
+==============================
+RONDA FEDERADA 1/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_24', 'Hospital_31', 'Hospital_49', 'Hospital_19', 'Hospital_27', 'Hospital_15', 'Hospital_29', 'Hospital_1', 'Hospital_46', 'Hospital_17', 'Hospital_16', 'Hospital_45', 'Hospital_43', 'Hospital_47', 'Hospital_20', 'Hospital_22', 'Hospital_10', 'Hospital_36', 'Hospital_2', 'Hospital_26', 'Hospital_8', 'Hospital_33', 'Hospital_9', 'Hospital_38', 'Hospital_5', 'Hospital_44', 'Hospital_35', 'Hospital_21', 'Hospital_42', 'Hospital_39']
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0462 | Train Acc: 0.9881
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0660 | Train Acc: 0.9694
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.1075 | Train Acc: 0.9706
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.1199 | Train Acc: 0.9640
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.3314 | Train Acc: 0.8182
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0383 | Train Acc: 0.9924
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0715 | Train Acc: 0.9915
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0583 | Train Acc: 0.9827
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0270 | Train Acc: 0.9862
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.5936 | Train Acc: 0.6601
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0776 | Train Acc: 0.9730
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.1056 | Train Acc: 0.9771
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0309 | Train Acc: 0.9902
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.1630 | Train Acc: 0.9477
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.1585 | Train Acc: 0.9585
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.3940 | Train Acc: 0.8686
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.2413 | Train Acc: 0.9239
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.2820 | Train Acc: 0.9018
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0755 | Train Acc: 0.9782
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0768 | Train Acc: 0.9795
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.9392 | Train Acc: 0.4729
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0619 | Train Acc: 0.9872
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.3180 | Train Acc: 0.9150
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.3349 | Train Acc: 0.7932
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 1.3615 | Train Acc: 0.6600
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.3341 | Train Acc: 0.9186
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.2306 | Train Acc: 0.9562
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0545 | Train Acc: 0.9807
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0004 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.1474 | Train Acc: 0.9589
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 46.12s
+Alphas: [0.0301, 0.0331, 0.0291, 0.0267, 0.0441, 0.0321, 0.0331, 0.0307, 0.0401, 0.035, 0.0274, 0.0203, 0.03, 0.029, 0.0366, 0.0433, 0.0242, 0.0409, 0.0348, 0.0317, 0.038, 0.0291, 0.0382, 0.0368, 0.0316, 0.0323, 0.0295, 0.0416, 0.033, 0.0374]
+Valor función objetivo: 0.987265
+
+=== Evaluación en VALIDACIÓN después de ronda 1 ===
+Hospital_1 -> Val Loss: 0.7572 | Val Acc: 0.8616
+Hospital_2 -> Val Loss: 0.7426 | Val Acc: 0.7595
+Hospital_3 -> Val Loss: 0.8644 | Val Acc: 0.9061
+Hospital_4 -> Val Loss: 0.5528 | Val Acc: 0.9420
+Hospital_5 -> Val Loss: 0.6847 | Val Acc: 0.7143
+Hospital_6 -> Val Loss: 0.9387 | Val Acc: 0.8078
+Hospital_7 -> Val Loss: 0.7046 | Val Acc: 0.9396
+Hospital_8 -> Val Loss: 0.6089 | Val Acc: 0.8261
+Hospital_9 -> Val Loss: 0.5443 | Val Acc: 0.9062
+Hospital_10 -> Val Loss: 0.5891 | Val Acc: 0.8542
+Hospital_11 -> Val Loss: 0.6547 | Val Acc: 0.8241
+Hospital_12 -> Val Loss: 0.8684 | Val Acc: 0.9688
+Hospital_13 -> Val Loss: 0.7639 | Val Acc: 0.9512
+Hospital_14 -> Val Loss: 0.5692 | Val Acc: 0.9474
+Hospital_15 -> Val Loss: 0.9669 | Val Acc: 0.9325
+Hospital_16 -> Val Loss: 0.6787 | Val Acc: 0.7321
+Hospital_17 -> Val Loss: 0.8755 | Val Acc: 0.9310
+Hospital_18 -> Val Loss: 0.8003 | Val Acc: 0.7176
+Hospital_19 -> Val Loss: 0.4630 | Val Acc: 0.9588
+Hospital_20 -> Val Loss: 0.6470 | Val Acc: 0.7596
+Hospital_21 -> Val Loss: 0.8949 | Val Acc: 0.9075
+Hospital_22 -> Val Loss: 0.8298 | Val Acc: 0.8800
+Hospital_23 -> Val Loss: 0.8982 | Val Acc: 0.8440
+Hospital_24 -> Val Loss: 0.9021 | Val Acc: 0.9677
+Hospital_25 -> Val Loss: 0.8745 | Val Acc: 0.7711
+Hospital_26 -> Val Loss: 0.6283 | Val Acc: 0.7500
+Hospital_27 -> Val Loss: 1.0402 | Val Acc: 0.7059
+Hospital_28 -> Val Loss: 0.8529 | Val Acc: 0.7784
+Hospital_29 -> Val Loss: 0.9352 | Val Acc: 0.8495
+Hospital_30 -> Val Loss: 0.8912 | Val Acc: 0.7143
+Hospital_31 -> Val Loss: 0.4442 | Val Acc: 0.9191
+Hospital_32 -> Val Loss: 0.6144 | Val Acc: 0.9006
+Hospital_33 -> Val Loss: 0.9392 | Val Acc: 0.8056
+Hospital_34 -> Val Loss: 0.9134 | Val Acc: 0.9157
+Hospital_35 -> Val Loss: 0.6958 | Val Acc: 0.8889
+Hospital_36 -> Val Loss: 0.4946 | Val Acc: 0.9211
+Hospital_37 -> Val Loss: 0.6806 | Val Acc: 0.8163
+Hospital_38 -> Val Loss: 0.8779 | Val Acc: 0.6078
+Hospital_39 -> Val Loss: 0.4952 | Val Acc: 0.9333
+Hospital_40 -> Val Loss: 0.8039 | Val Acc: 0.9437
+Hospital_41 -> Val Loss: 0.6801 | Val Acc: 0.9619
+Hospital_42 -> Val Loss: 0.9067 | Val Acc: 0.6033
+Hospital_43 -> Val Loss: 0.7587 | Val Acc: 0.6727
+Hospital_44 -> Val Loss: 0.5780 | Val Acc: 0.9412
+Hospital_45 -> Val Loss: 0.6103 | Val Acc: 0.9246
+Hospital_46 -> Val Loss: 0.9459 | Val Acc: 0.5792
+Hospital_47 -> Val Loss: 0.7979 | Val Acc: 0.9326
+Hospital_48 -> Val Loss: 0.9202 | Val Acc: 0.6290
+Hospital_49 -> Val Loss: 0.8126 | Val Acc: 0.9419
+Hospital_50 -> Val Loss: 0.6072 | Val Acc: 0.7642
+Val Loss medio: 0.7520 | Val Acc media: 0.8402
+Tiempo ronda: 100.91s
+Mejor val_acc hasta ahora: 0.8402 (ronda 1)
+
+==============================
+RONDA FEDERADA 2/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_40', 'Hospital_30', 'Hospital_5', 'Hospital_36', 'Hospital_6', 'Hospital_15', 'Hospital_47', 'Hospital_26', 'Hospital_43', 'Hospital_10', 'Hospital_42', 'Hospital_33', 'Hospital_23', 'Hospital_37', 'Hospital_17', 'Hospital_45', 'Hospital_34', 'Hospital_32', 'Hospital_44', 'Hospital_24', 'Hospital_22', 'Hospital_1', 'Hospital_9', 'Hospital_25', 'Hospital_29', 'Hospital_11', 'Hospital_12', 'Hospital_41', 'Hospital_38', 'Hospital_19']
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0874 | Train Acc: 0.9727
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.1370 | Train Acc: 0.9455
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0578 | Train Acc: 0.9858
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 1.1141 | Train Acc: 0.5943
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0093 | Train Acc: 0.9976
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0221 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0575 | Train Acc: 0.9782
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0264 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0208 | Train Acc: 0.9928
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0987 | Train Acc: 0.9774
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0000 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0404 | Train Acc: 0.9927
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0264 | Train Acc: 0.9903
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0307 | Train Acc: 0.9973
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0742 | Train Acc: 0.9868
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0433 | Train Acc: 0.9900
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0155 | Train Acc: 0.9960
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0485 | Train Acc: 0.9862
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0361 | Train Acc: 0.9915
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0184 | Train Acc: 0.9913
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.2669 | Train Acc: 0.9854
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0460 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0903 | Train Acc: 0.9737
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0312 | Train Acc: 0.9897
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0391 | Train Acc: 0.9915
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0753 | Train Acc: 0.9751
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.1870 | Train Acc: 0.9419
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0283 | Train Acc: 0.9906
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0697 | Train Acc: 0.9662
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0496 | Train Acc: 0.9779
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 45.26s
+Alphas: [0.0538, 0.0412, 0.0423, 0.0318, 0.0245, 0.0075, 0.0594, 0.0419, 0.0296, 0.0434, 0.0326, 0.0376, 0.0361, 0.03, 0.0307, 0.0109, 0.0127, 0.0302, 0.0272, 0.0251, 0.0384, 0.0415, 0.02, 0.0303, 0.042, 0.0282, 0.0433, 0.0353, 0.0393, 0.0332]
+Valor función objetivo: 0.991431
+
+=== Evaluación en VALIDACIÓN después de ronda 2 ===
+Hospital_1 -> Val Loss: 0.1340 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.1119 | Val Acc: 0.9656
+Hospital_3 -> Val Loss: 0.1313 | Val Acc: 0.9859
+Hospital_4 -> Val Loss: 0.1512 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.2189 | Val Acc: 0.9762
+Hospital_6 -> Val Loss: 0.0934 | Val Acc: 0.9910
+Hospital_7 -> Val Loss: 0.1567 | Val Acc: 0.9774
+Hospital_8 -> Val Loss: 0.1359 | Val Acc: 0.9565
+Hospital_9 -> Val Loss: 0.2119 | Val Acc: 0.8958
+Hospital_10 -> Val Loss: 0.1943 | Val Acc: 0.9479
+Hospital_11 -> Val Loss: 0.1569 | Val Acc: 0.9347
+Hospital_12 -> Val Loss: 0.2450 | Val Acc: 0.9688
+Hospital_13 -> Val Loss: 0.1433 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.1200 | Val Acc: 0.9803
+Hospital_15 -> Val Loss: 0.3376 | Val Acc: 0.9518
+Hospital_16 -> Val Loss: 0.2196 | Val Acc: 0.9509
+Hospital_17 -> Val Loss: 0.3441 | Val Acc: 0.9483
+Hospital_18 -> Val Loss: 0.1627 | Val Acc: 0.9861
+Hospital_19 -> Val Loss: 0.1440 | Val Acc: 0.9471
+Hospital_20 -> Val Loss: 0.1531 | Val Acc: 0.9712
+Hospital_21 -> Val Loss: 0.1426 | Val Acc: 0.9824
+Hospital_22 -> Val Loss: 0.4031 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.2714 | Val Acc: 0.9614
+Hospital_24 -> Val Loss: 0.3318 | Val Acc: 0.9516
+Hospital_25 -> Val Loss: 0.1453 | Val Acc: 0.9639
+Hospital_26 -> Val Loss: 0.2144 | Val Acc: 0.9412
+Hospital_27 -> Val Loss: 0.2588 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.1108 | Val Acc: 0.9845
+Hospital_29 -> Val Loss: 0.3240 | Val Acc: 0.9462
+Hospital_30 -> Val Loss: 0.1554 | Val Acc: 0.9524
+Hospital_31 -> Val Loss: 0.0857 | Val Acc: 0.9706
+Hospital_32 -> Val Loss: 0.2321 | Val Acc: 0.9240
+Hospital_33 -> Val Loss: 0.2099 | Val Acc: 0.9630
+Hospital_34 -> Val Loss: 0.1640 | Val Acc: 0.9880
+Hospital_35 -> Val Loss: 0.2667 | Val Acc: 0.9206
+Hospital_36 -> Val Loss: 0.1924 | Val Acc: 0.9211
+Hospital_37 -> Val Loss: 0.2290 | Val Acc: 0.9524
+Hospital_38 -> Val Loss: 0.1456 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.1623 | Val Acc: 0.9422
+Hospital_40 -> Val Loss: 0.2768 | Val Acc: 0.9437
+Hospital_41 -> Val Loss: 0.2637 | Val Acc: 0.9524
+Hospital_42 -> Val Loss: 0.1482 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.1200 | Val Acc: 0.9740
+Hospital_44 -> Val Loss: 0.2174 | Val Acc: 0.9379
+Hospital_45 -> Val Loss: 0.1635 | Val Acc: 0.9648
+Hospital_46 -> Val Loss: 0.1770 | Val Acc: 0.9950
+Hospital_47 -> Val Loss: 0.1230 | Val Acc: 0.9888
+Hospital_48 -> Val Loss: 0.1405 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.2317 | Val Acc: 0.9613
+Hospital_50 -> Val Loss: 0.1903 | Val Acc: 0.9465
+Val Loss medio: 0.1933 | Val Acc media: 0.9620
+Tiempo ronda: 107.80s
+Mejor val_acc hasta ahora: 0.9620 (ronda 2)
+
+==============================
+RONDA FEDERADA 3/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_13', 'Hospital_47', 'Hospital_39', 'Hospital_27', 'Hospital_43', 'Hospital_19', 'Hospital_8', 'Hospital_6', 'Hospital_36', 'Hospital_44', 'Hospital_17', 'Hospital_2', 'Hospital_18', 'Hospital_11', 'Hospital_7', 'Hospital_10', 'Hospital_3', 'Hospital_4', 'Hospital_49', 'Hospital_15', 'Hospital_33', 'Hospital_5', 'Hospital_35', 'Hospital_21', 'Hospital_38', 'Hospital_9', 'Hospital_22', 'Hospital_40', 'Hospital_48', 'Hospital_32']
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0144 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0317 | Train Acc: 0.9913
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0509 | Train Acc: 0.9816
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0060 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0151 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0269 | Train Acc: 0.9919
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 2.0648 | Train Acc: 0.3566
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0062 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0813 | Train Acc: 0.9690
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0322 | Train Acc: 0.9935
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0295 | Train Acc: 0.9967
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0299 | Train Acc: 0.9902
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0237 | Train Acc: 0.9917
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0673 | Train Acc: 0.9831
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0242 | Train Acc: 0.9940
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.1104 | Train Acc: 0.9753
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0286 | Train Acc: 0.9935
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0277 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0290 | Train Acc: 0.9911
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0125 | Train Acc: 0.9968
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0283 | Train Acc: 0.9909
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0518 | Train Acc: 0.9882
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0332 | Train Acc: 0.9937
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0191 | Train Acc: 0.9947
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0582 | Train Acc: 0.9624
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0654 | Train Acc: 0.9858
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0423 | Train Acc: 0.9854
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0319 | Train Acc: 0.9945
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0071 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0326 | Train Acc: 0.9920
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 45.89s
+Alphas: [0.0407, 0.0095, 0.0349, 0.0333, 0.0338, 0.0299, 0.0328, 0.0403, 0.0323, 0.0317, 0.0296, 0.0398, 0.041, 0.034, 0.03, 0.0326, 0.0357, 0.0273, 0.0262, 0.0284, 0.0272, 0.0292, 0.0353, 0.037, 0.0442, 0.0259, 0.0468, 0.035, 0.0424, 0.0331]
+Valor función objetivo: 0.992886
+
+=== Evaluación en VALIDACIÓN después de ronda 3 ===
+Hospital_1 -> Val Loss: 0.1363 | Val Acc: 0.9748
+Hospital_2 -> Val Loss: 0.0867 | Val Acc: 0.9618
+Hospital_3 -> Val Loss: 0.0877 | Val Acc: 0.9859
+Hospital_4 -> Val Loss: 0.1756 | Val Acc: 0.9275
+Hospital_5 -> Val Loss: 0.2545 | Val Acc: 0.9583
+Hospital_6 -> Val Loss: 0.0425 | Val Acc: 0.9940
+Hospital_7 -> Val Loss: 0.1531 | Val Acc: 0.9547
+Hospital_8 -> Val Loss: 0.1143 | Val Acc: 0.9565
+Hospital_9 -> Val Loss: 0.2382 | Val Acc: 0.9062
+Hospital_10 -> Val Loss: 0.2125 | Val Acc: 0.9271
+Hospital_11 -> Val Loss: 0.1200 | Val Acc: 0.9598
+Hospital_12 -> Val Loss: 0.2018 | Val Acc: 0.8750
+Hospital_13 -> Val Loss: 0.0862 | Val Acc: 0.9756
+Hospital_14 -> Val Loss: 0.1553 | Val Acc: 0.9342
+Hospital_15 -> Val Loss: 0.3810 | Val Acc: 0.8457
+Hospital_16 -> Val Loss: 0.3203 | Val Acc: 0.9208
+Hospital_17 -> Val Loss: 0.3079 | Val Acc: 0.9310
+Hospital_18 -> Val Loss: 0.1570 | Val Acc: 0.9676
+Hospital_19 -> Val Loss: 0.1475 | Val Acc: 0.9471
+Hospital_20 -> Val Loss: 0.1874 | Val Acc: 0.9423
+Hospital_21 -> Val Loss: 0.0706 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.5020 | Val Acc: 0.8000
+Hospital_23 -> Val Loss: 0.3010 | Val Acc: 0.9010
+Hospital_24 -> Val Loss: 0.3637 | Val Acc: 0.8508
+Hospital_25 -> Val Loss: 0.1272 | Val Acc: 0.9518
+Hospital_26 -> Val Loss: 0.1968 | Val Acc: 0.9461
+Hospital_27 -> Val Loss: 0.1379 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0982 | Val Acc: 0.9691
+Hospital_29 -> Val Loss: 0.3643 | Val Acc: 0.8602
+Hospital_30 -> Val Loss: 0.1684 | Val Acc: 0.9524
+Hospital_31 -> Val Loss: 0.0747 | Val Acc: 0.9853
+Hospital_32 -> Val Loss: 0.2640 | Val Acc: 0.9064
+Hospital_33 -> Val Loss: 0.2142 | Val Acc: 0.9352
+Hospital_34 -> Val Loss: 0.0880 | Val Acc: 0.9839
+Hospital_35 -> Val Loss: 0.3332 | Val Acc: 0.8413
+Hospital_36 -> Val Loss: 0.1803 | Val Acc: 0.9211
+Hospital_37 -> Val Loss: 0.2816 | Val Acc: 0.8844
+Hospital_38 -> Val Loss: 0.1571 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.1366 | Val Acc: 0.9467
+Hospital_40 -> Val Loss: 0.3172 | Val Acc: 0.8592
+Hospital_41 -> Val Loss: 0.3208 | Val Acc: 0.8571
+Hospital_42 -> Val Loss: 0.1813 | Val Acc: 0.9835
+Hospital_43 -> Val Loss: 0.1167 | Val Acc: 0.9662
+Hospital_44 -> Val Loss: 0.2372 | Val Acc: 0.9118
+Hospital_45 -> Val Loss: 0.1217 | Val Acc: 0.9598
+Hospital_46 -> Val Loss: 0.2036 | Val Acc: 0.9802
+Hospital_47 -> Val Loss: 0.0609 | Val Acc: 0.9888
+Hospital_48 -> Val Loss: 0.1644 | Val Acc: 0.9839
+Hospital_49 -> Val Loss: 0.2241 | Val Acc: 0.8903
+Hospital_50 -> Val Loss: 0.2468 | Val Acc: 0.9245
+Val Loss medio: 0.1964 | Val Acc media: 0.9345
+Tiempo ronda: 99.20s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 4/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_25', 'Hospital_5', 'Hospital_21', 'Hospital_22', 'Hospital_32', 'Hospital_48', 'Hospital_10', 'Hospital_42', 'Hospital_23', 'Hospital_29', 'Hospital_13', 'Hospital_33', 'Hospital_26', 'Hospital_20', 'Hospital_41', 'Hospital_19', 'Hospital_49', 'Hospital_31', 'Hospital_30', 'Hospital_1', 'Hospital_7', 'Hospital_17', 'Hospital_12', 'Hospital_45', 'Hospital_44', 'Hospital_9', 'Hospital_40', 'Hospital_24', 'Hospital_15', 'Hospital_36']
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0170 | Train Acc: 0.9944
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0395 | Train Acc: 0.9894
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0150 | Train Acc: 0.9956
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0404 | Train Acc: 0.9854
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0343 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0040 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0415 | Train Acc: 0.9897
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0002 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0171 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0097 | Train Acc: 0.9979
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0107 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0186 | Train Acc: 0.9909
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0190 | Train Acc: 0.9951
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0462 | Train Acc: 0.9755
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0104 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0279 | Train Acc: 0.9919
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0196 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0058 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0506 | Train Acc: 0.9818
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0165 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0146 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0170 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0519 | Train Acc: 0.9884
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0238 | Train Acc: 0.9920
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0188 | Train Acc: 0.9941
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0372 | Train Acc: 0.9879
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0283 | Train Acc: 0.9945
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0081 | Train Acc: 0.9984
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0117 | Train Acc: 0.9975
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0620 | Train Acc: 0.9767
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 45.67s
+Alphas: [0.0286, 0.0362, 0.0319, 0.0319, 0.0397, 0.0159, 0.0328, 0.0388, 0.0312, 0.0267, 0.0183, 0.0346, 0.0348, 0.0341, 0.0388, 0.0364, 0.0296, 0.0366, 0.0379, 0.0444, 0.0208, 0.0465, 0.0329, 0.0295, 0.0307, 0.0313, 0.0409, 0.039, 0.0354, 0.0339]
+Valor función objetivo: 0.995783
+
+=== Evaluación en VALIDACIÓN después de ronda 4 ===
+Hospital_1 -> Val Loss: 0.0459 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0679 | Val Acc: 0.9656
+Hospital_3 -> Val Loss: 0.0433 | Val Acc: 0.9859
+Hospital_4 -> Val Loss: 0.1042 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1188 | Val Acc: 0.9762
+Hospital_6 -> Val Loss: 0.0429 | Val Acc: 0.9850
+Hospital_7 -> Val Loss: 0.0339 | Val Acc: 0.9962
+Hospital_8 -> Val Loss: 0.1096 | Val Acc: 0.9130
+Hospital_9 -> Val Loss: 0.1007 | Val Acc: 0.9479
+Hospital_10 -> Val Loss: 0.0750 | Val Acc: 0.9688
+Hospital_11 -> Val Loss: 0.1108 | Val Acc: 0.9497
+Hospital_12 -> Val Loss: 0.0517 | Val Acc: 0.9688
+Hospital_13 -> Val Loss: 0.0537 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0293 | Val Acc: 0.9868
+Hospital_15 -> Val Loss: 0.0622 | Val Acc: 0.9968
+Hospital_16 -> Val Loss: 0.0800 | Val Acc: 0.9811
+Hospital_17 -> Val Loss: 0.1960 | Val Acc: 0.9655
+Hospital_18 -> Val Loss: 0.0659 | Val Acc: 0.9861
+Hospital_19 -> Val Loss: 0.0894 | Val Acc: 0.9529
+Hospital_20 -> Val Loss: 0.0572 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0412 | Val Acc: 0.9912
+Hospital_22 -> Val Loss: 0.1211 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0817 | Val Acc: 0.9815
+Hospital_24 -> Val Loss: 0.0574 | Val Acc: 0.9839
+Hospital_25 -> Val Loss: 0.0650 | Val Acc: 0.9759
+Hospital_26 -> Val Loss: 0.1492 | Val Acc: 0.9559
+Hospital_27 -> Val Loss: 0.2641 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0338 | Val Acc: 0.9948
+Hospital_29 -> Val Loss: 0.0734 | Val Acc: 0.9892
+Hospital_30 -> Val Loss: 0.0757 | Val Acc: 0.9762
+Hospital_31 -> Val Loss: 0.0385 | Val Acc: 0.9779
+Hospital_32 -> Val Loss: 0.1531 | Val Acc: 0.9532
+Hospital_33 -> Val Loss: 0.0558 | Val Acc: 0.9815
+Hospital_34 -> Val Loss: 0.0487 | Val Acc: 0.9880
+Hospital_35 -> Val Loss: 0.0781 | Val Acc: 0.9762
+Hospital_36 -> Val Loss: 0.1116 | Val Acc: 0.9474
+Hospital_37 -> Val Loss: 0.0817 | Val Acc: 0.9796
+Hospital_38 -> Val Loss: 0.0664 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.1177 | Val Acc: 0.9511
+Hospital_40 -> Val Loss: 0.0591 | Val Acc: 0.9859
+Hospital_41 -> Val Loss: 0.0694 | Val Acc: 0.9714
+Hospital_42 -> Val Loss: 0.0714 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0541 | Val Acc: 0.9870
+Hospital_44 -> Val Loss: 0.0974 | Val Acc: 0.9706
+Hospital_45 -> Val Loss: 0.0973 | Val Acc: 0.9749
+Hospital_46 -> Val Loss: 0.0855 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0401 | Val Acc: 0.9888
+Hospital_48 -> Val Loss: 0.0774 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0496 | Val Acc: 0.9935
+Hospital_50 -> Val Loss: 0.0993 | Val Acc: 0.9654
+Val Loss medio: 0.0811 | Val Acc media: 0.9763
+Tiempo ronda: 101.44s
+Mejor val_acc hasta ahora: 0.9763 (ronda 4)
+
+==============================
+RONDA FEDERADA 5/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_32', 'Hospital_8', 'Hospital_12', 'Hospital_29', 'Hospital_43', 'Hospital_3', 'Hospital_23', 'Hospital_1', 'Hospital_37', 'Hospital_27', 'Hospital_10', 'Hospital_41', 'Hospital_11', 'Hospital_4', 'Hospital_45', 'Hospital_21', 'Hospital_13', 'Hospital_47', 'Hospital_50', 'Hospital_35', 'Hospital_7', 'Hospital_31', 'Hospital_15', 'Hospital_18', 'Hospital_20', 'Hospital_38', 'Hospital_19', 'Hospital_28', 'Hospital_5', 'Hospital_49']
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0212 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 1.8046 | Train Acc: 0.3798
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0246 | Train Acc: 0.9942
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0034 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0121 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0103 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0164 | Train Acc: 0.9940
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0188 | Train Acc: 0.9926
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0197 | Train Acc: 0.9960
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.1119 | Train Acc: 0.9712
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0077 | Train Acc: 0.9981
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0843 | Train Acc: 0.9731
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0095 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0204 | Train Acc: 0.9940
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0094 | Train Acc: 0.9965
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0066 | Train Acc: 0.9976
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0180 | Train Acc: 0.9956
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0300 | Train Acc: 0.9894
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0116 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0103 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0064 | Train Acc: 0.9975
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0158 | Train Acc: 0.9927
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0282 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0144 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0208 | Train Acc: 0.9965
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0184 | Train Acc: 0.9928
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0302 | Train Acc: 0.9906
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0087 | Train Acc: 0.9987
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 45.36s
+Alphas: [0.028, 0.0333, 0.0179, 0.0112, 0.0273, 0.0411, 0.0295, 0.0145, 0.0256, 0.0464, 0.0323, 0.0438, 0.033, 0.0488, 0.0312, 0.033, 0.0136, 0.0397, 0.036, 0.0348, 0.0467, 0.0306, 0.0393, 0.0198, 0.0423, 0.0373, 0.03, 0.041, 0.0514, 0.0404]
+Valor función objetivo: 0.993988
+
+=== Evaluación en VALIDACIÓN después de ronda 5 ===
+Hospital_1 -> Val Loss: 0.0323 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0597 | Val Acc: 0.9771
+Hospital_3 -> Val Loss: 0.0331 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0809 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1314 | Val Acc: 0.9702
+Hospital_6 -> Val Loss: 0.0256 | Val Acc: 0.9940
+Hospital_7 -> Val Loss: 0.0363 | Val Acc: 0.9925
+Hospital_8 -> Val Loss: 0.0651 | Val Acc: 0.9565
+Hospital_9 -> Val Loss: 0.1007 | Val Acc: 0.9479
+Hospital_10 -> Val Loss: 0.1117 | Val Acc: 0.9479
+Hospital_11 -> Val Loss: 0.1505 | Val Acc: 0.9548
+Hospital_12 -> Val Loss: 0.1072 | Val Acc: 0.9688
+Hospital_13 -> Val Loss: 0.0717 | Val Acc: 0.9756
+Hospital_14 -> Val Loss: 0.0287 | Val Acc: 0.9868
+Hospital_15 -> Val Loss: 0.0817 | Val Acc: 0.9936
+Hospital_16 -> Val Loss: 0.0785 | Val Acc: 0.9849
+Hospital_17 -> Val Loss: 0.2010 | Val Acc: 0.9483
+Hospital_18 -> Val Loss: 0.0765 | Val Acc: 0.9861
+Hospital_19 -> Val Loss: 0.1248 | Val Acc: 0.9588
+Hospital_20 -> Val Loss: 0.0817 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0404 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.2057 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0882 | Val Acc: 0.9815
+Hospital_24 -> Val Loss: 0.0763 | Val Acc: 0.9839
+Hospital_25 -> Val Loss: 0.0429 | Val Acc: 0.9799
+Hospital_26 -> Val Loss: 0.2207 | Val Acc: 0.9412
+Hospital_27 -> Val Loss: 0.1381 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0279 | Val Acc: 0.9897
+Hospital_29 -> Val Loss: 0.0782 | Val Acc: 0.9785
+Hospital_30 -> Val Loss: 0.0645 | Val Acc: 0.9762
+Hospital_31 -> Val Loss: 0.0822 | Val Acc: 0.9559
+Hospital_32 -> Val Loss: 0.1294 | Val Acc: 0.9532
+Hospital_33 -> Val Loss: 0.0532 | Val Acc: 0.9907
+Hospital_34 -> Val Loss: 0.0429 | Val Acc: 0.9880
+Hospital_35 -> Val Loss: 0.0840 | Val Acc: 0.9762
+Hospital_36 -> Val Loss: 0.1683 | Val Acc: 0.9211
+Hospital_37 -> Val Loss: 0.0865 | Val Acc: 0.9796
+Hospital_38 -> Val Loss: 0.0789 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.1688 | Val Acc: 0.9378
+Hospital_40 -> Val Loss: 0.0696 | Val Acc: 0.9859
+Hospital_41 -> Val Loss: 0.0725 | Val Acc: 0.9714
+Hospital_42 -> Val Loss: 0.0743 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0406 | Val Acc: 0.9844
+Hospital_44 -> Val Loss: 0.1275 | Val Acc: 0.9575
+Hospital_45 -> Val Loss: 0.1401 | Val Acc: 0.9648
+Hospital_46 -> Val Loss: 0.0774 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0479 | Val Acc: 0.9888
+Hospital_48 -> Val Loss: 0.0809 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0581 | Val Acc: 0.9935
+Hospital_50 -> Val Loss: 0.1080 | Val Acc: 0.9686
+Val Loss medio: 0.0891 | Val Acc media: 0.9747
+Tiempo ronda: 107.25s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 6/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_9', 'Hospital_11', 'Hospital_17', 'Hospital_49', 'Hospital_19', 'Hospital_3', 'Hospital_1', 'Hospital_36', 'Hospital_40', 'Hospital_26', 'Hospital_5', 'Hospital_34', 'Hospital_4', 'Hospital_42', 'Hospital_38', 'Hospital_46', 'Hospital_23', 'Hospital_12', 'Hospital_8', 'Hospital_33', 'Hospital_15', 'Hospital_13', 'Hospital_48', 'Hospital_22', 'Hospital_16', 'Hospital_7', 'Hospital_27', 'Hospital_41', 'Hospital_29']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0209 | Train Acc: 0.9910
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0216 | Train Acc: 0.9939
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0669 | Train Acc: 0.9771
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0089 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0112 | Train Acc: 0.9987
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0204 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0089 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0103 | Train Acc: 0.9988
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.3308 | Train Acc: 0.9922
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0162 | Train Acc: 0.9973
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0169 | Train Acc: 0.9961
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0273 | Train Acc: 0.9906
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0021 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0164 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0002 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0128 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0135 | Train Acc: 0.9950
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0269 | Train Acc: 0.9942
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 1.4173 | Train Acc: 0.1705
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0145 | Train Acc: 0.9964
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0057 | Train Acc: 0.9975
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0052 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0075 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0155 | Train Acc: 0.9985
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0089 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0021 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0063 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0040 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 44.80s
+Alphas: [0.0358, 0.0391, 0.0318, 0.012, 0.0348, 0.0272, 0.0376, 0.0421, 0.0301, 0.0218, 0.0401, 0.0337, 0.0089, 0.0184, 0.0434, 0.0433, 0.0398, 0.0268, 0.0489, 0.0323, 0.0364, 0.0196, 0.0602, 0.0435, 0.0552, 0.0306, 0.0338, 0.0099, 0.0206, 0.0423]
+Valor función objetivo: 0.994704
+
+=== Evaluación en VALIDACIÓN después de ronda 6 ===
+Hospital_1 -> Val Loss: 0.0721 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0319 | Val Acc: 0.9809
+Hospital_3 -> Val Loss: 0.0550 | Val Acc: 0.9859
+Hospital_4 -> Val Loss: 0.1173 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1532 | Val Acc: 0.9762
+Hospital_6 -> Val Loss: 0.0209 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0532 | Val Acc: 0.9849
+Hospital_8 -> Val Loss: 0.0987 | Val Acc: 0.9565
+Hospital_9 -> Val Loss: 0.1284 | Val Acc: 0.9375
+Hospital_10 -> Val Loss: 0.0902 | Val Acc: 0.9688
+Hospital_11 -> Val Loss: 0.0657 | Val Acc: 0.9648
+Hospital_12 -> Val Loss: 0.0622 | Val Acc: 0.9688
+Hospital_13 -> Val Loss: 0.0454 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0804 | Val Acc: 0.9803
+Hospital_15 -> Val Loss: 0.0618 | Val Acc: 0.9968
+Hospital_16 -> Val Loss: 0.1540 | Val Acc: 0.9660
+Hospital_17 -> Val Loss: 0.1086 | Val Acc: 0.9655
+Hospital_18 -> Val Loss: 0.0606 | Val Acc: 0.9861
+Hospital_19 -> Val Loss: 0.0960 | Val Acc: 0.9588
+Hospital_20 -> Val Loss: 0.0653 | Val Acc: 0.9808
+Hospital_21 -> Val Loss: 0.0294 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.1933 | Val Acc: 0.9200
+Hospital_23 -> Val Loss: 0.0801 | Val Acc: 0.9832
+Hospital_24 -> Val Loss: 0.0723 | Val Acc: 0.9798
+Hospital_25 -> Val Loss: 0.0596 | Val Acc: 0.9719
+Hospital_26 -> Val Loss: 0.1049 | Val Acc: 0.9608
+Hospital_27 -> Val Loss: 0.1347 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0477 | Val Acc: 0.9897
+Hospital_29 -> Val Loss: 0.0823 | Val Acc: 0.9892
+Hospital_30 -> Val Loss: 0.0858 | Val Acc: 0.9524
+Hospital_31 -> Val Loss: 0.0235 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.1855 | Val Acc: 0.9357
+Hospital_33 -> Val Loss: 0.0423 | Val Acc: 0.9907
+Hospital_34 -> Val Loss: 0.0450 | Val Acc: 0.9839
+Hospital_35 -> Val Loss: 0.1399 | Val Acc: 0.9286
+Hospital_36 -> Val Loss: 0.0898 | Val Acc: 0.9605
+Hospital_37 -> Val Loss: 0.1125 | Val Acc: 0.9592
+Hospital_38 -> Val Loss: 0.0329 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0797 | Val Acc: 0.9689
+Hospital_40 -> Val Loss: 0.0902 | Val Acc: 0.9718
+Hospital_41 -> Val Loss: 0.1172 | Val Acc: 0.9619
+Hospital_42 -> Val Loss: 0.0262 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0377 | Val Acc: 0.9896
+Hospital_44 -> Val Loss: 0.1173 | Val Acc: 0.9641
+Hospital_45 -> Val Loss: 0.0546 | Val Acc: 0.9799
+Hospital_46 -> Val Loss: 0.0311 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0273 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0318 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0329 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.1350 | Val Acc: 0.9465
+Val Loss medio: 0.0793 | Val Acc media: 0.9745
+Tiempo ronda: 97.66s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 7/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_10', 'Hospital_43', 'Hospital_24', 'Hospital_28', 'Hospital_25', 'Hospital_42', 'Hospital_2', 'Hospital_20', 'Hospital_33', 'Hospital_32', 'Hospital_7', 'Hospital_9', 'Hospital_6', 'Hospital_48', 'Hospital_38', 'Hospital_35', 'Hospital_8', 'Hospital_45', 'Hospital_39', 'Hospital_12', 'Hospital_27', 'Hospital_19', 'Hospital_26', 'Hospital_17', 'Hospital_5', 'Hospital_34', 'Hospital_46', 'Hospital_37', 'Hospital_4', 'Hospital_40']
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0332 | Train Acc: 0.9897
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0088 | Train Acc: 0.9969
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0052 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0126 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0104 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0002 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0160 | Train Acc: 0.9940
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0248 | Train Acc: 0.9906
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0142 | Train Acc: 0.9964
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0186 | Train Acc: 0.9954
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0094 | Train Acc: 0.9970
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0175 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0037 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0015 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0135 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0108 | Train Acc: 0.9984
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 1.2025 | Train Acc: 0.6667
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0135 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0233 | Train Acc: 0.9895
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0301 | Train Acc: 0.9942
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0174 | Train Acc: 0.9930
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0941 | Train Acc: 0.9717
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0099 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0243 | Train Acc: 0.9941
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0023 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0156 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0196 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0147 | Train Acc: 0.9973
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 45.44s
+Alphas: [0.0461, 0.0055, 0.0418, 0.0336, 0.02, 0.0338, 0.0358, 0.0412, 0.0428, 0.0381, 0.0487, 0.026, 0.0383, 0.0531, 0.0142, 0.0252, 0.0319, 0.0314, 0.0489, 0.0399, 0.0416, 0.0099, 0.0323, 0.0323, 0.0029, 0.0276, 0.042, 0.0381, 0.0444, 0.0326]
+Valor función objetivo: 0.993513
+
+=== Evaluación en VALIDACIÓN después de ronda 7 ===
+Hospital_1 -> Val Loss: 0.0765 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0634 | Val Acc: 0.9771
+Hospital_3 -> Val Loss: 0.0413 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.1199 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1275 | Val Acc: 0.9762
+Hospital_6 -> Val Loss: 0.0520 | Val Acc: 0.9910
+Hospital_7 -> Val Loss: 0.0680 | Val Acc: 0.9925
+Hospital_8 -> Val Loss: 0.1145 | Val Acc: 0.9130
+Hospital_9 -> Val Loss: 0.1108 | Val Acc: 0.9583
+Hospital_10 -> Val Loss: 0.0927 | Val Acc: 0.9896
+Hospital_11 -> Val Loss: 0.0954 | Val Acc: 0.9799
+Hospital_12 -> Val Loss: 0.0468 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0510 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0692 | Val Acc: 0.9803
+Hospital_15 -> Val Loss: 0.1242 | Val Acc: 0.9775
+Hospital_16 -> Val Loss: 0.1353 | Val Acc: 0.9887
+Hospital_17 -> Val Loss: 0.1679 | Val Acc: 0.9483
+Hospital_18 -> Val Loss: 0.0669 | Val Acc: 0.9907
+Hospital_19 -> Val Loss: 0.1029 | Val Acc: 0.9765
+Hospital_20 -> Val Loss: 0.0925 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0285 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.1917 | Val Acc: 0.9200
+Hospital_23 -> Val Loss: 0.1262 | Val Acc: 0.9748
+Hospital_24 -> Val Loss: 0.1168 | Val Acc: 0.9677
+Hospital_25 -> Val Loss: 0.0679 | Val Acc: 0.9759
+Hospital_26 -> Val Loss: 0.1439 | Val Acc: 0.9755
+Hospital_27 -> Val Loss: 0.1343 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0469 | Val Acc: 0.9948
+Hospital_29 -> Val Loss: 0.1394 | Val Acc: 0.9570
+Hospital_30 -> Val Loss: 0.0898 | Val Acc: 0.9762
+Hospital_31 -> Val Loss: 0.0701 | Val Acc: 0.9853
+Hospital_32 -> Val Loss: 0.1396 | Val Acc: 0.9649
+Hospital_33 -> Val Loss: 0.0881 | Val Acc: 0.9907
+Hospital_34 -> Val Loss: 0.0260 | Val Acc: 0.9920
+Hospital_35 -> Val Loss: 0.1385 | Val Acc: 0.9603
+Hospital_36 -> Val Loss: 0.1088 | Val Acc: 0.9605
+Hospital_37 -> Val Loss: 0.1258 | Val Acc: 0.9660
+Hospital_38 -> Val Loss: 0.0809 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.1249 | Val Acc: 0.9644
+Hospital_40 -> Val Loss: 0.1215 | Val Acc: 0.9577
+Hospital_41 -> Val Loss: 0.1102 | Val Acc: 0.9619
+Hospital_42 -> Val Loss: 0.0763 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0570 | Val Acc: 0.9818
+Hospital_44 -> Val Loss: 0.1208 | Val Acc: 0.9673
+Hospital_45 -> Val Loss: 0.0904 | Val Acc: 0.9749
+Hospital_46 -> Val Loss: 0.0821 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0499 | Val Acc: 0.9775
+Hospital_48 -> Val Loss: 0.0862 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0809 | Val Acc: 0.9677
+Hospital_50 -> Val Loss: 0.1343 | Val Acc: 0.9686
+Val Loss medio: 0.0963 | Val Acc media: 0.9757
+Tiempo ronda: 101.24s
+Sin mejora en validacion: 3/5
+
+==============================
+RONDA FEDERADA 8/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_10', 'Hospital_36', 'Hospital_12', 'Hospital_45', 'Hospital_48', 'Hospital_8', 'Hospital_28', 'Hospital_27', 'Hospital_1', 'Hospital_33', 'Hospital_11', 'Hospital_35', 'Hospital_7', 'Hospital_22', 'Hospital_9', 'Hospital_26', 'Hospital_15', 'Hospital_21', 'Hospital_4', 'Hospital_24', 'Hospital_40', 'Hospital_37', 'Hospital_49', 'Hospital_6', 'Hospital_29', 'Hospital_44', 'Hospital_20', 'Hospital_42', 'Hospital_32', 'Hospital_39']
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0261 | Train Acc: 0.9959
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0725 | Train Acc: 0.9742
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0189 | Train Acc: 0.9942
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0139 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.1371 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0136 | Train Acc: 0.9949
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0108 | Train Acc: 0.9988
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0099 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0888 | Train Acc: 0.9751
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0100 | Train Acc: 0.9984
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0087 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0095 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0207 | Train Acc: 0.9960
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0133 | Train Acc: 0.9971
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0053 | Train Acc: 0.9981
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0085 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0117 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0045 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0157 | Train Acc: 0.9973
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0160 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0080 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0041 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0033 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0135 | Train Acc: 0.9974
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.1033 | Train Acc: 0.9660
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0181 | Train Acc: 0.9954
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0210 | Train Acc: 0.9930
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 47.89s
+Alphas: [0.0413, 0.0336, 0.0439, 0.0347, 0.0261, 0.0371, 0.0275, 0.0418, 0.0571, 0.042, 0.033, 0.0259, 0.0102, 0.0338, 0.0178, 0.0329, 0.0159, 0.0382, 0.0383, 0.048, 0.0375, 0.0307, 0.0255, 0.0206, 0.0219, 0.0417, 0.0308, 0.0451, 0.046, 0.0215]
+Valor función objetivo: 0.995678
+
+=== Evaluación en VALIDACIÓN después de ronda 8 ===
+Hospital_1 -> Val Loss: 0.0412 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0317 | Val Acc: 0.9885
+Hospital_3 -> Val Loss: 0.0314 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0958 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0937 | Val Acc: 0.9821
+Hospital_6 -> Val Loss: 0.0276 | Val Acc: 0.9940
+Hospital_7 -> Val Loss: 0.0243 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0707 | Val Acc: 0.9565
+Hospital_9 -> Val Loss: 0.0649 | Val Acc: 0.9896
+Hospital_10 -> Val Loss: 0.0467 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0590 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0236 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0449 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0306 | Val Acc: 0.9934
+Hospital_15 -> Val Loss: 0.0300 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0670 | Val Acc: 0.9925
+Hospital_17 -> Val Loss: 0.1187 | Val Acc: 0.9655
+Hospital_18 -> Val Loss: 0.0438 | Val Acc: 0.9954
+Hospital_19 -> Val Loss: 0.0678 | Val Acc: 0.9706
+Hospital_20 -> Val Loss: 0.0465 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0221 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.1072 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0527 | Val Acc: 0.9883
+Hospital_24 -> Val Loss: 0.0298 | Val Acc: 0.9919
+Hospital_25 -> Val Loss: 0.0376 | Val Acc: 0.9759
+Hospital_26 -> Val Loss: 0.1044 | Val Acc: 0.9608
+Hospital_27 -> Val Loss: 0.1392 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0238 | Val Acc: 0.9948
+Hospital_29 -> Val Loss: 0.0383 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0577 | Val Acc: 0.9762
+Hospital_31 -> Val Loss: 0.0223 | Val Acc: 0.9853
+Hospital_32 -> Val Loss: 0.1114 | Val Acc: 0.9708
+Hospital_33 -> Val Loss: 0.0265 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0284 | Val Acc: 0.9880
+Hospital_35 -> Val Loss: 0.0627 | Val Acc: 0.9841
+Hospital_36 -> Val Loss: 0.0574 | Val Acc: 0.9474
+Hospital_37 -> Val Loss: 0.0608 | Val Acc: 0.9864
+Hospital_38 -> Val Loss: 0.0456 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0727 | Val Acc: 0.9822
+Hospital_40 -> Val Loss: 0.0426 | Val Acc: 0.9718
+Hospital_41 -> Val Loss: 0.0517 | Val Acc: 0.9762
+Hospital_42 -> Val Loss: 0.0401 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0278 | Val Acc: 0.9896
+Hospital_44 -> Val Loss: 0.0732 | Val Acc: 0.9804
+Hospital_45 -> Val Loss: 0.0523 | Val Acc: 0.9849
+Hospital_46 -> Val Loss: 0.0431 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0234 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0511 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0170 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0835 | Val Acc: 0.9717
+Val Loss medio: 0.0533 | Val Acc media: 0.9853
+Tiempo ronda: 101.30s
+Mejor val_acc hasta ahora: 0.9853 (ronda 8)
+
+==============================
+RONDA FEDERADA 9/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_27', 'Hospital_26', 'Hospital_10', 'Hospital_28', 'Hospital_49', 'Hospital_3', 'Hospital_17', 'Hospital_50', 'Hospital_13', 'Hospital_18', 'Hospital_33', 'Hospital_46', 'Hospital_1', 'Hospital_31', 'Hospital_14', 'Hospital_45', 'Hospital_39', 'Hospital_32', 'Hospital_11', 'Hospital_8', 'Hospital_2', 'Hospital_42', 'Hospital_48', 'Hospital_38', 'Hospital_34', 'Hospital_12', 'Hospital_24', 'Hospital_23', 'Hospital_37', 'Hospital_7']
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0105 | Train Acc: 0.9971
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0212 | Train Acc: 0.9959
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0124 | Train Acc: 0.9969
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0142 | Train Acc: 0.9949
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0062 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0071 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0204 | Train Acc: 0.9938
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0100 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0097 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0010 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0072 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.2148 | Train Acc: 0.9246
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0129 | Train Acc: 0.9970
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0187 | Train Acc: 0.9956
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0179 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0235 | Train Acc: 0.9930
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.0080 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0106 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0769 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0177 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0040 | Train Acc: 0.9984
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0099 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0158 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0071 | Train Acc: 0.9985
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 44.64s
+Alphas: [0.0583, 0.0255, 0.0133, 0.0359, 0.0362, 0.0315, 0.0499, 0.0374, 0.0559, 0.026, 0.0197, 0.0423, 0.0432, 0.0213, 0.0316, 0.0282, 0.0358, 0.0237, 0.0386, 0.0292, 0.0284, 0.0516, 0.0504, 0.026, 0.0142, 0.0261, 0.0236, 0.0347, 0.0329, 0.0287]
+Valor función objetivo: 0.995724
+
+=== Evaluación en VALIDACIÓN después de ronda 9 ===
+Hospital_1 -> Val Loss: 0.0391 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0343 | Val Acc: 0.9771
+Hospital_3 -> Val Loss: 0.0230 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0838 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1131 | Val Acc: 0.9702
+Hospital_6 -> Val Loss: 0.0293 | Val Acc: 0.9940
+Hospital_7 -> Val Loss: 0.0222 | Val Acc: 0.9925
+Hospital_8 -> Val Loss: 0.0595 | Val Acc: 0.9565
+Hospital_9 -> Val Loss: 0.0882 | Val Acc: 0.9688
+Hospital_10 -> Val Loss: 0.0895 | Val Acc: 0.9688
+Hospital_11 -> Val Loss: 0.1272 | Val Acc: 0.9648
+Hospital_12 -> Val Loss: 0.0780 | Val Acc: 0.9688
+Hospital_13 -> Val Loss: 0.0483 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0338 | Val Acc: 0.9803
+Hospital_15 -> Val Loss: 0.0334 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0635 | Val Acc: 0.9887
+Hospital_17 -> Val Loss: 0.1136 | Val Acc: 0.9655
+Hospital_18 -> Val Loss: 0.0418 | Val Acc: 0.9861
+Hospital_19 -> Val Loss: 0.1065 | Val Acc: 0.9529
+Hospital_20 -> Val Loss: 0.0543 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0252 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.2115 | Val Acc: 0.9200
+Hospital_23 -> Val Loss: 0.0595 | Val Acc: 0.9849
+Hospital_24 -> Val Loss: 0.0468 | Val Acc: 0.9879
+Hospital_25 -> Val Loss: 0.0335 | Val Acc: 0.9799
+Hospital_26 -> Val Loss: 0.1643 | Val Acc: 0.9510
+Hospital_27 -> Val Loss: 0.0627 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0312 | Val Acc: 0.9948
+Hospital_29 -> Val Loss: 0.0516 | Val Acc: 0.9892
+Hospital_30 -> Val Loss: 0.0562 | Val Acc: 0.9762
+Hospital_31 -> Val Loss: 0.0336 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.1384 | Val Acc: 0.9415
+Hospital_33 -> Val Loss: 0.0290 | Val Acc: 0.9815
+Hospital_34 -> Val Loss: 0.0276 | Val Acc: 0.9880
+Hospital_35 -> Val Loss: 0.0791 | Val Acc: 0.9762
+Hospital_36 -> Val Loss: 0.1106 | Val Acc: 0.9474
+Hospital_37 -> Val Loss: 0.0668 | Val Acc: 0.9762
+Hospital_38 -> Val Loss: 0.0204 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.1224 | Val Acc: 0.9556
+Hospital_40 -> Val Loss: 0.0543 | Val Acc: 0.9718
+Hospital_41 -> Val Loss: 0.0709 | Val Acc: 0.9667
+Hospital_42 -> Val Loss: 0.0146 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0186 | Val Acc: 0.9896
+Hospital_44 -> Val Loss: 0.1212 | Val Acc: 0.9641
+Hospital_45 -> Val Loss: 0.0876 | Val Acc: 0.9749
+Hospital_46 -> Val Loss: 0.0156 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0300 | Val Acc: 0.9888
+Hospital_48 -> Val Loss: 0.0192 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0258 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0998 | Val Acc: 0.9686
+Val Loss medio: 0.0642 | Val Acc media: 0.9773
+Tiempo ronda: 105.07s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 10/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_23', 'Hospital_14', 'Hospital_7', 'Hospital_49', 'Hospital_38', 'Hospital_10', 'Hospital_19', 'Hospital_6', 'Hospital_34', 'Hospital_16', 'Hospital_3', 'Hospital_12', 'Hospital_30', 'Hospital_33', 'Hospital_26', 'Hospital_39', 'Hospital_50', 'Hospital_4', 'Hospital_46', 'Hospital_1', 'Hospital_21', 'Hospital_37', 'Hospital_18', 'Hospital_27', 'Hospital_13', 'Hospital_48', 'Hospital_9', 'Hospital_24', 'Hospital_44', 'Hospital_17']
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0086 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0187 | Train Acc: 0.9974
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0065 | Train Acc: 0.9985
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0088 | Train Acc: 0.9974
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0074 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0152 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0125 | Train Acc: 0.9942
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0042 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0103 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0052 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0120 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0192 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0086 | Train Acc: 0.9945
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0600 | Train Acc: 0.9795
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0168 | Train Acc: 0.9948
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0184 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0077 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0008 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0080 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0074 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0139 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0108 | Train Acc: 0.9954
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0010 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0036 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0120 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0038 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0089 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0058 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 46.46s
+Alphas: [0.0237, 0.0399, 0.0299, 0.0304, 0.0325, 0.0278, 0.0343, 0.0367, 0.0552, 0.0184, 0.0403, 0.0431, 0.01, 0.052, 0.0344, 0.0406, 0.0408, 0.0408, 0.0224, 0.0349, 0.0307, 0.0483, 0.045, 0.0098, 0.0239, 0.0284, 0.02, 0.0509, 0.0317, 0.0232]
+Valor función objetivo: 0.995796
+
+=== Evaluación en VALIDACIÓN después de ronda 10 ===
+Hospital_1 -> Val Loss: 0.0561 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0178 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0270 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.1022 | Val Acc: 0.9420
+Hospital_5 -> Val Loss: 0.1046 | Val Acc: 0.9762
+Hospital_6 -> Val Loss: 0.0244 | Val Acc: 0.9940
+Hospital_7 -> Val Loss: 0.0250 | Val Acc: 0.9849
+Hospital_8 -> Val Loss: 0.0639 | Val Acc: 0.9565
+Hospital_9 -> Val Loss: 0.0910 | Val Acc: 0.9479
+Hospital_10 -> Val Loss: 0.0546 | Val Acc: 0.9688
+Hospital_11 -> Val Loss: 0.0448 | Val Acc: 0.9698
+Hospital_12 -> Val Loss: 0.0309 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0256 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0557 | Val Acc: 0.9868
+Hospital_15 -> Val Loss: 0.0426 | Val Acc: 0.9904
+Hospital_16 -> Val Loss: 0.0997 | Val Acc: 0.9774
+Hospital_17 -> Val Loss: 0.0727 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0344 | Val Acc: 0.9907
+Hospital_19 -> Val Loss: 0.0599 | Val Acc: 0.9765
+Hospital_20 -> Val Loss: 0.0469 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0084 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.1459 | Val Acc: 0.9200
+Hospital_23 -> Val Loss: 0.0650 | Val Acc: 0.9782
+Hospital_24 -> Val Loss: 0.0553 | Val Acc: 0.9839
+Hospital_25 -> Val Loss: 0.0395 | Val Acc: 0.9719
+Hospital_26 -> Val Loss: 0.0688 | Val Acc: 0.9755
+Hospital_27 -> Val Loss: 0.1131 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0357 | Val Acc: 0.9845
+Hospital_29 -> Val Loss: 0.0669 | Val Acc: 0.9785
+Hospital_30 -> Val Loss: 0.0568 | Val Acc: 0.9524
+Hospital_31 -> Val Loss: 0.0067 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.1414 | Val Acc: 0.9415
+Hospital_33 -> Val Loss: 0.0348 | Val Acc: 0.9907
+Hospital_34 -> Val Loss: 0.0185 | Val Acc: 0.9839
+Hospital_35 -> Val Loss: 0.0981 | Val Acc: 0.9603
+Hospital_36 -> Val Loss: 0.0526 | Val Acc: 0.9737
+Hospital_37 -> Val Loss: 0.0757 | Val Acc: 0.9660
+Hospital_38 -> Val Loss: 0.0160 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0469 | Val Acc: 0.9778
+Hospital_40 -> Val Loss: 0.0632 | Val Acc: 0.9718
+Hospital_41 -> Val Loss: 0.0890 | Val Acc: 0.9571
+Hospital_42 -> Val Loss: 0.0111 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0246 | Val Acc: 0.9844
+Hospital_44 -> Val Loss: 0.0917 | Val Acc: 0.9804
+Hospital_45 -> Val Loss: 0.0267 | Val Acc: 0.9899
+Hospital_46 -> Val Loss: 0.0144 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0088 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0161 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0224 | Val Acc: 0.9935
+Hospital_50 -> Val Loss: 0.0950 | Val Acc: 0.9623
+Val Loss medio: 0.0538 | Val Acc media: 0.9782
+Tiempo ronda: 109.34s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 11/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_11', 'Hospital_25', 'Hospital_2', 'Hospital_14', 'Hospital_18', 'Hospital_7', 'Hospital_42', 'Hospital_43', 'Hospital_41', 'Hospital_39', 'Hospital_35', 'Hospital_8', 'Hospital_40', 'Hospital_19', 'Hospital_47', 'Hospital_50', 'Hospital_32', 'Hospital_22', 'Hospital_28', 'Hospital_23', 'Hospital_5', 'Hospital_27', 'Hospital_17', 'Hospital_20', 'Hospital_24', 'Hospital_10', 'Hospital_16', 'Hospital_4', 'Hospital_9', 'Hospital_49']
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.1089 | Train Acc: 0.9592
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0065 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0107 | Train Acc: 0.9970
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0866 | Train Acc: 0.9766
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0077 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0052 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0002 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0061 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0060 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0199 | Train Acc: 0.9948
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0055 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 1.7942 | Train Acc: 0.4729
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0069 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0122 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0067 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0152 | Train Acc: 0.9956
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0131 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0056 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0074 | Train Acc: 0.9987
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0153 | Train Acc: 0.9976
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0007 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0050 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0218 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0034 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0146 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0089 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0056 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0097 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0165 | Train Acc: 0.9987
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 44.11s
+Alphas: [0.0324, 0.0483, 0.0336, 0.0324, 0.0422, 0.0443, 0.035, 0.0352, 0.0369, 0.0228, 0.0422, 0.0324, 0.0292, 0.0382, 0.0281, 0.0368, 0.0258, 0.0214, 0.0328, 0.024, 0.0272, 0.0543, 0.0347, 0.033, 0.014, 0.0343, 0.019, 0.0226, 0.0398, 0.047]
+Valor función objetivo: 0.995783
+
+=== Evaluación en VALIDACIÓN después de ronda 11 ===
+Hospital_1 -> Val Loss: 0.0144 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0262 | Val Acc: 0.9847
+Hospital_3 -> Val Loss: 0.0128 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0432 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0685 | Val Acc: 0.9762
+Hospital_6 -> Val Loss: 0.0184 | Val Acc: 0.9940
+Hospital_7 -> Val Loss: 0.0115 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0258 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0228 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0301 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0581 | Val Acc: 0.9799
+Hospital_12 -> Val Loss: 0.0161 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0297 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0084 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0334 | Val Acc: 0.9968
+Hospital_16 -> Val Loss: 0.0407 | Val Acc: 0.9925
+Hospital_17 -> Val Loss: 0.1180 | Val Acc: 0.9655
+Hospital_18 -> Val Loss: 0.0459 | Val Acc: 0.9907
+Hospital_19 -> Val Loss: 0.0517 | Val Acc: 0.9765
+Hospital_20 -> Val Loss: 0.0425 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0122 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.0841 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0381 | Val Acc: 0.9916
+Hospital_24 -> Val Loss: 0.0211 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0200 | Val Acc: 0.9920
+Hospital_26 -> Val Loss: 0.1154 | Val Acc: 0.9510
+Hospital_27 -> Val Loss: 0.0825 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0252 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0540 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0249 | Val Acc: 0.9853
+Hospital_32 -> Val Loss: 0.0542 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0214 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0112 | Val Acc: 0.9960
+Hospital_35 -> Val Loss: 0.0229 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0397 | Val Acc: 0.9868
+Hospital_37 -> Val Loss: 0.0361 | Val Acc: 0.9932
+Hospital_38 -> Val Loss: 0.0714 | Val Acc: 0.9608
+Hospital_39 -> Val Loss: 0.0651 | Val Acc: 0.9822
+Hospital_40 -> Val Loss: 0.0159 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0171 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0601 | Val Acc: 0.9752
+Hospital_43 -> Val Loss: 0.0258 | Val Acc: 0.9844
+Hospital_44 -> Val Loss: 0.0552 | Val Acc: 0.9902
+Hospital_45 -> Val Loss: 0.0485 | Val Acc: 0.9799
+Hospital_46 -> Val Loss: 0.0544 | Val Acc: 0.9950
+Hospital_47 -> Val Loss: 0.0131 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0841 | Val Acc: 0.9677
+Hospital_49 -> Val Loss: 0.0163 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0538 | Val Acc: 0.9843
+Val Loss medio: 0.0394 | Val Acc media: 0.9883
+Tiempo ronda: 106.01s
+Mejor val_acc hasta ahora: 0.9883 (ronda 11)
+
+==============================
+RONDA FEDERADA 12/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_19', 'Hospital_39', 'Hospital_31', 'Hospital_43', 'Hospital_41', 'Hospital_33', 'Hospital_5', 'Hospital_32', 'Hospital_47', 'Hospital_15', 'Hospital_16', 'Hospital_28', 'Hospital_8', 'Hospital_34', 'Hospital_30', 'Hospital_44', 'Hospital_4', 'Hospital_1', 'Hospital_36', 'Hospital_2', 'Hospital_40', 'Hospital_26', 'Hospital_22', 'Hospital_45', 'Hospital_23', 'Hospital_25', 'Hospital_14', 'Hospital_18', 'Hospital_12', 'Hospital_21']
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0161 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0141 | Train Acc: 0.9983
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0048 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0032 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0075 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0117 | Train Acc: 0.9976
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0105 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0071 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0026 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0082 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0073 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 1.4113 | Train Acc: 0.6667
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0012 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0123 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0107 | Train Acc: 0.9987
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0057 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0050 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0511 | Train Acc: 0.9742
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.1307 | Train Acc: 0.9819
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0071 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0071 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0081 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0061 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0055 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0062 | Train Acc: 0.9974
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0058 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0123 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0056 | Train Acc: 0.9991
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 45.30s
+Alphas: [0.0332, 0.0331, 0.0311, 0.0301, 0.0277, 0.0319, 0.0378, 0.04, 0.0238, 0.0347, 0.0265, 0.0366, 0.0333, 0.0403, 0.0524, 0.0297, 0.0225, 0.0482, 0.0335, 0.0328, 0.0363, 0.0422, 0.0282, 0.0359, 0.0435, 0.018, 0.0452, 0.0214, 0.0285, 0.0219]
+Valor función objetivo: 0.995215
+
+=== Evaluación en VALIDACIÓN después de ronda 12 ===
+Hospital_1 -> Val Loss: 0.0654 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0203 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0323 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0891 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1080 | Val Acc: 0.9821
+Hospital_6 -> Val Loss: 0.0110 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0329 | Val Acc: 0.9849
+Hospital_8 -> Val Loss: 0.0570 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.1069 | Val Acc: 0.9583
+Hospital_10 -> Val Loss: 0.0720 | Val Acc: 0.9688
+Hospital_11 -> Val Loss: 0.0656 | Val Acc: 0.9698
+Hospital_12 -> Val Loss: 0.0363 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0433 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0671 | Val Acc: 0.9868
+Hospital_15 -> Val Loss: 0.0390 | Val Acc: 0.9968
+Hospital_16 -> Val Loss: 0.1192 | Val Acc: 0.9774
+Hospital_17 -> Val Loss: 0.0661 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0429 | Val Acc: 0.9907
+Hospital_19 -> Val Loss: 0.0815 | Val Acc: 0.9647
+Hospital_20 -> Val Loss: 0.0754 | Val Acc: 0.9712
+Hospital_21 -> Val Loss: 0.0201 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.1987 | Val Acc: 0.8800
+Hospital_23 -> Val Loss: 0.0586 | Val Acc: 0.9832
+Hospital_24 -> Val Loss: 0.0530 | Val Acc: 0.9879
+Hospital_25 -> Val Loss: 0.0385 | Val Acc: 0.9839
+Hospital_26 -> Val Loss: 0.0974 | Val Acc: 0.9755
+Hospital_27 -> Val Loss: 0.0312 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0412 | Val Acc: 0.9845
+Hospital_29 -> Val Loss: 0.0692 | Val Acc: 0.9892
+Hospital_30 -> Val Loss: 0.0636 | Val Acc: 0.9524
+Hospital_31 -> Val Loss: 0.0284 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.1369 | Val Acc: 0.9649
+Hospital_33 -> Val Loss: 0.0289 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0247 | Val Acc: 0.9880
+Hospital_35 -> Val Loss: 0.1158 | Val Acc: 0.9524
+Hospital_36 -> Val Loss: 0.0818 | Val Acc: 0.9737
+Hospital_37 -> Val Loss: 0.0886 | Val Acc: 0.9830
+Hospital_38 -> Val Loss: 0.0269 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0671 | Val Acc: 0.9822
+Hospital_40 -> Val Loss: 0.0768 | Val Acc: 0.9577
+Hospital_41 -> Val Loss: 0.0969 | Val Acc: 0.9810
+Hospital_42 -> Val Loss: 0.0188 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0230 | Val Acc: 0.9948
+Hospital_44 -> Val Loss: 0.1120 | Val Acc: 0.9706
+Hospital_45 -> Val Loss: 0.0505 | Val Acc: 0.9849
+Hospital_46 -> Val Loss: 0.0227 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0257 | Val Acc: 0.9888
+Hospital_48 -> Val Loss: 0.0248 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0239 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.1161 | Val Acc: 0.9591
+Val Loss medio: 0.0619 | Val Acc media: 0.9815
+Tiempo ronda: 109.73s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 13/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_16', 'Hospital_12', 'Hospital_6', 'Hospital_9', 'Hospital_8', 'Hospital_42', 'Hospital_10', 'Hospital_14', 'Hospital_31', 'Hospital_36', 'Hospital_2', 'Hospital_38', 'Hospital_20', 'Hospital_21', 'Hospital_28', 'Hospital_17', 'Hospital_40', 'Hospital_27', 'Hospital_39', 'Hospital_49', 'Hospital_44', 'Hospital_41', 'Hospital_13', 'Hospital_47', 'Hospital_5', 'Hospital_43', 'Hospital_15', 'Hospital_1', 'Hospital_4', 'Hospital_48']
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0078 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0128 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0090 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.6293 | Train Acc: 0.6744
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0111 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0053 | Train Acc: 0.9987
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.4896 | Train Acc: 0.7649
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0147 | Train Acc: 0.9947
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0146 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0216 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0055 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0090 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0051 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0082 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0010 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0123 | Train Acc: 0.9983
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0075 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0039 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0112 | Train Acc: 0.9978
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0116 | Train Acc: 0.9976
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0054 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0027 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0078 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0012 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 41.82s
+Alphas: [0.0353, 0.0476, 0.0126, 0.0458, 0.0325, 0.051, 0.0105, 0.0437, 0.0316, 0.0327, 0.029, 0.0338, 0.0289, 0.0398, 0.0406, 0.0416, 0.0503, 0.0423, 0.0305, 0.0392, 0.0319, 0.0122, 0.0519, 0.0332, 0.0249, 0.044, 0.0152, 0.0274, 0.0129, 0.0271]
+Valor función objetivo: 0.995431
+
+=== Evaluación en VALIDACIÓN después de ronda 13 ===
+Hospital_1 -> Val Loss: 0.0641 | Val Acc: 0.9811
+Hospital_2 -> Val Loss: 0.0174 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0270 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0852 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.0847 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0166 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0244 | Val Acc: 0.9887
+Hospital_8 -> Val Loss: 0.0554 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0892 | Val Acc: 0.9688
+Hospital_10 -> Val Loss: 0.0477 | Val Acc: 0.9792
+Hospital_11 -> Val Loss: 0.0306 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0178 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0302 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0562 | Val Acc: 0.9868
+Hospital_15 -> Val Loss: 0.0319 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.1083 | Val Acc: 0.9887
+Hospital_17 -> Val Loss: 0.0592 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0314 | Val Acc: 0.9954
+Hospital_19 -> Val Loss: 0.0538 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0558 | Val Acc: 0.9712
+Hospital_21 -> Val Loss: 0.0087 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.1290 | Val Acc: 0.9200
+Hospital_23 -> Val Loss: 0.0538 | Val Acc: 0.9866
+Hospital_24 -> Val Loss: 0.0438 | Val Acc: 0.9960
+Hospital_25 -> Val Loss: 0.0395 | Val Acc: 0.9920
+Hospital_26 -> Val Loss: 0.0482 | Val Acc: 0.9951
+Hospital_27 -> Val Loss: 0.0726 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0390 | Val Acc: 0.9845
+Hospital_29 -> Val Loss: 0.0621 | Val Acc: 0.9892
+Hospital_30 -> Val Loss: 0.0599 | Val Acc: 0.9762
+Hospital_31 -> Val Loss: 0.0082 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.1276 | Val Acc: 0.9708
+Hospital_33 -> Val Loss: 0.0267 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0185 | Val Acc: 0.9960
+Hospital_35 -> Val Loss: 0.0987 | Val Acc: 0.9683
+Hospital_36 -> Val Loss: 0.0391 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0757 | Val Acc: 0.9898
+Hospital_38 -> Val Loss: 0.0206 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0359 | Val Acc: 0.9911
+Hospital_40 -> Val Loss: 0.0680 | Val Acc: 0.9718
+Hospital_41 -> Val Loss: 0.0853 | Val Acc: 0.9857
+Hospital_42 -> Val Loss: 0.0149 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0254 | Val Acc: 0.9896
+Hospital_44 -> Val Loss: 0.0793 | Val Acc: 0.9837
+Hospital_45 -> Val Loss: 0.0199 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0179 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0159 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0224 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0170 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0909 | Val Acc: 0.9780
+Val Loss medio: 0.0490 | Val Acc media: 0.9868
+Tiempo ronda: 94.22s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 14/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_33', 'Hospital_31', 'Hospital_18', 'Hospital_19', 'Hospital_39', 'Hospital_40', 'Hospital_16', 'Hospital_20', 'Hospital_45', 'Hospital_4', 'Hospital_48', 'Hospital_49', 'Hospital_10', 'Hospital_29', 'Hospital_41', 'Hospital_17', 'Hospital_8', 'Hospital_9', 'Hospital_5', 'Hospital_34', 'Hospital_27', 'Hospital_2', 'Hospital_32', 'Hospital_38', 'Hospital_43', 'Hospital_24', 'Hospital_1', 'Hospital_15', 'Hospital_11', 'Hospital_46']
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0044 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0055 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0129 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0109 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0081 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0074 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0164 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0066 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0056 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0009 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0107 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0032 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0067 | Train Acc: 0.9967
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0085 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0110 | Train Acc: 0.9988
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0008 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0117 | Train Acc: 0.9970
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0109 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0063 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0024 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0195 | Train Acc: 0.9910
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0006 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 35.32s
+Alphas: [0.0331, 0.0386, 0.0328, 0.0268, 0.0377, 0.0342, 0.0348, 0.0358, 0.0326, 0.0357, 0.0221, 0.0322, 0.013, 0.0345, 0.033, 0.0427, 0.0452, 0.0389, 0.0383, 0.0292, 0.0368, 0.0338, 0.034, 0.0366, 0.0359, 0.0274, 0.0325, 0.0335, 0.0313, 0.0268]
+Valor función objetivo: 0.997759
+
+=== Evaluación en VALIDACIÓN después de ronda 14 ===
+Hospital_1 -> Val Loss: 0.0148 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0211 | Val Acc: 0.9885
+Hospital_3 -> Val Loss: 0.0106 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0379 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0456 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0145 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0252 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0201 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0137 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0378 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0052 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0322 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0078 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0111 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0217 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0891 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0158 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0354 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0179 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0064 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0508 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0250 | Val Acc: 0.9950
+Hospital_24 -> Val Loss: 0.0111 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0177 | Val Acc: 0.9960
+Hospital_26 -> Val Loss: 0.0634 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0633 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0071 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0150 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0254 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0109 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0604 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0104 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0085 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0190 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0201 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0208 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0197 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0438 | Val Acc: 0.9867
+Hospital_40 -> Val Loss: 0.0135 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0168 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0148 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0163 | Val Acc: 0.9922
+Hospital_44 -> Val Loss: 0.0409 | Val Acc: 0.9935
+Hospital_45 -> Val Loss: 0.0310 | Val Acc: 0.9899
+Hospital_46 -> Val Loss: 0.0131 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0102 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0228 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0319 | Val Acc: 0.9937
+Val Loss medio: 0.0240 | Val Acc media: 0.9945
+Tiempo ronda: 80.26s
+Mejor val_acc hasta ahora: 0.9945 (ronda 14)
+
+==============================
+RONDA FEDERADA 15/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_14', 'Hospital_43', 'Hospital_25', 'Hospital_20', 'Hospital_9', 'Hospital_37', 'Hospital_50', 'Hospital_36', 'Hospital_18', 'Hospital_42', 'Hospital_27', 'Hospital_31', 'Hospital_47', 'Hospital_22', 'Hospital_24', 'Hospital_40', 'Hospital_4', 'Hospital_35', 'Hospital_15', 'Hospital_49', 'Hospital_41', 'Hospital_19', 'Hospital_39', 'Hospital_33', 'Hospital_12', 'Hospital_13', 'Hospital_17', 'Hospital_28', 'Hospital_2', 'Hospital_48']
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0060 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0062 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0039 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0357 | Train Acc: 0.9906
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0092 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0067 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0106 | Train Acc: 0.9981
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0087 | Train Acc: 0.9974
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0044 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0002 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0006 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0015 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0059 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0057 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0033 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0022 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0116 | Train Acc: 0.9965
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0093 | Train Acc: 0.9983
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0044 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0083 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0026 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0062 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0137 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0007 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 35.62s
+Alphas: [0.0299, 0.0369, 0.0219, 0.0351, 0.0331, 0.035, 0.0347, 0.0291, 0.0242, 0.0371, 0.0305, 0.0235, 0.0332, 0.0358, 0.041, 0.032, 0.0364, 0.0313, 0.0355, 0.0183, 0.0288, 0.0326, 0.0372, 0.0333, 0.0378, 0.0463, 0.0388, 0.0334, 0.0332, 0.0442]
+Valor función objetivo: 0.997938
+
+=== Evaluación en VALIDACIÓN después de ronda 15 ===
+Hospital_1 -> Val Loss: 0.0112 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0207 | Val Acc: 0.9885
+Hospital_3 -> Val Loss: 0.0071 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0321 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0419 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0128 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0045 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0157 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0110 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0101 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0362 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0038 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0312 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0042 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0100 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0166 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0979 | Val Acc: 0.9655
+Hospital_18 -> Val Loss: 0.0169 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0333 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0153 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0054 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0426 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0210 | Val Acc: 0.9950
+Hospital_24 -> Val Loss: 0.0063 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0140 | Val Acc: 0.9960
+Hospital_26 -> Val Loss: 0.0671 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0610 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0039 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0088 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0258 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0108 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0494 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0079 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0062 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0101 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0126 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0148 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0267 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0438 | Val Acc: 0.9867
+Hospital_40 -> Val Loss: 0.0068 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0084 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0208 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0165 | Val Acc: 0.9922
+Hospital_44 -> Val Loss: 0.0360 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0302 | Val Acc: 0.9899
+Hospital_46 -> Val Loss: 0.0169 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0079 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0318 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0250 | Val Acc: 0.9937
+Val Loss medio: 0.0215 | Val Acc media: 0.9942
+Tiempo ronda: 79.22s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 16/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_42', 'Hospital_32', 'Hospital_50', 'Hospital_29', 'Hospital_30', 'Hospital_48', 'Hospital_43', 'Hospital_24', 'Hospital_33', 'Hospital_39', 'Hospital_12', 'Hospital_40', 'Hospital_9', 'Hospital_45', 'Hospital_46', 'Hospital_15', 'Hospital_17', 'Hospital_35', 'Hospital_49', 'Hospital_44', 'Hospital_47', 'Hospital_1', 'Hospital_5', 'Hospital_14', 'Hospital_22', 'Hospital_2', 'Hospital_3', 'Hospital_19', 'Hospital_16', 'Hospital_10']
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0001 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0088 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0110 | Train Acc: 0.9975
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0009 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0101 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0005 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0032 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0049 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0117 | Train Acc: 0.9974
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0093 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0039 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0053 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0055 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0004 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0026 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0040 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0031 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0074 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0036 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0029 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0089 | Train Acc: 0.9976
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0033 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0079 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0022 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0086 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0051 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0061 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 35.43s
+Alphas: [0.0405, 0.0317, 0.0347, 0.0295, 0.0464, 0.0188, 0.0343, 0.0283, 0.0368, 0.0326, 0.0418, 0.0392, 0.036, 0.034, 0.0342, 0.0293, 0.0375, 0.025, 0.0371, 0.038, 0.0362, 0.0311, 0.0306, 0.0252, 0.035, 0.028, 0.038, 0.029, 0.0292, 0.0322]
+Valor función objetivo: 0.998146
+
+=== Evaluación en VALIDACIÓN después de ronda 16 ===
+Hospital_1 -> Val Loss: 0.0086 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0162 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0056 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0294 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0400 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0109 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0101 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0086 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0083 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0344 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0040 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0323 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0032 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0077 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0132 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0983 | Val Acc: 0.9655
+Hospital_18 -> Val Loss: 0.0144 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0328 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0136 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0506 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0179 | Val Acc: 0.9950
+Hospital_24 -> Val Loss: 0.0048 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0103 | Val Acc: 0.9960
+Hospital_26 -> Val Loss: 0.0648 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0435 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0064 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0220 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0091 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0449 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0053 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0051 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0078 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0116 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0119 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0229 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0415 | Val Acc: 0.9867
+Hospital_40 -> Val Loss: 0.0052 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0177 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0123 | Val Acc: 0.9948
+Hospital_44 -> Val Loss: 0.0361 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0284 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0135 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0053 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0271 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0236 | Val Acc: 0.9937
+Val Loss medio: 0.0192 | Val Acc media: 0.9956
+Tiempo ronda: 81.81s
+Mejor val_acc hasta ahora: 0.9956 (ronda 16)
+
+==============================
+RONDA FEDERADA 17/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_32', 'Hospital_28', 'Hospital_12', 'Hospital_6', 'Hospital_5', 'Hospital_47', 'Hospital_3', 'Hospital_13', 'Hospital_23', 'Hospital_25', 'Hospital_11', 'Hospital_21', 'Hospital_39', 'Hospital_2', 'Hospital_37', 'Hospital_4', 'Hospital_29', 'Hospital_50', 'Hospital_42', 'Hospital_8', 'Hospital_7', 'Hospital_31', 'Hospital_43', 'Hospital_14', 'Hospital_24', 'Hospital_45', 'Hospital_18', 'Hospital_41', 'Hospital_15', 'Hospital_19']
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0069 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0052 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0019 | Train Acc: 0.9988
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0071 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0028 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0042 | Train Acc: 0.9997
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0031 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0101 | Train Acc: 0.9960
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0036 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0111 | Train Acc: 0.9983
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0079 | Train Acc: 0.9985
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0058 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0061 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0008 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0088 | Train Acc: 0.9988
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0001 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.0328 | Train Acc: 0.9767
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0013 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0029 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0025 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0015 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0012 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0061 | Train Acc: 0.9988
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 35.72s
+Alphas: [0.0323, 0.0302, 0.0331, 0.0388, 0.0431, 0.0374, 0.0286, 0.0091, 0.0351, 0.0461, 0.0358, 0.0377, 0.0306, 0.0349, 0.0379, 0.0475, 0.0105, 0.0368, 0.0099, 0.0427, 0.0289, 0.0347, 0.0274, 0.032, 0.039, 0.0437, 0.0297, 0.0369, 0.0393, 0.0303]
+Valor función objetivo: 0.997779
+
+=== Evaluación en VALIDACIÓN después de ronda 17 ===
+Hospital_1 -> Val Loss: 0.0068 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0134 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0044 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0219 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0394 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0113 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0025 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0072 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0066 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0059 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0284 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0025 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0264 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0072 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0113 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0911 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0122 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0283 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0118 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0027 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0394 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0161 | Val Acc: 0.9950
+Hospital_24 -> Val Loss: 0.0045 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0083 | Val Acc: 0.9960
+Hospital_26 -> Val Loss: 0.0570 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0312 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0021 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0061 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0199 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0071 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0389 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0049 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0030 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0085 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0101 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0210 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0351 | Val Acc: 0.9867
+Hospital_40 -> Val Loss: 0.0041 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0051 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0161 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0097 | Val Acc: 0.9948
+Hospital_44 -> Val Loss: 0.0328 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0232 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0116 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0039 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0250 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0212 | Val Acc: 0.9937
+Val Loss medio: 0.0164 | Val Acc media: 0.9959
+Tiempo ronda: 94.45s
+Mejor val_acc hasta ahora: 0.9959 (ronda 17)
+
+==============================
+RONDA FEDERADA 18/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_45', 'Hospital_7', 'Hospital_22', 'Hospital_31', 'Hospital_1', 'Hospital_23', 'Hospital_43', 'Hospital_15', 'Hospital_41', 'Hospital_32', 'Hospital_36', 'Hospital_50', 'Hospital_2', 'Hospital_29', 'Hospital_26', 'Hospital_11', 'Hospital_49', 'Hospital_5', 'Hospital_12', 'Hospital_27', 'Hospital_8', 'Hospital_6', 'Hospital_37', 'Hospital_25', 'Hospital_39', 'Hospital_3', 'Hospital_30', 'Hospital_42', 'Hospital_20', 'Hospital_33']
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0039 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0025 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0007 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0008 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0031 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0024 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0010 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0063 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.1273 | Train Acc: 0.9742
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0066 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0062 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0005 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0036 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0853 | Train Acc: 0.9751
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0052 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0005 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.0337 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0047 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0024 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0074 | Train Acc: 0.9983
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0015 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0051 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0001 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0088 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0026 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 35.40s
+Alphas: [0.0304, 0.0236, 0.0561, 0.0456, 0.0228, 0.0241, 0.0158, 0.0253, 0.0286, 0.0138, 0.0301, 0.0308, 0.0277, 0.0515, 0.0288, 0.0296, 0.0365, 0.0362, 0.054, 0.0397, 0.0311, 0.0386, 0.0271, 0.0401, 0.0281, 0.0474, 0.045, 0.0302, 0.0274, 0.0339]
+Valor función objetivo: 0.996921
+
+=== Evaluación en VALIDACIÓN después de ronda 18 ===
+Hospital_1 -> Val Loss: 0.0247 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0103 | Val Acc: 0.9962
+Hospital_3 -> Val Loss: 0.0111 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0484 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0572 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0134 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0268 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0322 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0150 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0194 | Val Acc: 0.9899
+Hospital_12 -> Val Loss: 0.0048 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0375 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0174 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0054 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0351 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0513 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0115 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0264 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0168 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0494 | Val Acc: 1.0000
+Hospital_23 -> Val Loss: 0.0271 | Val Acc: 0.9933
+Hospital_24 -> Val Loss: 0.0113 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0213 | Val Acc: 0.9920
+Hospital_26 -> Val Loss: 0.0328 | Val Acc: 0.9902
+Hospital_27 -> Val Loss: 0.0526 | Val Acc: 0.9412
+Hospital_28 -> Val Loss: 0.0126 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0190 | Val Acc: 0.9892
+Hospital_30 -> Val Loss: 0.0231 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0017 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.0701 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0091 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0087 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0286 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0176 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0274 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0039 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0224 | Val Acc: 0.9956
+Hospital_40 -> Val Loss: 0.0218 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0295 | Val Acc: 0.9952
+Hospital_42 -> Val Loss: 0.0026 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0136 | Val Acc: 0.9948
+Hospital_44 -> Val Loss: 0.0426 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0104 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0061 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0048 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0379 | Val Acc: 0.9937
+Val Loss medio: 0.0218 | Val Acc media: 0.9957
+Tiempo ronda: 88.67s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 19/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_6', 'Hospital_18', 'Hospital_28', 'Hospital_33', 'Hospital_19', 'Hospital_36', 'Hospital_15', 'Hospital_29', 'Hospital_5', 'Hospital_27', 'Hospital_46', 'Hospital_39', 'Hospital_13', 'Hospital_34', 'Hospital_11', 'Hospital_9', 'Hospital_31', 'Hospital_23', 'Hospital_2', 'Hospital_14', 'Hospital_49', 'Hospital_38', 'Hospital_40', 'Hospital_37', 'Hospital_10', 'Hospital_20', 'Hospital_3', 'Hospital_24', 'Hospital_47', 'Hospital_32']
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0018 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0028 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0039 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0021 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0045 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0082 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0007 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0053 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0006 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0086 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0005 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0116 | Train Acc: 0.9950
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0032 | Train Acc: 0.9985
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0032 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0065 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0032 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0031 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0052 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0047 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0065 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0012 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0059 | Train Acc: 0.9989
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 36.03s
+Alphas: [0.0384, 0.0317, 0.0224, 0.0364, 0.0329, 0.0328, 0.0214, 0.0433, 0.0405, 0.023, 0.0273, 0.0317, 0.0224, 0.0533, 0.0346, 0.0328, 0.0365, 0.0292, 0.0369, 0.0378, 0.034, 0.038, 0.0388, 0.0317, 0.0366, 0.0294, 0.0376, 0.0315, 0.026, 0.0309]
+Valor función objetivo: 0.998086
+
+=== Evaluación en VALIDACIÓN después de ronda 19 ===
+Hospital_1 -> Val Loss: 0.0078 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0114 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0042 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0230 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0364 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0111 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0084 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0079 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0057 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0234 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0020 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0342 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0036 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0045 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0106 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0747 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0078 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0233 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0085 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0022 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0326 | Val Acc: 1.0000
+Hospital_23 -> Val Loss: 0.0152 | Val Acc: 0.9966
+Hospital_24 -> Val Loss: 0.0044 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0088 | Val Acc: 0.9960
+Hospital_26 -> Val Loss: 0.0422 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0281 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0030 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0141 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0043 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.0368 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0045 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0033 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0076 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0082 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0094 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0109 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0273 | Val Acc: 0.9911
+Hospital_40 -> Val Loss: 0.0054 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0070 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0082 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0094 | Val Acc: 0.9948
+Hospital_44 -> Val Loss: 0.0326 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0180 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0059 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0043 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0134 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0178 | Val Acc: 0.9937
+Val Loss medio: 0.0141 | Val Acc media: 0.9970
+Tiempo ronda: 86.07s
+Mejor val_acc hasta ahora: 0.9970 (ronda 19)
+
+==============================
+RONDA FEDERADA 20/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_40', 'Hospital_45', 'Hospital_22', 'Hospital_10', 'Hospital_15', 'Hospital_18', 'Hospital_4', 'Hospital_1', 'Hospital_21', 'Hospital_30', 'Hospital_41', 'Hospital_25', 'Hospital_28', 'Hospital_34', 'Hospital_7', 'Hospital_36', 'Hospital_19', 'Hospital_2', 'Hospital_32', 'Hospital_49', 'Hospital_38', 'Hospital_17', 'Hospital_24', 'Hospital_47', 'Hospital_35', 'Hospital_31', 'Hospital_9', 'Hospital_14', 'Hospital_33', 'Hospital_3']
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0038 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0005 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0044 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0025 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0015 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0027 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0058 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0032 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0005 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0022 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0055 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0135 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0063 | Train Acc: 0.9985
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0060 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0024 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0029 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0026 | Train Acc: 0.9987
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0012 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 34.73s
+Alphas: [0.0317, 0.0331, 0.023, 0.0267, 0.0264, 0.0287, 0.0285, 0.043, 0.0293, 0.0369, 0.0307, 0.0389, 0.0321, 0.0356, 0.0308, 0.0339, 0.0365, 0.0353, 0.0263, 0.0413, 0.038, 0.0359, 0.0334, 0.0279, 0.0425, 0.0303, 0.0416, 0.0331, 0.0316, 0.0369]
+Valor función objetivo: 0.998143
+
+=== Evaluación en VALIDACIÓN después de ronda 20 ===
+Hospital_1 -> Val Loss: 0.0047 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0117 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0173 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0329 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0095 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0040 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0048 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0054 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0272 | Val Acc: 0.9899
+Hospital_12 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0348 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0060 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0104 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0884 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0115 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0259 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0101 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0383 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0122 | Val Acc: 0.9966
+Hospital_24 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0063 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0522 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0179 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0016 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0040 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0195 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0064 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0314 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0032 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0042 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0069 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0082 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0208 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0329 | Val Acc: 0.9867
+Hospital_40 -> Val Loss: 0.0027 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0165 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0086 | Val Acc: 0.9948
+Hospital_44 -> Val Loss: 0.0329 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0224 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0110 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0032 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0254 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0016 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0176 | Val Acc: 0.9969
+Val Loss medio: 0.0146 | Val Acc media: 0.9963
+Tiempo ronda: 78.99s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 21/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_19', 'Hospital_5', 'Hospital_1', 'Hospital_22', 'Hospital_6', 'Hospital_24', 'Hospital_12', 'Hospital_15', 'Hospital_43', 'Hospital_18', 'Hospital_41', 'Hospital_33', 'Hospital_29', 'Hospital_8', 'Hospital_23', 'Hospital_10', 'Hospital_27', 'Hospital_11', 'Hospital_14', 'Hospital_37', 'Hospital_30', 'Hospital_21', 'Hospital_46', 'Hospital_4', 'Hospital_45', 'Hospital_50', 'Hospital_32', 'Hospital_34', 'Hospital_42', 'Hospital_49']
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0056 | Train Acc: 0.9988
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0036 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0007 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0010 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_24...
+Train: 1258 | Val: 248 | Test: 174
+Hospital_24 -> Train Loss: 0.0009 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0029 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0009 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0025 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0006 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.0013 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0029 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0044 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_11...
+Train: 1005 | Val: 199 | Test: 139
+Hospital_11 -> Train Loss: 0.0616 | Train Acc: 0.9811
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0041 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0030 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0015 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0032 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0272 | Train Acc: 0.9931
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0053 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0004 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0001 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0015 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 35.75s
+Alphas: [0.0363, 0.0339, 0.0516, 0.0025, 0.0298, 0.0101, 0.0443, 0.0165, 0.0455, 0.0236, 0.0109, 0.0216, 0.0751, 0.0336, 0.0332, 0.0419, 0.0609, 0.0327, 0.0333, 0.0354, 0.0402, 0.0239, 0.0229, 0.0359, 0.029, 0.0325, 0.0312, 0.0221, 0.0486, 0.0407]
+Valor función objetivo: 0.997137
+
+=== Evaluación en VALIDACIÓN después de ronda 21 ===
+Hospital_1 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0119 | Val Acc: 0.9962
+Hospital_3 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0134 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.0349 | Val Acc: 0.9881
+Hospital_6 -> Val Loss: 0.0075 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0018 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0069 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0165 | Val Acc: 0.9896
+Hospital_11 -> Val Loss: 0.0611 | Val Acc: 0.9698
+Hospital_12 -> Val Loss: 0.0102 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0512 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0020 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0086 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0883 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0115 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0400 | Val Acc: 0.9765
+Hospital_20 -> Val Loss: 0.0205 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0086 | Val Acc: 0.9956
+Hospital_22 -> Val Loss: 0.0995 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0107 | Val Acc: 0.9966
+Hospital_24 -> Val Loss: 0.0033 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0043 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0788 | Val Acc: 0.9706
+Hospital_27 -> Val Loss: 0.0062 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0041 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0151 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0107 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0293 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0025 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0055 | Val Acc: 0.9960
+Hospital_35 -> Val Loss: 0.0047 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0266 | Val Acc: 0.9868
+Hospital_37 -> Val Loss: 0.0077 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0148 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0461 | Val Acc: 0.9867
+Hospital_40 -> Val Loss: 0.0029 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0038 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0114 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0044 | Val Acc: 1.0000
+Hospital_44 -> Val Loss: 0.0521 | Val Acc: 0.9935
+Hospital_45 -> Val Loss: 0.0423 | Val Acc: 0.9849
+Hospital_46 -> Val Loss: 0.0073 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0066 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0178 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0268 | Val Acc: 0.9937
+Val Loss medio: 0.0192 | Val Acc media: 0.9946
+Tiempo ronda: 88.16s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 22/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_39', 'Hospital_44', 'Hospital_9', 'Hospital_42', 'Hospital_21', 'Hospital_14', 'Hospital_43', 'Hospital_15', 'Hospital_5', 'Hospital_37', 'Hospital_26', 'Hospital_38', 'Hospital_20', 'Hospital_6', 'Hospital_18', 'Hospital_4', 'Hospital_23', 'Hospital_19', 'Hospital_46', 'Hospital_33', 'Hospital_13', 'Hospital_2', 'Hospital_35', 'Hospital_49', 'Hospital_41', 'Hospital_7', 'Hospital_36', 'Hospital_45', 'Hospital_47', 'Hospital_8']
+
+Entrenamiento local en Hospital_39...
+Train: 1143 | Val: 225 | Test: 160
+Hospital_39 -> Train Loss: 0.0065 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0050 | Train Acc: 0.9987
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0001 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0020 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0232 | Train Acc: 0.9961
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0047 | Train Acc: 0.9980
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0064 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 1672 | Val: 333 | Test: 228
+Hospital_6 -> Train Loss: 0.0009 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0025 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0026 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0049 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0054 | Train Acc: 0.9985
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0023 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_36...
+Train: 387 | Val: 76 | Test: 57
+Hospital_36 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 459 | Val: 89 | Test: 67
+Hospital_47 -> Train Loss: 0.0022 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.0012 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 35.84s
+Alphas: [0.0319, 0.0273, 0.0407, 0.0289, 0.0324, 0.0335, 0.0386, 0.0377, 0.0213, 0.0244, 0.04, 0.0418, 0.0414, 0.0289, 0.0337, 0.0285, 0.0376, 0.0342, 0.0439, 0.0175, 0.0275, 0.0363, 0.0407, 0.0378, 0.0403, 0.0396, 0.0336, 0.0401, 0.0254, 0.0148]
+Valor función objetivo: 0.997192
+
+=== Evaluación en VALIDACIÓN después de ronda 22 ===
+Hospital_1 -> Val Loss: 0.0031 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0113 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0160 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0198 | Val Acc: 1.0000
+Hospital_6 -> Val Loss: 0.0095 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0015 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0045 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0058 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0099 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0424 | Val Acc: 0.9849
+Hospital_12 -> Val Loss: 0.0042 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0501 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0017 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0036 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0944 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0080 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0339 | Val Acc: 0.9824
+Hospital_20 -> Val Loss: 0.0137 | Val Acc: 0.9904
+Hospital_21 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0659 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0094 | Val Acc: 0.9983
+Hospital_24 -> Val Loss: 0.0029 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0043 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0622 | Val Acc: 0.9755
+Hospital_27 -> Val Loss: 0.0112 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0016 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0035 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0124 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0107 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0329 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0038 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0176 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0067 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0111 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0416 | Val Acc: 0.9867
+Hospital_40 -> Val Loss: 0.0027 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0036 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0085 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0052 | Val Acc: 1.0000
+Hospital_44 -> Val Loss: 0.0434 | Val Acc: 0.9935
+Hospital_45 -> Val Loss: 0.0352 | Val Acc: 0.9849
+Hospital_46 -> Val Loss: 0.0057 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0041 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0137 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0023 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0195 | Val Acc: 0.9937
+Val Loss medio: 0.0159 | Val Acc media: 0.9956
+Tiempo ronda: 90.33s
+Sin mejora en validacion: 3/5
+
+==============================
+RONDA FEDERADA 23/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_23', 'Hospital_34', 'Hospital_3', 'Hospital_28', 'Hospital_45', 'Hospital_19', 'Hospital_46', 'Hospital_5', 'Hospital_41', 'Hospital_22', 'Hospital_27', 'Hospital_17', 'Hospital_42', 'Hospital_13', 'Hospital_21', 'Hospital_1', 'Hospital_50', 'Hospital_4', 'Hospital_49', 'Hospital_18', 'Hospital_10', 'Hospital_38', 'Hospital_14', 'Hospital_9', 'Hospital_15', 'Hospital_33', 'Hospital_29', 'Hospital_44', 'Hospital_43', 'Hospital_12']
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0021 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_34...
+Train: 1254 | Val: 249 | Test: 173
+Hospital_34 -> Train Loss: 0.0004 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0009 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0035 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0029 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_19...
+Train: 860 | Val: 170 | Test: 121
+Hospital_19 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0002 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_41...
+Train: 1059 | Val: 210 | Test: 147
+Hospital_41 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 137 | Val: 25 | Test: 24
+Hospital_22 -> Train Loss: 0.0007 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_17...
+Train: 303 | Val: 58 | Test: 46
+Hospital_17 -> Train Loss: 0.0021 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0001 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_13...
+Train: 418 | Val: 82 | Test: 60
+Hospital_13 -> Train Loss: 0.0013 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_50...
+Train: 1600 | Val: 318 | Test: 218
+Hospital_50 -> Train Loss: 0.0056 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 1090 | Val: 216 | Test: 150
+Hospital_18 -> Train Loss: 0.0022 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 486 | Val: 96 | Test: 70
+Hospital_10 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0014 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_9...
+Train: 494 | Val: 96 | Test: 69
+Hospital_9 -> Train Loss: 0.0038 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0007 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0019 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0005 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0047 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_43...
+Train: 1934 | Val: 385 | Test: 263
+Hospital_43 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 172 | Val: 32 | Test: 28
+Hospital_12 -> Train Loss: 0.0031 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 34.76s
+Alphas: [0.0343, 0.0193, 0.0275, 0.0319, 0.0356, 0.0325, 0.0547, 0.0386, 0.0385, 0.0063, 0.0483, 0.0376, 0.0004, 0.0314, 0.0359, 0.0381, 0.0328, 0.0394, 0.0302, 0.03, 0.0395, 0.0314, 0.0308, 0.0365, 0.0306, 0.0347, 0.0278, 0.0334, 0.0451, 0.047]
+Valor función objetivo: 0.998553
+
+=== Evaluación en VALIDACIÓN después de ronda 23 ===
+Hospital_1 -> Val Loss: 0.0042 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0100 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0017 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0135 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.0197 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0091 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0013 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0036 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0039 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0244 | Val Acc: 0.9899
+Hospital_12 -> Val Loss: 0.0014 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0398 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0015 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0037 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0871 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0072 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0252 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0089 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0322 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0091 | Val Acc: 0.9966
+Hospital_24 -> Val Loss: 0.0023 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0468 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0165 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0013 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0128 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0062 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0314 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0030 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0075 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0058 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0124 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0310 | Val Acc: 0.9911
+Hospital_40 -> Val Loss: 0.0021 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0098 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0062 | Val Acc: 0.9948
+Hospital_44 -> Val Loss: 0.0340 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0230 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0063 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0029 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0159 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0014 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0147 | Val Acc: 0.9969
+Val Loss medio: 0.0126 | Val Acc media: 0.9967
+Tiempo ronda: 84.29s
+Sin mejora en validacion: 4/5
+
+==============================
+RONDA FEDERADA 24/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_48', 'Hospital_42', 'Hospital_4', 'Hospital_16', 'Hospital_21', 'Hospital_7', 'Hospital_29', 'Hospital_15', 'Hospital_40', 'Hospital_35', 'Hospital_1', 'Hospital_31', 'Hospital_27', 'Hospital_25', 'Hospital_26', 'Hospital_38', 'Hospital_44', 'Hospital_32', 'Hospital_23', 'Hospital_20', 'Hospital_33', 'Hospital_45', 'Hospital_30', 'Hospital_14', 'Hospital_37', 'Hospital_8', 'Hospital_28', 'Hospital_46', 'Hospital_49']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_48...
+Train: 317 | Val: 62 | Test: 47
+Hospital_48 -> Train Loss: 0.0003 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 606 | Val: 121 | Test: 83
+Hospital_42 -> Train Loss: 0.0001 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0024 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_16...
+Train: 1335 | Val: 265 | Test: 184
+Hospital_16 -> Train Loss: 0.0032 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 1141 | Val: 227 | Test: 158
+Hospital_21 -> Train Loss: 0.0021 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_7...
+Train: 1338 | Val: 265 | Test: 183
+Hospital_7 -> Train Loss: 0.0018 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_29...
+Train: 470 | Val: 93 | Test: 66
+Hospital_29 -> Train Loss: 0.0004 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 1569 | Val: 311 | Test: 215
+Hospital_15 -> Train Loss: 0.0006 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_40...
+Train: 366 | Val: 71 | Test: 55
+Hospital_40 -> Train Loss: 0.0021 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_35...
+Train: 639 | Val: 126 | Test: 88
+Hospital_35 -> Train Loss: 0.0016 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0010 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 686 | Val: 136 | Test: 96
+Hospital_31 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_27...
+Train: 88 | Val: 17 | Test: 15
+Hospital_27 -> Train Loss: 0.0004 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_25...
+Train: 1257 | Val: 249 | Test: 174
+Hospital_25 -> Train Loss: 0.0017 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_26...
+Train: 1025 | Val: 204 | Test: 141
+Hospital_26 -> Train Loss: 0.0032 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_38...
+Train: 266 | Val: 51 | Test: 40
+Hospital_38 -> Train Loss: 0.0012 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_44...
+Train: 1535 | Val: 306 | Test: 207
+Hospital_44 -> Train Loss: 0.0043 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_32...
+Train: 870 | Val: 171 | Test: 120
+Hospital_32 -> Train Loss: 0.0051 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_23...
+Train: 2989 | Val: 596 | Test: 404
+Hospital_23 -> Train Loss: 0.0025 | Train Acc: 0.9997
+
+Entrenamiento local en Hospital_20...
+Train: 530 | Val: 104 | Test: 77
+Hospital_20 -> Train Loss: 0.0047 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 549 | Val: 108 | Test: 78
+Hospital_33 -> Train Loss: 0.0030 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 1004 | Val: 199 | Test: 140
+Hospital_45 -> Train Loss: 0.0027 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_30...
+Train: 220 | Val: 42 | Test: 34
+Hospital_30 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 769 | Val: 152 | Test: 107
+Hospital_14 -> Train Loss: 0.0013 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 1482 | Val: 294 | Test: 203
+Hospital_37 -> Train Loss: 0.0041 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 129 | Val: 23 | Test: 22
+Hospital_8 -> Train Loss: 0.0013 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 979 | Val: 194 | Test: 135
+Hospital_28 -> Train Loss: 0.0028 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_46...
+Train: 1016 | Val: 202 | Test: 141
+Hospital_46 -> Train Loss: 0.0002 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_49...
+Train: 783 | Val: 155 | Test: 109
+Hospital_49 -> Train Loss: 0.0009 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 36.47s
+Alphas: [0.0296, 0.0305, 0.0179, 0.0293, 0.0402, 0.0343, 0.0288, 0.0449, 0.0191, 0.0346, 0.0413, 0.0302, 0.035, 0.0378, 0.032, 0.0327, 0.0371, 0.0323, 0.0352, 0.0319, 0.0295, 0.0352, 0.0309, 0.0484, 0.0193, 0.0313, 0.0332, 0.0326, 0.0478, 0.0371]
+Valor función objetivo: 0.998333
+
+=== Evaluación en VALIDACIÓN después de ronda 24 ===
+Hospital_1 -> Val Loss: 0.0030 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0085 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0017 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0100 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.0225 | Val Acc: 0.9940
+Hospital_6 -> Val Loss: 0.0070 | Val Acc: 0.9970
+Hospital_7 -> Val Loss: 0.0011 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0031 | Val Acc: 1.0000
+Hospital_9 -> Val Loss: 0.0037 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0041 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0258 | Val Acc: 0.9899
+Hospital_12 -> Val Loss: 0.0017 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0407 | Val Acc: 0.9878
+Hospital_14 -> Val Loss: 0.0013 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0026 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0049 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0881 | Val Acc: 0.9828
+Hospital_18 -> Val Loss: 0.0054 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0253 | Val Acc: 0.9882
+Hospital_20 -> Val Loss: 0.0091 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0021 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0408 | Val Acc: 0.9600
+Hospital_23 -> Val Loss: 0.0079 | Val Acc: 0.9966
+Hospital_24 -> Val Loss: 0.0020 | Val Acc: 1.0000
+Hospital_25 -> Val Loss: 0.0036 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0441 | Val Acc: 0.9853
+Hospital_27 -> Val Loss: 0.0092 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0012 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0030 | Val Acc: 1.0000
+Hospital_30 -> Val Loss: 0.0096 | Val Acc: 1.0000
+Hospital_31 -> Val Loss: 0.0056 | Val Acc: 0.9926
+Hospital_32 -> Val Loss: 0.0288 | Val Acc: 0.9942
+Hospital_33 -> Val Loss: 0.0018 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0020 | Val Acc: 1.0000
+Hospital_35 -> Val Loss: 0.0029 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0078 | Val Acc: 1.0000
+Hospital_37 -> Val Loss: 0.0049 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0083 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0309 | Val Acc: 0.9911
+Hospital_40 -> Val Loss: 0.0020 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0027 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0042 | Val Acc: 1.0000
+Hospital_44 -> Val Loss: 0.0356 | Val Acc: 0.9967
+Hospital_45 -> Val Loss: 0.0226 | Val Acc: 0.9950
+Hospital_46 -> Val Loss: 0.0041 | Val Acc: 1.0000
+Hospital_47 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0108 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0011 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0156 | Val Acc: 0.9969
+Val Loss medio: 0.0119 | Val Acc media: 0.9968
+Tiempo ronda: 85.36s
+Sin mejora en validacion: 5/5
+Early stopping activado en la ronda 24. Mejor val_acc=0.9970 en ronda 19.
+
+==============================
+RESUMEN FINAL POR RONDAS
+==============================
+Ronda 1 -> Val Loss: 0.7520 | Val Acc: 0.8402
+Ronda 2 -> Val Loss: 0.1933 | Val Acc: 0.9620
+Ronda 3 -> Val Loss: 0.1964 | Val Acc: 0.9345
+Ronda 4 -> Val Loss: 0.0811 | Val Acc: 0.9763
+Ronda 5 -> Val Loss: 0.0891 | Val Acc: 0.9747
+Ronda 6 -> Val Loss: 0.0793 | Val Acc: 0.9745
+Ronda 7 -> Val Loss: 0.0963 | Val Acc: 0.9757
+Ronda 8 -> Val Loss: 0.0533 | Val Acc: 0.9853
+Ronda 9 -> Val Loss: 0.0642 | Val Acc: 0.9773
+Ronda 10 -> Val Loss: 0.0538 | Val Acc: 0.9782
+Ronda 11 -> Val Loss: 0.0394 | Val Acc: 0.9883
+Ronda 12 -> Val Loss: 0.0619 | Val Acc: 0.9815
+Ronda 13 -> Val Loss: 0.0490 | Val Acc: 0.9868
+Ronda 14 -> Val Loss: 0.0240 | Val Acc: 0.9945
+Ronda 15 -> Val Loss: 0.0215 | Val Acc: 0.9942
+Ronda 16 -> Val Loss: 0.0192 | Val Acc: 0.9956
+Ronda 17 -> Val Loss: 0.0164 | Val Acc: 0.9959
+Ronda 18 -> Val Loss: 0.0218 | Val Acc: 0.9957
+Ronda 19 -> Val Loss: 0.0141 | Val Acc: 0.9970
+Ronda 20 -> Val Loss: 0.0146 | Val Acc: 0.9963
+Ronda 21 -> Val Loss: 0.0192 | Val Acc: 0.9946
+Ronda 22 -> Val Loss: 0.0159 | Val Acc: 0.9956
+Ronda 23 -> Val Loss: 0.0126 | Val Acc: 0.9967
+Ronda 24 -> Val Loss: 0.0119 | Val Acc: 0.9968
+
+==============================
+EVALUACIÓN FINAL EN TEST
+==============================
+Hospital_1 -> Test Loss: 0.0003 | Test Acc: 1.0000
+Hospital_2 -> Test Loss: 0.0385 | Test Acc: 0.9891
+Hospital_3 -> Test Loss: 0.0030 | Test Acc: 1.0000
+Hospital_4 -> Test Loss: 0.0063 | Test Acc: 1.0000
+Hospital_5 -> Test Loss: 0.0033 | Test Acc: 1.0000
+Hospital_6 -> Test Loss: 0.0013 | Test Acc: 1.0000
+Hospital_7 -> Test Loss: 0.0017 | Test Acc: 1.0000
+Hospital_8 -> Test Loss: 0.0005 | Test Acc: 1.0000
+Hospital_9 -> Test Loss: 0.0030 | Test Acc: 1.0000
+Hospital_10 -> Test Loss: 0.0863 | Test Acc: 0.9857
+Hospital_11 -> Test Loss: 0.0177 | Test Acc: 0.9928
+Hospital_12 -> Test Loss: 0.0091 | Test Acc: 1.0000
+Hospital_13 -> Test Loss: 0.0005 | Test Acc: 1.0000
+Hospital_14 -> Test Loss: 0.0018 | Test Acc: 1.0000
+Hospital_15 -> Test Loss: 0.0015 | Test Acc: 1.0000
+Hospital_16 -> Test Loss: 0.0050 | Test Acc: 1.0000
+Hospital_17 -> Test Loss: 0.0040 | Test Acc: 1.0000
+Hospital_18 -> Test Loss: 0.0065 | Test Acc: 1.0000
+Hospital_19 -> Test Loss: 0.0205 | Test Acc: 0.9917
+Hospital_20 -> Test Loss: 0.0331 | Test Acc: 0.9870
+Hospital_21 -> Test Loss: 0.0686 | Test Acc: 0.9937
+Hospital_22 -> Test Loss: 0.0035 | Test Acc: 1.0000
+Hospital_23 -> Test Loss: 0.0080 | Test Acc: 0.9975
+Hospital_24 -> Test Loss: 0.0098 | Test Acc: 0.9943
+Hospital_25 -> Test Loss: 0.0024 | Test Acc: 1.0000
+Hospital_26 -> Test Loss: 0.0105 | Test Acc: 1.0000
+Hospital_27 -> Test Loss: 0.0006 | Test Acc: 1.0000
+Hospital_28 -> Test Loss: 0.0023 | Test Acc: 1.0000
+Hospital_29 -> Test Loss: 0.0019 | Test Acc: 1.0000
+Hospital_30 -> Test Loss: 0.0010 | Test Acc: 1.0000
+Hospital_31 -> Test Loss: 0.0127 | Test Acc: 1.0000
+Hospital_32 -> Test Loss: 0.0040 | Test Acc: 1.0000
+Hospital_33 -> Test Loss: 0.0004 | Test Acc: 1.0000
+Hospital_34 -> Test Loss: 0.0024 | Test Acc: 1.0000
+Hospital_35 -> Test Loss: 0.0030 | Test Acc: 1.0000
+Hospital_36 -> Test Loss: 0.0196 | Test Acc: 1.0000
+Hospital_37 -> Test Loss: 0.0047 | Test Acc: 1.0000
+Hospital_38 -> Test Loss: 0.0018 | Test Acc: 1.0000
+Hospital_39 -> Test Loss: 0.1778 | Test Acc: 0.9875
+Hospital_40 -> Test Loss: 0.0048 | Test Acc: 1.0000
+Hospital_41 -> Test Loss: 0.0024 | Test Acc: 1.0000
+Hospital_42 -> Test Loss: 0.0062 | Test Acc: 1.0000
+Hospital_43 -> Test Loss: 0.0138 | Test Acc: 1.0000
+Hospital_44 -> Test Loss: 0.0094 | Test Acc: 1.0000
+Hospital_45 -> Test Loss: 0.0038 | Test Acc: 1.0000
+Hospital_46 -> Test Loss: 0.0062 | Test Acc: 1.0000
+Hospital_47 -> Test Loss: 0.0403 | Test Acc: 0.9701
+Hospital_48 -> Test Loss: 0.0030 | Test Acc: 1.0000
+Hospital_49 -> Test Loss: 0.0119 | Test Acc: 0.9908
+Hospital_50 -> Test Loss: 0.0057 | Test Acc: 1.0000
+
+Test Loss medio: 0.0137
+Test Acc media:  0.9976
+
+Guardando predicciones...
+Predicciones guardadas en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K50\mh\cro\seed_16
+Modelo guardado en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K50\mh\cro\seed_16\modelo_final.pt
+
+Tiempo total: 2311.54s
+Tiempos guardados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K50\mh\cro\seed_16\tiempos.csv

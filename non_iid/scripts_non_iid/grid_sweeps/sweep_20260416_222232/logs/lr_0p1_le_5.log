@@ -1,0 +1,439 @@
+Agregador: FEDAVG
+Dispositivo: cuda
+Config cargada desde: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\config_non_iid.yaml
+Número de hospitales: 5
+Hospitales: ['Hospital_1', 'Hospital_2', 'Hospital_3', 'Hospital_4', 'Hospital_5']
+Rondas federadas: 5
+Épocas locales por ronda: 5
+Fracción de clientes por ronda: 1.0
+Semilla aleatoria: 42
+Learning rate: 0.001
+
+==============================
+RONDA FEDERADA 1/5
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_5', 'Hospital_3', 'Hospital_2', 'Hospital_4']
+
+Entrenamiento local en Hospital_1...
+Train: 14587 | Val: 2915 | Test: 1952
+Local epoch 1/5 en Hospital_1
+Local epoch 2/5 en Hospital_1
+Local epoch 3/5 en Hospital_1
+Local epoch 4/5 en Hospital_1
+Local epoch 5/5 en Hospital_1
+Hospital_1 -> Train Loss: 0.3863 | Train Acc: 0.9605
+
+Entrenamiento local en Hospital_5...
+Train: 8384 | Val: 1676 | Test: 1121
+Local epoch 1/5 en Hospital_5
+Local epoch 2/5 en Hospital_5
+Local epoch 3/5 en Hospital_5
+Local epoch 4/5 en Hospital_5
+Local epoch 5/5 en Hospital_5
+Hospital_5 -> Train Loss: 0.4186 | Train Acc: 0.8907
+
+Entrenamiento local en Hospital_3...
+Train: 345 | Val: 68 | Test: 50
+Local epoch 1/5 en Hospital_3
+Local epoch 2/5 en Hospital_3
+Local epoch 3/5 en Hospital_3
+Local epoch 4/5 en Hospital_3
+Local epoch 5/5 en Hospital_3
+Hospital_3 -> Train Loss: 1.6885 | Train Acc: 0.9565
+
+Entrenamiento local en Hospital_2...
+Train: 12233 | Val: 2445 | Test: 1636
+Local epoch 1/5 en Hospital_2
+Local epoch 2/5 en Hospital_2
+Local epoch 3/5 en Hospital_2
+Local epoch 4/5 en Hospital_2
+Local epoch 5/5 en Hospital_2
+Hospital_2 -> Train Loss: 0.1970 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_4...
+Train: 8655 | Val: 1730 | Test: 1157
+Local epoch 1/5 en Hospital_4
+Local epoch 2/5 en Hospital_4
+Local epoch 3/5 en Hospital_4
+Local epoch 4/5 en Hospital_4
+Local epoch 5/5 en Hospital_4
+Hospital_4 -> Train Loss: 0.1824 | Train Acc: 0.9745
+
+5 modelos locales entrenados correctamente.
+
+Agregando con FEDAVG...
+Modelo global actualizado con FEDAVG.
+
+=== Evaluación en VALIDACIÓN después de ronda 1 ===
+
+Evaluación en Hospital_1...
+Hospital_1 -> Val Loss: 1.4914 | Val Acc: 0.1732
+
+Evaluación en Hospital_2...
+Hospital_2 -> Val Loss: 1.3737 | Val Acc: 0.9902
+
+Evaluación en Hospital_3...
+Hospital_3 -> Val Loss: 1.5322 | Val Acc: 0.0147
+
+Evaluación en Hospital_4...
+Hospital_4 -> Val Loss: 1.7670 | Val Acc: 0.1272
+
+Evaluación en Hospital_5...
+Hospital_5 -> Val Loss: 1.9021 | Val Acc: 0.1080
+
+Resultado medio:
+Val Loss medio: 1.6133
+Val Acc media:  0.2827
+
+Resumen ronda 1:
+Val Loss: 1.6133 | Val Acc: 0.2827
+
+==============================
+RONDA FEDERADA 2/5
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_5', 'Hospital_3', 'Hospital_1', 'Hospital_4']
+
+Entrenamiento local en Hospital_2...
+Train: 12233 | Val: 2445 | Test: 1636
+Local epoch 1/5 en Hospital_2
+Local epoch 2/5 en Hospital_2
+Local epoch 3/5 en Hospital_2
+Local epoch 4/5 en Hospital_2
+Local epoch 5/5 en Hospital_2
+Hospital_2 -> Train Loss: 0.0594 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_5...
+Train: 8384 | Val: 1676 | Test: 1121
+Local epoch 1/5 en Hospital_5
+Local epoch 2/5 en Hospital_5
+Local epoch 3/5 en Hospital_5
+Local epoch 4/5 en Hospital_5
+Local epoch 5/5 en Hospital_5
+Hospital_5 -> Train Loss: 0.3347 | Train Acc: 0.8907
+
+Entrenamiento local en Hospital_3...
+Train: 345 | Val: 68 | Test: 50
+Local epoch 1/5 en Hospital_3
+Local epoch 2/5 en Hospital_3
+Local epoch 3/5 en Hospital_3
+Local epoch 4/5 en Hospital_3
+Local epoch 5/5 en Hospital_3
+Hospital_3 -> Train Loss: 0.3389 | Train Acc: 0.9913
+
+Entrenamiento local en Hospital_1...
+Train: 14587 | Val: 2915 | Test: 1952
+Local epoch 1/5 en Hospital_1
+Local epoch 2/5 en Hospital_1
+Local epoch 3/5 en Hospital_1
+Local epoch 4/5 en Hospital_1
+Local epoch 5/5 en Hospital_1
+Hospital_1 -> Train Loss: 0.1445 | Train Acc: 0.9707
+
+Entrenamiento local en Hospital_4...
+Train: 8655 | Val: 1730 | Test: 1157
+Local epoch 1/5 en Hospital_4
+Local epoch 2/5 en Hospital_4
+Local epoch 3/5 en Hospital_4
+Local epoch 4/5 en Hospital_4
+Local epoch 5/5 en Hospital_4
+Hospital_4 -> Train Loss: 0.0763 | Train Acc: 0.9837
+
+5 modelos locales entrenados correctamente.
+
+Agregando con FEDAVG...
+Modelo global actualizado con FEDAVG.
+
+=== Evaluación en VALIDACIÓN después de ronda 2 ===
+
+Evaluación en Hospital_1...
+Hospital_1 -> Val Loss: 1.3276 | Val Acc: 0.4460
+
+Evaluación en Hospital_2...
+Hospital_2 -> Val Loss: 0.9071 | Val Acc: 0.9963
+
+Evaluación en Hospital_3...
+Hospital_3 -> Val Loss: 1.2514 | Val Acc: 0.5294
+
+Evaluación en Hospital_4...
+Hospital_4 -> Val Loss: 1.3872 | Val Acc: 0.1422
+
+Evaluación en Hospital_5...
+Hospital_5 -> Val Loss: 1.8486 | Val Acc: 0.1092
+
+Resultado medio:
+Val Loss medio: 1.3444
+Val Acc media:  0.4446
+
+Resumen ronda 2:
+Val Loss: 1.3444 | Val Acc: 0.4446
+
+==============================
+RONDA FEDERADA 3/5
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_5', 'Hospital_4', 'Hospital_1', 'Hospital_3', 'Hospital_2']
+
+Entrenamiento local en Hospital_5...
+Train: 8384 | Val: 1676 | Test: 1121
+Local epoch 1/5 en Hospital_5
+Local epoch 2/5 en Hospital_5
+Local epoch 3/5 en Hospital_5
+Local epoch 4/5 en Hospital_5
+Local epoch 5/5 en Hospital_5
+Hospital_5 -> Train Loss: 0.2686 | Train Acc: 0.8907
+
+Entrenamiento local en Hospital_4...
+Train: 8655 | Val: 1730 | Test: 1157
+Local epoch 1/5 en Hospital_4
+Local epoch 2/5 en Hospital_4
+Local epoch 3/5 en Hospital_4
+Local epoch 4/5 en Hospital_4
+Local epoch 5/5 en Hospital_4
+Hospital_4 -> Train Loss: 0.0559 | Train Acc: 0.9837
+
+Entrenamiento local en Hospital_1...
+Train: 14587 | Val: 2915 | Test: 1952
+Local epoch 1/5 en Hospital_1
+Local epoch 2/5 en Hospital_1
+Local epoch 3/5 en Hospital_1
+Local epoch 4/5 en Hospital_1
+Local epoch 5/5 en Hospital_1
+Hospital_1 -> Train Loss: 0.1090 | Train Acc: 0.9763
+
+Entrenamiento local en Hospital_3...
+Train: 345 | Val: 68 | Test: 50
+Local epoch 1/5 en Hospital_3
+Local epoch 2/5 en Hospital_3
+Local epoch 3/5 en Hospital_3
+Local epoch 4/5 en Hospital_3
+Local epoch 5/5 en Hospital_3
+Hospital_3 -> Train Loss: 0.1165 | Train Acc: 0.9913
+
+Entrenamiento local en Hospital_2...
+Train: 12233 | Val: 2445 | Test: 1636
+Local epoch 1/5 en Hospital_2
+Local epoch 2/5 en Hospital_2
+Local epoch 3/5 en Hospital_2
+Local epoch 4/5 en Hospital_2
+Local epoch 5/5 en Hospital_2
+Hospital_2 -> Train Loss: 0.0441 | Train Acc: 0.9962
+
+5 modelos locales entrenados correctamente.
+
+Agregando con FEDAVG...
+Modelo global actualizado con FEDAVG.
+
+=== Evaluación en VALIDACIÓN después de ronda 3 ===
+
+Evaluación en Hospital_1...
+Hospital_1 -> Val Loss: 1.0832 | Val Acc: 0.6991
+
+Evaluación en Hospital_2...
+Hospital_2 -> Val Loss: 0.6504 | Val Acc: 0.9910
+
+Evaluación en Hospital_3...
+Hospital_3 -> Val Loss: 1.0314 | Val Acc: 0.6324
+
+Evaluación en Hospital_4...
+Hospital_4 -> Val Loss: 1.0044 | Val Acc: 0.5890
+
+Evaluación en Hospital_5...
+Hospital_5 -> Val Loss: 1.7456 | Val Acc: 0.1092
+
+Resultado medio:
+Val Loss medio: 1.1030
+Val Acc media:  0.6041
+
+Resumen ronda 3:
+Val Loss: 1.1030 | Val Acc: 0.6041
+
+==============================
+RONDA FEDERADA 4/5
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_5', 'Hospital_3', 'Hospital_1', 'Hospital_4']
+
+Entrenamiento local en Hospital_2...
+Train: 12233 | Val: 2445 | Test: 1636
+Local epoch 1/5 en Hospital_2
+Local epoch 2/5 en Hospital_2
+Local epoch 3/5 en Hospital_2
+Local epoch 4/5 en Hospital_2
+Local epoch 5/5 en Hospital_2
+Hospital_2 -> Train Loss: 0.0335 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_5...
+Train: 8384 | Val: 1676 | Test: 1121
+Local epoch 1/5 en Hospital_5
+Local epoch 2/5 en Hospital_5
+Local epoch 3/5 en Hospital_5
+Local epoch 4/5 en Hospital_5
+Local epoch 5/5 en Hospital_5
+Hospital_5 -> Train Loss: 0.1990 | Train Acc: 0.8938
+
+Entrenamiento local en Hospital_3...
+Train: 345 | Val: 68 | Test: 50
+Local epoch 1/5 en Hospital_3
+Local epoch 2/5 en Hospital_3
+Local epoch 3/5 en Hospital_3
+Local epoch 4/5 en Hospital_3
+Local epoch 5/5 en Hospital_3
+Hospital_3 -> Train Loss: 0.0744 | Train Acc: 0.9913
+
+Entrenamiento local en Hospital_1...
+Train: 14587 | Val: 2915 | Test: 1952
+Local epoch 1/5 en Hospital_1
+Local epoch 2/5 en Hospital_1
+Local epoch 3/5 en Hospital_1
+Local epoch 4/5 en Hospital_1
+Local epoch 5/5 en Hospital_1
+Hospital_1 -> Train Loss: 0.0928 | Train Acc: 0.9777
+
+Entrenamiento local en Hospital_4...
+Train: 8655 | Val: 1730 | Test: 1157
+Local epoch 1/5 en Hospital_4
+Local epoch 2/5 en Hospital_4
+Local epoch 3/5 en Hospital_4
+Local epoch 4/5 en Hospital_4
+Local epoch 5/5 en Hospital_4
+Hospital_4 -> Train Loss: 0.0448 | Train Acc: 0.9841
+
+5 modelos locales entrenados correctamente.
+
+Agregando con FEDAVG...
+Modelo global actualizado con FEDAVG.
+
+=== Evaluación en VALIDACIÓN después de ronda 4 ===
+
+Evaluación en Hospital_1...
+Hospital_1 -> Val Loss: 0.8649 | Val Acc: 0.7914
+
+Evaluación en Hospital_2...
+Hospital_2 -> Val Loss: 0.4982 | Val Acc: 0.9808
+
+Evaluación en Hospital_3...
+Hospital_3 -> Val Loss: 0.9033 | Val Acc: 0.6324
+
+Evaluación en Hospital_4...
+Hospital_4 -> Val Loss: 0.6677 | Val Acc: 0.9150
+
+Evaluación en Hospital_5...
+Hospital_5 -> Val Loss: 1.6130 | Val Acc: 0.1092
+
+Resultado medio:
+Val Loss medio: 0.9094
+Val Acc media:  0.6858
+
+Resumen ronda 4:
+Val Loss: 0.9094 | Val Acc: 0.6858
+
+==============================
+RONDA FEDERADA 5/5
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_5', 'Hospital_4', 'Hospital_1', 'Hospital_2', 'Hospital_3']
+
+Entrenamiento local en Hospital_5...
+Train: 8384 | Val: 1676 | Test: 1121
+Local epoch 1/5 en Hospital_5
+Local epoch 2/5 en Hospital_5
+Local epoch 3/5 en Hospital_5
+Local epoch 4/5 en Hospital_5
+Local epoch 5/5 en Hospital_5
+Hospital_5 -> Train Loss: 0.1425 | Train Acc: 0.9571
+
+Entrenamiento local en Hospital_4...
+Train: 8655 | Val: 1730 | Test: 1157
+Local epoch 1/5 en Hospital_4
+Local epoch 2/5 en Hospital_4
+Local epoch 3/5 en Hospital_4
+Local epoch 4/5 en Hospital_4
+Local epoch 5/5 en Hospital_4
+Hospital_4 -> Train Loss: 0.0375 | Train Acc: 0.9866
+
+Entrenamiento local en Hospital_1...
+Train: 14587 | Val: 2915 | Test: 1952
+Local epoch 1/5 en Hospital_1
+Local epoch 2/5 en Hospital_1
+Local epoch 3/5 en Hospital_1
+Local epoch 4/5 en Hospital_1
+Local epoch 5/5 en Hospital_1
+Hospital_1 -> Train Loss: 0.0818 | Train Acc: 0.9809
+
+Entrenamiento local en Hospital_2...
+Train: 12233 | Val: 2445 | Test: 1636
+Local epoch 1/5 en Hospital_2
+Local epoch 2/5 en Hospital_2
+Local epoch 3/5 en Hospital_2
+Local epoch 4/5 en Hospital_2
+Local epoch 5/5 en Hospital_2
+Hospital_2 -> Train Loss: 0.0244 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_3...
+Train: 345 | Val: 68 | Test: 50
+Local epoch 1/5 en Hospital_3
+Local epoch 2/5 en Hospital_3
+Local epoch 3/5 en Hospital_3
+Local epoch 4/5 en Hospital_3
+Local epoch 5/5 en Hospital_3
+Hospital_3 -> Train Loss: 0.0559 | Train Acc: 0.9913
+
+5 modelos locales entrenados correctamente.
+
+Agregando con FEDAVG...
+Modelo global actualizado con FEDAVG.
+
+=== Evaluación en VALIDACIÓN después de ronda 5 ===
+
+Evaluación en Hospital_1...
+Hospital_1 -> Val Loss: 0.7033 | Val Acc: 0.8202
+
+Evaluación en Hospital_2...
+Hospital_2 -> Val Loss: 0.4072 | Val Acc: 0.9738
+
+Evaluación en Hospital_3...
+Hospital_3 -> Val Loss: 0.8111 | Val Acc: 0.6618
+
+Evaluación en Hospital_4...
+Hospital_4 -> Val Loss: 0.4560 | Val Acc: 0.9468
+
+Evaluación en Hospital_5...
+Hospital_5 -> Val Loss: 1.4330 | Val Acc: 0.1092
+
+Resultado medio:
+Val Loss medio: 0.7621
+Val Acc media:  0.7024
+
+Resumen ronda 5:
+Val Loss: 0.7621 | Val Acc: 0.7024
+
+==============================
+RESUMEN FINAL POR RONDAS
+==============================
+Ronda 1 -> Val Loss: 1.6133 | Val Acc: 0.2827
+Ronda 2 -> Val Loss: 1.3444 | Val Acc: 0.4446
+Ronda 3 -> Val Loss: 1.1030 | Val Acc: 0.6041
+Ronda 4 -> Val Loss: 0.9094 | Val Acc: 0.6858
+Ronda 5 -> Val Loss: 0.7621 | Val Acc: 0.7024
+
+==============================
+EVALUACIÓN FINAL EN TEST
+==============================
+
+Evaluación final en Hospital_1...
+Hospital_1 -> Test Loss: 0.7095 | Test Acc: 0.8227
+
+Evaluación final en Hospital_2...
+Hospital_2 -> Test Loss: 0.4269 | Test Acc: 0.9487
+
+Evaluación final en Hospital_3...
+Hospital_3 -> Test Loss: 0.7017 | Test Acc: 0.7400
+
+Evaluación final en Hospital_4...
+Hospital_4 -> Test Loss: 0.5061 | Test Acc: 0.9283
+
+Evaluación final en Hospital_5...
+Hospital_5 -> Test Loss: 1.3743 | Test Acc: 0.1106
+
+Resultado final en test:
+Test Loss medio: 0.7437
+Test Acc media:  0.7101
+
+Resultados guardados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\scripts_non_iid\../results_non_iid/fedavg\fedavg_resultados.txt

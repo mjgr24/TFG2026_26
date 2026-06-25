@@ -1,0 +1,14 @@
+random_seed: 42
+n_hospitals: 5
+client_fraction: 0.6
+num_rounds: 5
+local_epochs: 5
+learning_rate: 0.01
+raw_dataset_dir: ../../data/medical_mnist
+federated_output_dir: data_non_iid
+valid_ext:
+- .png
+- .jpg
+- .jpeg
+- .bmp
+- .tiff

@@ -1,0 +1,10 @@
+metodo;tiempo_total_mean;tiempo_total_std;tiempo_agg_mean;tiempo_agg_std
+fedavg;624.35;42.39;0.02;0.01
+fedprox;537.28;71.38;0.02;0.0
+fedewa;3204.64;1161.58;0.01;0.01
+fedag;541.9;75.41;0.01;0.01
+mh_random_search;583.49;92.79;4.01;0.59
+mh_de;651.68;70.86;95.28;13.04
+mh_ga;587.12;2.47;103.02;1.08
+mh_pso;590.72;39.98;82.21;6.66
+mh_cro;577.84;98.62;45.01;9.18

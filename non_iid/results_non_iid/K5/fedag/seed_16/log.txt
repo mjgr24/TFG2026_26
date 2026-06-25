@@ -1,0 +1,761 @@
+Agregador: FEDAG
+Dispositivo: cuda
+Escenario: non_iid
+Config cargada desde: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\config_non_iid.yaml
+Número de hospitales: 5
+Hospitales: ['Hospital_1', 'Hospital_2', 'Hospital_3', 'Hospital_4', 'Hospital_5']
+Rondas federadas: 50
+Épocas locales por ronda: 10
+Fracción de clientes por ronda: 0.6
+Semilla aleatoria: 16
+Learning rate: 0.01
+Early stopping patience: 5
+FedAG lr_beta: 0.001
+Resultados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedag\seed_16
+Indicadores estáticos FedAG precomputados para 5 hospitales.
+
+==============================
+RONDA FEDERADA 1/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_4', 'Hospital_2']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.1818 | Train Acc: 0.9674
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.7424 | Train Acc: 0.6941
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.1753 | Train Acc: 0.9774
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.327, 0.2414, 0.4316]
+rho_mu: 0.6202
+rho_v: 0.3798
+rho_theta: -0.0000
+
+=== Evaluación en VALIDACIÓN después de ronda 1 ===
+Hospital_1 -> Val Loss: 1.1329 | Val Acc: 0.3648
+Hospital_2 -> Val Loss: 0.7095 | Val Acc: 0.8473
+Hospital_3 -> Val Loss: 1.1464 | Val Acc: 0.3005
+Hospital_4 -> Val Loss: 1.2235 | Val Acc: 0.6522
+Hospital_5 -> Val Loss: 1.5852 | Val Acc: 0.1905
+Val Loss medio: 1.1595 | Val Acc media: 0.4710
+Tiempo ronda: 6.85s
+Mejor val_acc hasta ahora: 0.4710 (ronda 1)
+
+==============================
+RONDA FEDERADA 2/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_4', 'Hospital_1']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0768 | Train Acc: 0.9870
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.2257 | Train Acc: 0.9320
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.1405 | Train Acc: 0.9580
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.0339, 0.029, 0.9371]
+rho_mu: 0.0522
+rho_v: 0.0319
+rho_theta: 0.9159
+
+=== Evaluación en VALIDACIÓN después de ronda 2 ===
+Hospital_1 -> Val Loss: 0.1236 | Val Acc: 0.9623
+Hospital_2 -> Val Loss: 2.1757 | Val Acc: 0.7328
+Hospital_3 -> Val Loss: 0.0816 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.3827 | Val Acc: 0.8986
+Hospital_5 -> Val Loss: 0.9069 | Val Acc: 0.6310
+Val Loss medio: 0.7341 | Val Acc media: 0.8430
+Tiempo ronda: 4.53s
+Mejor val_acc hasta ahora: 0.8430 (ronda 2)
+
+==============================
+RONDA FEDERADA 3/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_1', 'Hospital_2']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.1065 | Train Acc: 0.9575
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0937 | Train Acc: 0.9629
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0773 | Train Acc: 0.9789
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.0239, 0.9419, 0.0342]
+rho_mu: 0.0497
+rho_v: 0.0304
+rho_theta: 0.9199
+
+=== Evaluación en VALIDACIÓN después de ronda 3 ===
+Hospital_1 -> Val Loss: 0.0828 | Val Acc: 0.9748
+Hospital_2 -> Val Loss: 2.4312 | Val Acc: 0.7328
+Hospital_3 -> Val Loss: 0.0565 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.4181 | Val Acc: 0.8986
+Hospital_5 -> Val Loss: 0.7815 | Val Acc: 0.8036
+Val Loss medio: 0.7540 | Val Acc media: 0.8810
+Tiempo ronda: 5.08s
+Mejor val_acc hasta ahora: 0.8810 (ronda 3)
+
+==============================
+RONDA FEDERADA 4/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_2', 'Hospital_5']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0442 | Train Acc: 0.9879
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0697 | Train Acc: 0.9804
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.1251 | Train Acc: 0.9823
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.1865, 0.2264, 0.5872]
+rho_mu: 0.0575
+rho_v: 0.0352
+rho_theta: 0.9073
+
+=== Evaluación en VALIDACIÓN después de ronda 4 ===
+Hospital_1 -> Val Loss: 0.1590 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.1279 | Val Acc: 0.9695
+Hospital_3 -> Val Loss: 0.1023 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.2778 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.2800 | Val Acc: 0.9702
+Val Loss medio: 0.1894 | Val Acc media: 0.9749
+Tiempo ronda: 6.54s
+Mejor val_acc hasta ahora: 0.9749 (ronda 4)
+
+==============================
+RONDA FEDERADA 5/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_1', 'Hospital_5']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0513 | Train Acc: 0.9857
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0375 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0856 | Train Acc: 0.9870
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.0326, 0.8947, 0.0727]
+rho_mu: 0.0536
+rho_v: 0.0328
+rho_theta: 0.9135
+
+=== Evaluación en VALIDACIÓN después de ronda 5 ===
+Hospital_1 -> Val Loss: 0.0315 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.9710 | Val Acc: 0.8550
+Hospital_3 -> Val Loss: 0.0257 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.1995 | Val Acc: 0.9130
+Hospital_5 -> Val Loss: 0.3953 | Val Acc: 0.9107
+Val Loss medio: 0.3246 | Val Acc media: 0.9335
+Tiempo ronda: 5.96s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 6/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_5', 'Hospital_4']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0250 | Train Acc: 0.9916
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0763 | Train Acc: 0.9858
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0396 | Train Acc: 0.9943
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.2236, 0.5944, 0.182]
+rho_mu: 0.0534
+rho_v: 0.0327
+rho_theta: 0.9139
+
+=== Evaluación en VALIDACIÓN después de ronda 6 ===
+Hospital_1 -> Val Loss: 0.0490 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.1515 | Val Acc: 0.9580
+Hospital_3 -> Val Loss: 0.0336 | Val Acc: 0.9859
+Hospital_4 -> Val Loss: 0.1057 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1665 | Val Acc: 0.9702
+Val Loss medio: 0.1012 | Val Acc media: 0.9745
+Tiempo ronda: 4.54s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 7/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_3', 'Hospital_1']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0424 | Train Acc: 0.9872
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0187 | Train Acc: 0.9935
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0247 | Train Acc: 0.9951
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.0194, 0.0147, 0.9658]
+rho_mu: 0.0427
+rho_v: 0.0262
+rho_theta: 0.9311
+
+=== Evaluación en VALIDACIÓN después de ronda 7 ===
+Hospital_1 -> Val Loss: 0.0196 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.6562 | Val Acc: 0.8626
+Hospital_3 -> Val Loss: 0.0210 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.1500 | Val Acc: 0.9275
+Hospital_5 -> Val Loss: 0.3227 | Val Acc: 0.8631
+Val Loss medio: 0.2339 | Val Acc media: 0.9284
+Tiempo ronda: 6.42s
+Sin mejora en validacion: 3/5
+
+==============================
+RONDA FEDERADA 8/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_3', 'Hospital_1']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0367 | Train Acc: 0.9895
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0215 | Train Acc: 0.9944
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0173 | Train Acc: 0.9963
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.3704, 0.3302, 0.2994]
+rho_mu: 0.1337
+rho_v: 0.0819
+rho_theta: 0.7844
+
+=== Evaluación en VALIDACIÓN después de ronda 8 ===
+Hospital_1 -> Val Loss: 0.0356 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.1039 | Val Acc: 0.9771
+Hospital_3 -> Val Loss: 0.0378 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0928 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.2033 | Val Acc: 0.9702
+Val Loss medio: 0.0947 | Val Acc media: 0.9789
+Tiempo ronda: 6.34s
+Mejor val_acc hasta ahora: 0.9789 (ronda 8)
+
+==============================
+RONDA FEDERADA 9/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_1', 'Hospital_5']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0332 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0177 | Train Acc: 0.9963
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0522 | Train Acc: 0.9882
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.1715, 0.1386, 0.6898]
+rho_mu: 0.1345
+rho_v: 0.0824
+rho_theta: 0.7831
+
+=== Evaluación en VALIDACIÓN después de ronda 9 ===
+Hospital_1 -> Val Loss: 0.0533 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0815 | Val Acc: 0.9695
+Hospital_3 -> Val Loss: 0.0437 | Val Acc: 0.9859
+Hospital_4 -> Val Loss: 0.1255 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.1237 | Val Acc: 0.9821
+Val Loss medio: 0.0855 | Val Acc media: 0.9763
+Tiempo ronda: 5.98s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 10/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_3', 'Hospital_1']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0210 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0129 | Train Acc: 0.9963
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0152 | Train Acc: 0.9975
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.3207, 0.3563, 0.323]
+rho_mu: 0.1345
+rho_v: 0.0824
+rho_theta: 0.7831
+
+=== Evaluación en VALIDACIÓN después de ronda 10 ===
+Hospital_1 -> Val Loss: 0.0112 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.1518 | Val Acc: 0.9695
+Hospital_3 -> Val Loss: 0.0221 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0408 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.1934 | Val Acc: 0.9107
+Val Loss medio: 0.0839 | Val Acc media: 0.9722
+Tiempo ronda: 4.43s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 11/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_5', 'Hospital_2']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0117 | Train Acc: 0.9981
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0452 | Train Acc: 0.9870
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0327 | Train Acc: 0.9880
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.1538, 0.6735, 0.1727]
+rho_mu: 0.1377
+rho_v: 0.0843
+rho_theta: 0.7780
+
+=== Evaluación en VALIDACIÓN después de ronda 11 ===
+Hospital_1 -> Val Loss: 0.0532 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0621 | Val Acc: 0.9656
+Hospital_3 -> Val Loss: 0.0447 | Val Acc: 0.9859
+Hospital_4 -> Val Loss: 0.1197 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.1286 | Val Acc: 0.9821
+Val Loss medio: 0.0817 | Val Acc media: 0.9768
+Tiempo ronda: 6.54s
+Sin mejora en validacion: 3/5
+
+==============================
+RONDA FEDERADA 12/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_1', 'Hospital_2']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0263 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0165 | Train Acc: 0.9975
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0281 | Train Acc: 0.9910
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.3072, 0.3094, 0.3834]
+rho_mu: 0.1377
+rho_v: 0.0843
+rho_theta: 0.7780
+
+=== Evaluación en VALIDACIÓN después de ronda 12 ===
+Hospital_1 -> Val Loss: 0.0222 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0362 | Val Acc: 0.9809
+Hospital_3 -> Val Loss: 0.0286 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0503 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.1218 | Val Acc: 0.9881
+Val Loss medio: 0.0518 | Val Acc media: 0.9900
+Tiempo ronda: 4.97s
+Mejor val_acc hasta ahora: 0.9900 (ronda 12)
+
+==============================
+RONDA FEDERADA 13/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_5', 'Hospital_3']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0274 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0353 | Train Acc: 0.9894
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0098 | Train Acc: 0.9991
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.1525, 0.6775, 0.17]
+rho_mu: 0.1485
+rho_v: 0.0910
+rho_theta: 0.7605
+
+=== Evaluación en VALIDACIÓN después de ronda 13 ===
+Hospital_1 -> Val Loss: 0.0251 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0709 | Val Acc: 0.9771
+Hospital_3 -> Val Loss: 0.0221 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0562 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0834 | Val Acc: 0.9881
+Val Loss medio: 0.0515 | Val Acc media: 0.9879
+Tiempo ronda: 4.61s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 14/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_3', 'Hospital_4']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0264 | Train Acc: 0.9925
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0090 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0268 | Train Acc: 0.9972
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.3725, 0.3308, 0.2966]
+rho_mu: 0.1485
+rho_v: 0.0910
+rho_theta: 0.7605
+
+=== Evaluación en VALIDACIÓN después de ronda 14 ===
+Hospital_1 -> Val Loss: 0.0413 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0221 | Val Acc: 0.9885
+Hospital_3 -> Val Loss: 0.0360 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0647 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.1373 | Val Acc: 0.9762
+Val Loss medio: 0.0603 | Val Acc media: 0.9908
+Tiempo ronda: 5.57s
+Mejor val_acc hasta ahora: 0.9908 (ronda 14)
+
+==============================
+RONDA FEDERADA 15/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_3', 'Hospital_5']
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0091 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0085 | Train Acc: 0.9981
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0389 | Train Acc: 0.9870
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.9642, 0.016, 0.0198]
+rho_mu: 0.0439
+rho_v: 0.0269
+rho_theta: 0.9292
+
+=== Evaluación en VALIDACIÓN después de ronda 15 ===
+Hospital_1 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.1555 | Val Acc: 0.9656
+Hospital_3 -> Val Loss: 0.0123 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0411 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.1211 | Val Acc: 0.9821
+Val Loss medio: 0.0667 | Val Acc media: 0.9857
+Tiempo ronda: 5.46s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 16/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_3', 'Hospital_5']
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0078 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0089 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0308 | Train Acc: 0.9894
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.8834, 0.0312, 0.0854]
+rho_mu: 0.0568
+rho_v: 0.0348
+rho_theta: 0.9085
+
+=== Evaluación en VALIDACIÓN después de ronda 16 ===
+Hospital_1 -> Val Loss: 0.0037 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.2279 | Val Acc: 0.9427
+Hospital_3 -> Val Loss: 0.0114 | Val Acc: 1.0000
+Hospital_4 -> Val Loss: 0.0584 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.1452 | Val Acc: 0.9345
+Val Loss medio: 0.0893 | Val Acc media: 0.9668
+Tiempo ronda: 5.47s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 17/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_2', 'Hospital_5']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0136 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0180 | Train Acc: 0.9940
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0330 | Train Acc: 0.9894
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.1755, 0.2551, 0.5694]
+rho_mu: 0.0566
+rho_v: 0.0347
+rho_theta: 0.9087
+
+=== Evaluación en VALIDACIÓN después de ronda 17 ===
+Hospital_1 -> Val Loss: 0.0324 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0377 | Val Acc: 0.9847
+Hospital_3 -> Val Loss: 0.0301 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0648 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0915 | Val Acc: 0.9881
+Val Loss medio: 0.0513 | Val Acc media: 0.9895
+Tiempo ronda: 5.09s
+Sin mejora en validacion: 3/5
+
+==============================
+RONDA FEDERADA 18/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_5', 'Hospital_2']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 -> Train Loss: 0.0080 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0270 | Train Acc: 0.9906
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 -> Train Loss: 0.0163 | Train Acc: 0.9932
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.2034, 0.5511, 0.2455]
+rho_mu: 0.0567
+rho_v: 0.0347
+rho_theta: 0.9086
+
+=== Evaluación en VALIDACIÓN después de ronda 18 ===
+Hospital_1 -> Val Loss: 0.0279 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0285 | Val Acc: 0.9847
+Hospital_3 -> Val Loss: 0.0299 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0671 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.0947 | Val Acc: 0.9821
+Val Loss medio: 0.0496 | Val Acc media: 0.9844
+Tiempo ronda: 6.54s
+Sin mejora en validacion: 4/5
+
+==============================
+RONDA FEDERADA 19/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_1', 'Hospital_5']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 -> Train Loss: 0.0144 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 -> Train Loss: 0.0063 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 -> Train Loss: 0.0262 | Train Acc: 0.9882
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDAG...
+Modelo global actualizado con FEDAG.
+Tiempo de agregación: 0.00s
+Alphas: [0.0384, 0.8181, 0.1435]
+rho_mu: 0.0687
+rho_v: 0.0421
+rho_theta: 0.8892
+
+=== Evaluación en VALIDACIÓN después de ronda 19 ===
+Hospital_1 -> Val Loss: 0.0038 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0891 | Val Acc: 0.9733
+Hospital_3 -> Val Loss: 0.0100 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0356 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0796 | Val Acc: 0.9940
+Val Loss medio: 0.0436 | Val Acc media: 0.9896
+Tiempo ronda: 4.10s
+Sin mejora en validacion: 5/5
+Early stopping activado en la ronda 19. Mejor val_acc=0.9908 en ronda 14.
+
+==============================
+RESUMEN FINAL POR RONDAS
+==============================
+Ronda 1 -> Val Loss: 1.1595 | Val Acc: 0.4710
+Ronda 2 -> Val Loss: 0.7341 | Val Acc: 0.8430
+Ronda 3 -> Val Loss: 0.7540 | Val Acc: 0.8810
+Ronda 4 -> Val Loss: 0.1894 | Val Acc: 0.9749
+Ronda 5 -> Val Loss: 0.3246 | Val Acc: 0.9335
+Ronda 6 -> Val Loss: 0.1012 | Val Acc: 0.9745
+Ronda 7 -> Val Loss: 0.2339 | Val Acc: 0.9284
+Ronda 8 -> Val Loss: 0.0947 | Val Acc: 0.9789
+Ronda 9 -> Val Loss: 0.0855 | Val Acc: 0.9763
+Ronda 10 -> Val Loss: 0.0839 | Val Acc: 0.9722
+Ronda 11 -> Val Loss: 0.0817 | Val Acc: 0.9768
+Ronda 12 -> Val Loss: 0.0518 | Val Acc: 0.9900
+Ronda 13 -> Val Loss: 0.0515 | Val Acc: 0.9879
+Ronda 14 -> Val Loss: 0.0603 | Val Acc: 0.9908
+Ronda 15 -> Val Loss: 0.0667 | Val Acc: 0.9857
+Ronda 16 -> Val Loss: 0.0893 | Val Acc: 0.9668
+Ronda 17 -> Val Loss: 0.0513 | Val Acc: 0.9895
+Ronda 18 -> Val Loss: 0.0496 | Val Acc: 0.9844
+Ronda 19 -> Val Loss: 0.0436 | Val Acc: 0.9896
+
+==============================
+EVALUACIÓN FINAL EN TEST
+==============================
+Hospital_1 -> Test Loss: 0.0031 | Test Acc: 1.0000
+Hospital_2 -> Test Loss: 0.1050 | Test Acc: 0.9783
+Hospital_3 -> Test Loss: 0.0200 | Test Acc: 1.0000
+Hospital_4 -> Test Loss: 0.0559 | Test Acc: 1.0000
+Hospital_5 -> Test Loss: 0.0399 | Test Acc: 1.0000
+
+Test Loss medio: 0.0448
+Test Acc media:  0.9957
+
+Guardando predicciones...
+Predicciones guardadas en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedag\seed_16
+Modelo guardado en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedag\seed_16\modelo_final.pt
+
+Tiempo total: 107.76s
+Tiempos guardados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedag\seed_16\tiempos.csv

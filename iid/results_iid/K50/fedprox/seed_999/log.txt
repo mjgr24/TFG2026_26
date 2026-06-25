@@ -1,0 +1,2046 @@
+Agregador: FEDPROX
+Dispositivo: cuda
+Escenario: iid
+Config cargada desde: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\iid\config_iid.yaml
+Número de hospitales: 50
+Hospitales: ['Hospital_1', 'Hospital_2', 'Hospital_3', 'Hospital_4', 'Hospital_5', 'Hospital_6', 'Hospital_7', 'Hospital_8', 'Hospital_9', 'Hospital_10', 'Hospital_11', 'Hospital_12', 'Hospital_13', 'Hospital_14', 'Hospital_15', 'Hospital_16', 'Hospital_17', 'Hospital_18', 'Hospital_19', 'Hospital_20', 'Hospital_21', 'Hospital_22', 'Hospital_23', 'Hospital_24', 'Hospital_25', 'Hospital_26', 'Hospital_27', 'Hospital_28', 'Hospital_29', 'Hospital_30', 'Hospital_31', 'Hospital_32', 'Hospital_33', 'Hospital_34', 'Hospital_35', 'Hospital_36', 'Hospital_37', 'Hospital_38', 'Hospital_39', 'Hospital_40', 'Hospital_41', 'Hospital_42', 'Hospital_43', 'Hospital_44', 'Hospital_45', 'Hospital_46', 'Hospital_47', 'Hospital_48', 'Hospital_49', 'Hospital_50']
+Rondas federadas: 50
+Épocas locales por ronda: 10
+Fracción de clientes por ronda: 0.6
+Semilla aleatoria: 999
+Learning rate: 0.1
+Early stopping patience: 3
+FedProx mu: 0.01
+FedProx variable local epochs: False
+Resultados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\iid\results_iid\K50\fedprox\seed_999
+
+==============================
+RONDA FEDERADA 1/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_44', 'Hospital_6', 'Hospital_37', 'Hospital_48', 'Hospital_35', 'Hospital_32', 'Hospital_31', 'Hospital_9', 'Hospital_42', 'Hospital_21', 'Hospital_7', 'Hospital_13', 'Hospital_10', 'Hospital_17', 'Hospital_4', 'Hospital_47', 'Hospital_26', 'Hospital_15', 'Hospital_34', 'Hospital_3', 'Hospital_43', 'Hospital_1', 'Hospital_40', 'Hospital_41', 'Hospital_46', 'Hospital_28', 'Hospital_49', 'Hospital_22', 'Hospital_11', 'Hospital_24']
+
+Entrenamiento local en Hospital_44...
+Train: 884 | Val: 176 | Test: 119
+Hospital_44 realizará 10 épocas locales con FedProx.
+Hospital_44 -> Train Loss: 0.0841 | Train Acc: 0.9796
+
+Entrenamiento local en Hospital_6...
+Train: 884 | Val: 176 | Test: 119
+Hospital_6 realizará 10 épocas locales con FedProx.
+Hospital_6 -> Train Loss: 0.0880 | Train Acc: 0.9774
+
+Entrenamiento local en Hospital_37...
+Train: 884 | Val: 176 | Test: 119
+Hospital_37 realizará 10 épocas locales con FedProx.
+Hospital_37 -> Train Loss: 0.0829 | Train Acc: 0.9785
+
+Entrenamiento local en Hospital_48...
+Train: 884 | Val: 176 | Test: 119
+Hospital_48 realizará 10 épocas locales con FedProx.
+Hospital_48 -> Train Loss: 0.0893 | Train Acc: 0.9762
+
+Entrenamiento local en Hospital_35...
+Train: 884 | Val: 176 | Test: 119
+Hospital_35 realizará 10 épocas locales con FedProx.
+Hospital_35 -> Train Loss: 0.0946 | Train Acc: 0.9762
+
+Entrenamiento local en Hospital_32...
+Train: 884 | Val: 176 | Test: 119
+Hospital_32 realizará 10 épocas locales con FedProx.
+Hospital_32 -> Train Loss: 0.0437 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_31...
+Train: 884 | Val: 176 | Test: 119
+Hospital_31 realizará 10 épocas locales con FedProx.
+Hospital_31 -> Train Loss: 0.1016 | Train Acc: 0.9717
+
+Entrenamiento local en Hospital_9...
+Train: 884 | Val: 176 | Test: 119
+Hospital_9 realizará 10 épocas locales con FedProx.
+Hospital_9 -> Train Loss: 0.1456 | Train Acc: 0.9548
+
+Entrenamiento local en Hospital_42...
+Train: 884 | Val: 176 | Test: 119
+Hospital_42 realizará 10 épocas locales con FedProx.
+Hospital_42 -> Train Loss: 0.0790 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_21...
+Train: 884 | Val: 176 | Test: 119
+Hospital_21 realizará 10 épocas locales con FedProx.
+Hospital_21 -> Train Loss: 0.0693 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_7...
+Train: 884 | Val: 176 | Test: 119
+Hospital_7 realizará 10 épocas locales con FedProx.
+Hospital_7 -> Train Loss: 0.4674 | Train Acc: 0.8495
+
+Entrenamiento local en Hospital_13...
+Train: 884 | Val: 176 | Test: 119
+Hospital_13 realizará 10 épocas locales con FedProx.
+Hospital_13 -> Train Loss: 0.0889 | Train Acc: 0.9785
+
+Entrenamiento local en Hospital_10...
+Train: 884 | Val: 176 | Test: 119
+Hospital_10 realizará 10 épocas locales con FedProx.
+Hospital_10 -> Train Loss: 0.3758 | Train Acc: 0.9038
+
+Entrenamiento local en Hospital_17...
+Train: 884 | Val: 176 | Test: 119
+Hospital_17 realizará 10 épocas locales con FedProx.
+Hospital_17 -> Train Loss: 0.8831 | Train Acc: 0.7613
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0647 | Train Acc: 0.9819
+
+Entrenamiento local en Hospital_47...
+Train: 884 | Val: 176 | Test: 119
+Hospital_47 realizará 10 épocas locales con FedProx.
+Hospital_47 -> Train Loss: 0.1389 | Train Acc: 0.9581
+
+Entrenamiento local en Hospital_26...
+Train: 884 | Val: 176 | Test: 119
+Hospital_26 realizará 10 épocas locales con FedProx.
+Hospital_26 -> Train Loss: 0.1000 | Train Acc: 0.9785
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 1.0767 | Train Acc: 0.7353
+
+Entrenamiento local en Hospital_34...
+Train: 884 | Val: 176 | Test: 119
+Hospital_34 realizará 10 épocas locales con FedProx.
+Hospital_34 -> Train Loss: 0.0555 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_3...
+Train: 884 | Val: 176 | Test: 119
+Hospital_3 realizará 10 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.1235 | Train Acc: 0.9717
+
+Entrenamiento local en Hospital_43...
+Train: 884 | Val: 176 | Test: 119
+Hospital_43 realizará 10 épocas locales con FedProx.
+Hospital_43 -> Train Loss: 0.0653 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_1...
+Train: 884 | Val: 176 | Test: 119
+Hospital_1 realizará 10 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0820 | Train Acc: 0.9751
+
+Entrenamiento local en Hospital_40...
+Train: 884 | Val: 176 | Test: 119
+Hospital_40 realizará 10 épocas locales con FedProx.
+Hospital_40 -> Train Loss: 0.0736 | Train Acc: 0.9808
+
+Entrenamiento local en Hospital_41...
+Train: 884 | Val: 176 | Test: 119
+Hospital_41 realizará 10 épocas locales con FedProx.
+Hospital_41 -> Train Loss: 0.1067 | Train Acc: 0.9672
+
+Entrenamiento local en Hospital_46...
+Train: 884 | Val: 176 | Test: 119
+Hospital_46 realizará 10 épocas locales con FedProx.
+Hospital_46 -> Train Loss: 0.0844 | Train Acc: 0.9717
+
+Entrenamiento local en Hospital_28...
+Train: 884 | Val: 176 | Test: 119
+Hospital_28 realizará 10 épocas locales con FedProx.
+Hospital_28 -> Train Loss: 0.0963 | Train Acc: 0.9729
+
+Entrenamiento local en Hospital_49...
+Train: 885 | Val: 177 | Test: 118
+Hospital_49 realizará 10 épocas locales con FedProx.
+Hospital_49 -> Train Loss: 0.0562 | Train Acc: 0.9808
+
+Entrenamiento local en Hospital_22...
+Train: 884 | Val: 176 | Test: 119
+Hospital_22 realizará 10 épocas locales con FedProx.
+Hospital_22 -> Train Loss: 0.2722 | Train Acc: 0.9367
+
+Entrenamiento local en Hospital_11...
+Train: 884 | Val: 176 | Test: 119
+Hospital_11 realizará 10 épocas locales con FedProx.
+Hospital_11 -> Train Loss: 0.0767 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_24...
+Train: 885 | Val: 177 | Test: 118
+Hospital_24 realizará 10 épocas locales con FedProx.
+Hospital_24 -> Train Loss: 0.1780 | Train Acc: 0.9638
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.01s
+
+=== Evaluación en VALIDACIÓN después de ronda 1 ===
+Hospital_1 -> Val Loss: 0.1278 | Val Acc: 0.9716
+Hospital_2 -> Val Loss: 0.2060 | Val Acc: 0.9602
+Hospital_3 -> Val Loss: 0.2368 | Val Acc: 0.9602
+Hospital_4 -> Val Loss: 0.1777 | Val Acc: 0.9659
+Hospital_5 -> Val Loss: 0.1277 | Val Acc: 0.9716
+Hospital_6 -> Val Loss: 0.1042 | Val Acc: 0.9886
+Hospital_7 -> Val Loss: 0.1467 | Val Acc: 0.9716
+Hospital_8 -> Val Loss: 0.1141 | Val Acc: 0.9887
+Hospital_9 -> Val Loss: 0.1044 | Val Acc: 0.9830
+Hospital_10 -> Val Loss: 0.1993 | Val Acc: 0.9545
+Hospital_11 -> Val Loss: 0.1672 | Val Acc: 0.9545
+Hospital_12 -> Val Loss: 0.1418 | Val Acc: 0.9602
+Hospital_13 -> Val Loss: 0.0876 | Val Acc: 0.9830
+Hospital_14 -> Val Loss: 0.1236 | Val Acc: 0.9830
+Hospital_15 -> Val Loss: 0.1307 | Val Acc: 0.9773
+Hospital_16 -> Val Loss: 0.1739 | Val Acc: 0.9716
+Hospital_17 -> Val Loss: 0.1798 | Val Acc: 0.9545
+Hospital_18 -> Val Loss: 0.1568 | Val Acc: 0.9659
+Hospital_19 -> Val Loss: 0.1122 | Val Acc: 0.9716
+Hospital_20 -> Val Loss: 0.1470 | Val Acc: 0.9659
+Hospital_21 -> Val Loss: 0.1963 | Val Acc: 0.9659
+Hospital_22 -> Val Loss: 0.2034 | Val Acc: 0.9545
+Hospital_23 -> Val Loss: 0.1712 | Val Acc: 0.9716
+Hospital_24 -> Val Loss: 0.3425 | Val Acc: 0.9209
+Hospital_25 -> Val Loss: 0.1880 | Val Acc: 0.9545
+Hospital_26 -> Val Loss: 0.1949 | Val Acc: 0.9375
+Hospital_27 -> Val Loss: 0.0962 | Val Acc: 0.9830
+Hospital_28 -> Val Loss: 0.2282 | Val Acc: 0.9545
+Hospital_29 -> Val Loss: 0.2619 | Val Acc: 0.9318
+Hospital_30 -> Val Loss: 0.2189 | Val Acc: 0.9375
+Hospital_31 -> Val Loss: 0.1319 | Val Acc: 0.9602
+Hospital_32 -> Val Loss: 0.1739 | Val Acc: 0.9716
+Hospital_33 -> Val Loss: 0.1592 | Val Acc: 0.9773
+Hospital_34 -> Val Loss: 0.1708 | Val Acc: 0.9545
+Hospital_35 -> Val Loss: 0.1557 | Val Acc: 0.9659
+Hospital_36 -> Val Loss: 0.1901 | Val Acc: 0.9492
+Hospital_37 -> Val Loss: 0.1373 | Val Acc: 0.9886
+Hospital_38 -> Val Loss: 0.1406 | Val Acc: 0.9716
+Hospital_39 -> Val Loss: 0.2152 | Val Acc: 0.9602
+Hospital_40 -> Val Loss: 0.0983 | Val Acc: 0.9773
+Hospital_41 -> Val Loss: 0.1806 | Val Acc: 0.9716
+Hospital_42 -> Val Loss: 0.1681 | Val Acc: 0.9489
+Hospital_43 -> Val Loss: 0.1210 | Val Acc: 0.9830
+Hospital_44 -> Val Loss: 0.1321 | Val Acc: 0.9716
+Hospital_45 -> Val Loss: 0.1445 | Val Acc: 0.9659
+Hospital_46 -> Val Loss: 0.2128 | Val Acc: 0.9375
+Hospital_47 -> Val Loss: 0.1255 | Val Acc: 0.9716
+Hospital_48 -> Val Loss: 0.0954 | Val Acc: 0.9886
+Hospital_49 -> Val Loss: 0.2250 | Val Acc: 0.9322
+Hospital_50 -> Val Loss: 0.2061 | Val Acc: 0.9432
+Val Loss medio: 0.1650 | Val Acc media: 0.9641
+Cambio vs ronda anterior: NA (primera ronda)
+Tiempo ronda: 51.58s
+Mejor val_acc hasta ahora: 0.9641 (ronda 1)
+
+==============================
+RONDA FEDERADA 2/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_6', 'Hospital_36', 'Hospital_39', 'Hospital_30', 'Hospital_45', 'Hospital_24', 'Hospital_9', 'Hospital_43', 'Hospital_42', 'Hospital_32', 'Hospital_47', 'Hospital_1', 'Hospital_4', 'Hospital_16', 'Hospital_8', 'Hospital_15', 'Hospital_26', 'Hospital_18', 'Hospital_23', 'Hospital_2', 'Hospital_40', 'Hospital_25', 'Hospital_50', 'Hospital_35', 'Hospital_38', 'Hospital_14', 'Hospital_20', 'Hospital_33', 'Hospital_28', 'Hospital_7']
+
+Entrenamiento local en Hospital_6...
+Train: 884 | Val: 176 | Test: 119
+Hospital_6 realizará 10 épocas locales con FedProx.
+Hospital_6 -> Train Loss: 0.0413 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_36...
+Train: 885 | Val: 177 | Test: 118
+Hospital_36 realizará 10 épocas locales con FedProx.
+Hospital_36 -> Train Loss: 0.0413 | Train Acc: 0.9831
+
+Entrenamiento local en Hospital_39...
+Train: 884 | Val: 176 | Test: 119
+Hospital_39 realizará 10 épocas locales con FedProx.
+Hospital_39 -> Train Loss: 0.1886 | Train Acc: 0.9491
+
+Entrenamiento local en Hospital_30...
+Train: 884 | Val: 176 | Test: 119
+Hospital_30 realizará 10 épocas locales con FedProx.
+Hospital_30 -> Train Loss: 0.0212 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_45...
+Train: 884 | Val: 176 | Test: 119
+Hospital_45 realizará 10 épocas locales con FedProx.
+Hospital_45 -> Train Loss: 0.0373 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_24...
+Train: 885 | Val: 177 | Test: 118
+Hospital_24 realizará 10 épocas locales con FedProx.
+Hospital_24 -> Train Loss: 0.0492 | Train Acc: 0.9853
+
+Entrenamiento local en Hospital_9...
+Train: 884 | Val: 176 | Test: 119
+Hospital_9 realizará 10 épocas locales con FedProx.
+Hospital_9 -> Train Loss: 0.0413 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_43...
+Train: 884 | Val: 176 | Test: 119
+Hospital_43 realizará 10 épocas locales con FedProx.
+Hospital_43 -> Train Loss: 0.7742 | Train Acc: 0.8439
+
+Entrenamiento local en Hospital_42...
+Train: 884 | Val: 176 | Test: 119
+Hospital_42 realizará 10 épocas locales con FedProx.
+Hospital_42 -> Train Loss: 0.0437 | Train Acc: 0.9819
+
+Entrenamiento local en Hospital_32...
+Train: 884 | Val: 176 | Test: 119
+Hospital_32 realizará 10 épocas locales con FedProx.
+Hospital_32 -> Train Loss: 0.0332 | Train Acc: 0.9910
+
+Entrenamiento local en Hospital_47...
+Train: 884 | Val: 176 | Test: 119
+Hospital_47 realizará 10 épocas locales con FedProx.
+Hospital_47 -> Train Loss: 0.0405 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_1...
+Train: 884 | Val: 176 | Test: 119
+Hospital_1 realizará 10 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0906 | Train Acc: 0.9706
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0432 | Train Acc: 0.9830
+
+Entrenamiento local en Hospital_16...
+Train: 884 | Val: 176 | Test: 119
+Hospital_16 realizará 10 épocas locales con FedProx.
+Hospital_16 -> Train Loss: 0.0389 | Train Acc: 0.9876
+
+Entrenamiento local en Hospital_8...
+Train: 885 | Val: 177 | Test: 118
+Hospital_8 realizará 10 épocas locales con FedProx.
+Hospital_8 -> Train Loss: 0.0300 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 0.0375 | Train Acc: 0.9910
+
+Entrenamiento local en Hospital_26...
+Train: 884 | Val: 176 | Test: 119
+Hospital_26 realizará 10 épocas locales con FedProx.
+Hospital_26 -> Train Loss: 0.0667 | Train Acc: 0.9808
+
+Entrenamiento local en Hospital_18...
+Train: 884 | Val: 176 | Test: 119
+Hospital_18 realizará 10 épocas locales con FedProx.
+Hospital_18 -> Train Loss: 0.0334 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_23...
+Train: 884 | Val: 176 | Test: 119
+Hospital_23 realizará 10 épocas locales con FedProx.
+Hospital_23 -> Train Loss: 0.0400 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0327 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_40...
+Train: 884 | Val: 176 | Test: 119
+Hospital_40 realizará 10 épocas locales con FedProx.
+Hospital_40 -> Train Loss: 0.0363 | Train Acc: 0.9898
+
+Entrenamiento local en Hospital_25...
+Train: 884 | Val: 176 | Test: 119
+Hospital_25 realizará 10 épocas locales con FedProx.
+Hospital_25 -> Train Loss: 0.0745 | Train Acc: 0.9774
+
+Entrenamiento local en Hospital_50...
+Train: 884 | Val: 176 | Test: 119
+Hospital_50 realizará 10 épocas locales con FedProx.
+Hospital_50 -> Train Loss: 0.0481 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_35...
+Train: 884 | Val: 176 | Test: 119
+Hospital_35 realizará 10 épocas locales con FedProx.
+Hospital_35 -> Train Loss: 0.0545 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_38...
+Train: 884 | Val: 176 | Test: 119
+Hospital_38 realizará 10 épocas locales con FedProx.
+Hospital_38 -> Train Loss: 0.0398 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_14...
+Train: 884 | Val: 176 | Test: 119
+Hospital_14 realizará 10 épocas locales con FedProx.
+Hospital_14 -> Train Loss: 0.0406 | Train Acc: 0.9876
+
+Entrenamiento local en Hospital_20...
+Train: 884 | Val: 176 | Test: 119
+Hospital_20 realizará 10 épocas locales con FedProx.
+Hospital_20 -> Train Loss: 0.0567 | Train Acc: 0.9774
+
+Entrenamiento local en Hospital_33...
+Train: 884 | Val: 176 | Test: 119
+Hospital_33 realizará 10 épocas locales con FedProx.
+Hospital_33 -> Train Loss: 0.0521 | Train Acc: 0.9762
+
+Entrenamiento local en Hospital_28...
+Train: 884 | Val: 176 | Test: 119
+Hospital_28 realizará 10 épocas locales con FedProx.
+Hospital_28 -> Train Loss: 2.7747 | Train Acc: 0.7670
+
+Entrenamiento local en Hospital_7...
+Train: 884 | Val: 176 | Test: 119
+Hospital_7 realizará 10 épocas locales con FedProx.
+Hospital_7 -> Train Loss: 0.0507 | Train Acc: 0.9774
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 2 ===
+Hospital_1 -> Val Loss: 0.0825 | Val Acc: 0.9830
+Hospital_2 -> Val Loss: 0.0927 | Val Acc: 0.9886
+Hospital_3 -> Val Loss: 0.2065 | Val Acc: 0.9602
+Hospital_4 -> Val Loss: 0.1083 | Val Acc: 0.9773
+Hospital_5 -> Val Loss: 0.0714 | Val Acc: 0.9773
+Hospital_6 -> Val Loss: 0.0560 | Val Acc: 1.0000
+Hospital_7 -> Val Loss: 0.0829 | Val Acc: 0.9830
+Hospital_8 -> Val Loss: 0.0725 | Val Acc: 0.9887
+Hospital_9 -> Val Loss: 0.0619 | Val Acc: 0.9943
+Hospital_10 -> Val Loss: 0.1397 | Val Acc: 0.9545
+Hospital_11 -> Val Loss: 0.0972 | Val Acc: 0.9773
+Hospital_12 -> Val Loss: 0.0871 | Val Acc: 0.9830
+Hospital_13 -> Val Loss: 0.0599 | Val Acc: 0.9943
+Hospital_14 -> Val Loss: 0.0554 | Val Acc: 0.9943
+Hospital_15 -> Val Loss: 0.0754 | Val Acc: 0.9943
+Hospital_16 -> Val Loss: 0.0977 | Val Acc: 0.9830
+Hospital_17 -> Val Loss: 0.1091 | Val Acc: 0.9886
+Hospital_18 -> Val Loss: 0.1064 | Val Acc: 0.9830
+Hospital_19 -> Val Loss: 0.0681 | Val Acc: 0.9886
+Hospital_20 -> Val Loss: 0.0966 | Val Acc: 0.9716
+Hospital_21 -> Val Loss: 0.0924 | Val Acc: 0.9830
+Hospital_22 -> Val Loss: 0.1261 | Val Acc: 0.9659
+Hospital_23 -> Val Loss: 0.1030 | Val Acc: 0.9773
+Hospital_24 -> Val Loss: 0.1744 | Val Acc: 0.9605
+Hospital_25 -> Val Loss: 0.1077 | Val Acc: 0.9659
+Hospital_26 -> Val Loss: 0.1389 | Val Acc: 0.9545
+Hospital_27 -> Val Loss: 0.0724 | Val Acc: 0.9830
+Hospital_28 -> Val Loss: 0.1366 | Val Acc: 0.9602
+Hospital_29 -> Val Loss: 0.2303 | Val Acc: 0.9602
+Hospital_30 -> Val Loss: 0.1377 | Val Acc: 0.9602
+Hospital_31 -> Val Loss: 0.0903 | Val Acc: 0.9830
+Hospital_32 -> Val Loss: 0.1060 | Val Acc: 0.9773
+Hospital_33 -> Val Loss: 0.0697 | Val Acc: 0.9943
+Hospital_34 -> Val Loss: 0.1306 | Val Acc: 0.9659
+Hospital_35 -> Val Loss: 0.0996 | Val Acc: 0.9830
+Hospital_36 -> Val Loss: 0.1163 | Val Acc: 0.9661
+Hospital_37 -> Val Loss: 0.0683 | Val Acc: 0.9943
+Hospital_38 -> Val Loss: 0.0814 | Val Acc: 0.9830
+Hospital_39 -> Val Loss: 0.1257 | Val Acc: 0.9716
+Hospital_40 -> Val Loss: 0.0636 | Val Acc: 0.9886
+Hospital_41 -> Val Loss: 0.0757 | Val Acc: 0.9886
+Hospital_42 -> Val Loss: 0.1346 | Val Acc: 0.9659
+Hospital_43 -> Val Loss: 0.0916 | Val Acc: 0.9830
+Hospital_44 -> Val Loss: 0.0962 | Val Acc: 0.9830
+Hospital_45 -> Val Loss: 0.0837 | Val Acc: 0.9830
+Hospital_46 -> Val Loss: 0.1259 | Val Acc: 0.9602
+Hospital_47 -> Val Loss: 0.0802 | Val Acc: 0.9943
+Hospital_48 -> Val Loss: 0.0687 | Val Acc: 0.9886
+Hospital_49 -> Val Loss: 0.1312 | Val Acc: 0.9661
+Hospital_50 -> Val Loss: 0.1730 | Val Acc: 0.9489
+Val Loss medio: 0.1032 | Val Acc media: 0.9781
+Cambio vs ronda anterior: +0.0140 | cambio vs mejor: +0.0140 | umbral mejora: +0.0010
+Tiempo ronda: 51.68s
+Mejor val_acc hasta ahora: 0.9781 (ronda 2)
+
+==============================
+RONDA FEDERADA 3/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_15', 'Hospital_7', 'Hospital_4', 'Hospital_14', 'Hospital_2', 'Hospital_34', 'Hospital_41', 'Hospital_19', 'Hospital_10', 'Hospital_16', 'Hospital_31', 'Hospital_38', 'Hospital_22', 'Hospital_30', 'Hospital_49', 'Hospital_3', 'Hospital_27', 'Hospital_6', 'Hospital_25', 'Hospital_43', 'Hospital_48', 'Hospital_28', 'Hospital_23', 'Hospital_46', 'Hospital_9', 'Hospital_13', 'Hospital_17', 'Hospital_42', 'Hospital_44', 'Hospital_45']
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 0.0283 | Train Acc: 0.9898
+
+Entrenamiento local en Hospital_7...
+Train: 884 | Val: 176 | Test: 119
+Hospital_7 realizará 10 épocas locales con FedProx.
+Hospital_7 -> Train Loss: 0.0336 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0231 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_14...
+Train: 884 | Val: 176 | Test: 119
+Hospital_14 realizará 10 épocas locales con FedProx.
+Hospital_14 -> Train Loss: 0.0446 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0195 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_34...
+Train: 884 | Val: 176 | Test: 119
+Hospital_34 realizará 10 épocas locales con FedProx.
+Hospital_34 -> Train Loss: 0.0270 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_41...
+Train: 884 | Val: 176 | Test: 119
+Hospital_41 realizará 10 épocas locales con FedProx.
+Hospital_41 -> Train Loss: 0.0195 | Train Acc: 0.9898
+
+Entrenamiento local en Hospital_19...
+Train: 884 | Val: 176 | Test: 119
+Hospital_19 realizará 10 épocas locales con FedProx.
+Hospital_19 -> Train Loss: 0.0247 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_10...
+Train: 884 | Val: 176 | Test: 119
+Hospital_10 realizará 10 épocas locales con FedProx.
+Hospital_10 -> Train Loss: 0.0193 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_16...
+Train: 884 | Val: 176 | Test: 119
+Hospital_16 realizará 10 épocas locales con FedProx.
+Hospital_16 -> Train Loss: 0.0283 | Train Acc: 0.9876
+
+Entrenamiento local en Hospital_31...
+Train: 884 | Val: 176 | Test: 119
+Hospital_31 realizará 10 épocas locales con FedProx.
+Hospital_31 -> Train Loss: 0.0299 | Train Acc: 0.9910
+
+Entrenamiento local en Hospital_38...
+Train: 884 | Val: 176 | Test: 119
+Hospital_38 realizará 10 épocas locales con FedProx.
+Hospital_38 -> Train Loss: 0.0321 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_22...
+Train: 884 | Val: 176 | Test: 119
+Hospital_22 realizará 10 épocas locales con FedProx.
+Hospital_22 -> Train Loss: 0.0217 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_30...
+Train: 884 | Val: 176 | Test: 119
+Hospital_30 realizará 10 épocas locales con FedProx.
+Hospital_30 -> Train Loss: 0.0175 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_49...
+Train: 885 | Val: 177 | Test: 118
+Hospital_49 realizará 10 épocas locales con FedProx.
+Hospital_49 -> Train Loss: 0.0171 | Train Acc: 0.9944
+
+Entrenamiento local en Hospital_3...
+Train: 884 | Val: 176 | Test: 119
+Hospital_3 realizará 10 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0337 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_27...
+Train: 884 | Val: 176 | Test: 119
+Hospital_27 realizará 10 épocas locales con FedProx.
+Hospital_27 -> Train Loss: 0.0193 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_6...
+Train: 884 | Val: 176 | Test: 119
+Hospital_6 realizará 10 épocas locales con FedProx.
+Hospital_6 -> Train Loss: 0.0280 | Train Acc: 0.9898
+
+Entrenamiento local en Hospital_25...
+Train: 884 | Val: 176 | Test: 119
+Hospital_25 realizará 10 épocas locales con FedProx.
+Hospital_25 -> Train Loss: 0.0665 | Train Acc: 0.9830
+
+Entrenamiento local en Hospital_43...
+Train: 884 | Val: 176 | Test: 119
+Hospital_43 realizará 10 épocas locales con FedProx.
+Hospital_43 -> Train Loss: 0.0156 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_48...
+Train: 884 | Val: 176 | Test: 119
+Hospital_48 realizará 10 épocas locales con FedProx.
+Hospital_48 -> Train Loss: 0.0333 | Train Acc: 0.9842
+
+Entrenamiento local en Hospital_28...
+Train: 884 | Val: 176 | Test: 119
+Hospital_28 realizará 10 épocas locales con FedProx.
+Hospital_28 -> Train Loss: 0.0292 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_23...
+Train: 884 | Val: 176 | Test: 119
+Hospital_23 realizará 10 épocas locales con FedProx.
+Hospital_23 -> Train Loss: 0.0249 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_46...
+Train: 884 | Val: 176 | Test: 119
+Hospital_46 realizará 10 épocas locales con FedProx.
+Hospital_46 -> Train Loss: 0.0253 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_9...
+Train: 884 | Val: 176 | Test: 119
+Hospital_9 realizará 10 épocas locales con FedProx.
+Hospital_9 -> Train Loss: 0.0329 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_13...
+Train: 884 | Val: 176 | Test: 119
+Hospital_13 realizará 10 épocas locales con FedProx.
+Hospital_13 -> Train Loss: 0.0156 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_17...
+Train: 884 | Val: 176 | Test: 119
+Hospital_17 realizará 10 épocas locales con FedProx.
+Hospital_17 -> Train Loss: 0.0277 | Train Acc: 0.9876
+
+Entrenamiento local en Hospital_42...
+Train: 884 | Val: 176 | Test: 119
+Hospital_42 realizará 10 épocas locales con FedProx.
+Hospital_42 -> Train Loss: 0.0204 | Train Acc: 0.9887
+
+Entrenamiento local en Hospital_44...
+Train: 884 | Val: 176 | Test: 119
+Hospital_44 realizará 10 épocas locales con FedProx.
+Hospital_44 -> Train Loss: 0.0199 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_45...
+Train: 884 | Val: 176 | Test: 119
+Hospital_45 realizará 10 épocas locales con FedProx.
+Hospital_45 -> Train Loss: 0.0332 | Train Acc: 0.9898
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 3 ===
+Hospital_1 -> Val Loss: 0.0336 | Val Acc: 0.9773
+Hospital_2 -> Val Loss: 0.0264 | Val Acc: 0.9886
+Hospital_3 -> Val Loss: 0.1464 | Val Acc: 0.9602
+Hospital_4 -> Val Loss: 0.0529 | Val Acc: 0.9943
+Hospital_5 -> Val Loss: 0.0465 | Val Acc: 0.9830
+Hospital_6 -> Val Loss: 0.0142 | Val Acc: 0.9943
+Hospital_7 -> Val Loss: 0.0224 | Val Acc: 0.9943
+Hospital_8 -> Val Loss: 0.0197 | Val Acc: 0.9944
+Hospital_9 -> Val Loss: 0.0118 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0301 | Val Acc: 0.9943
+Hospital_11 -> Val Loss: 0.0246 | Val Acc: 0.9886
+Hospital_12 -> Val Loss: 0.0160 | Val Acc: 0.9943
+Hospital_13 -> Val Loss: 0.0137 | Val Acc: 0.9943
+Hospital_14 -> Val Loss: 0.0084 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0094 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0386 | Val Acc: 0.9886
+Hospital_17 -> Val Loss: 0.0977 | Val Acc: 0.9773
+Hospital_18 -> Val Loss: 0.0322 | Val Acc: 0.9886
+Hospital_19 -> Val Loss: 0.0144 | Val Acc: 0.9943
+Hospital_20 -> Val Loss: 0.0442 | Val Acc: 0.9659
+Hospital_21 -> Val Loss: 0.0256 | Val Acc: 0.9886
+Hospital_22 -> Val Loss: 0.0505 | Val Acc: 0.9773
+Hospital_23 -> Val Loss: 0.0215 | Val Acc: 0.9943
+Hospital_24 -> Val Loss: 0.0962 | Val Acc: 0.9831
+Hospital_25 -> Val Loss: 0.0260 | Val Acc: 0.9886
+Hospital_26 -> Val Loss: 0.0613 | Val Acc: 0.9659
+Hospital_27 -> Val Loss: 0.0204 | Val Acc: 0.9943
+Hospital_28 -> Val Loss: 0.0301 | Val Acc: 0.9886
+Hospital_29 -> Val Loss: 0.1404 | Val Acc: 0.9773
+Hospital_30 -> Val Loss: 0.0751 | Val Acc: 0.9773
+Hospital_31 -> Val Loss: 0.0243 | Val Acc: 0.9830
+Hospital_32 -> Val Loss: 0.0349 | Val Acc: 0.9886
+Hospital_33 -> Val Loss: 0.0119 | Val Acc: 0.9943
+Hospital_34 -> Val Loss: 0.0916 | Val Acc: 0.9886
+Hospital_35 -> Val Loss: 0.0479 | Val Acc: 0.9886
+Hospital_36 -> Val Loss: 0.0393 | Val Acc: 0.9944
+Hospital_37 -> Val Loss: 0.0210 | Val Acc: 0.9943
+Hospital_38 -> Val Loss: 0.0204 | Val Acc: 0.9943
+Hospital_39 -> Val Loss: 0.0624 | Val Acc: 0.9830
+Hospital_40 -> Val Loss: 0.0140 | Val Acc: 0.9943
+Hospital_41 -> Val Loss: 0.0127 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0736 | Val Acc: 0.9716
+Hospital_43 -> Val Loss: 0.0768 | Val Acc: 0.9830
+Hospital_44 -> Val Loss: 0.0213 | Val Acc: 0.9886
+Hospital_45 -> Val Loss: 0.0091 | Val Acc: 1.0000
+Hospital_46 -> Val Loss: 0.0682 | Val Acc: 0.9773
+Hospital_47 -> Val Loss: 0.0163 | Val Acc: 0.9943
+Hospital_48 -> Val Loss: 0.0191 | Val Acc: 0.9886
+Hospital_49 -> Val Loss: 0.0361 | Val Acc: 0.9831
+Hospital_50 -> Val Loss: 0.0810 | Val Acc: 0.9886
+Val Loss medio: 0.0406 | Val Acc media: 0.9877
+Cambio vs ronda anterior: +0.0097 | cambio vs mejor: +0.0097 | umbral mejora: +0.0010
+Tiempo ronda: 51.51s
+Mejor val_acc hasta ahora: 0.9877 (ronda 3)
+
+==============================
+RONDA FEDERADA 4/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_40', 'Hospital_30', 'Hospital_3', 'Hospital_4', 'Hospital_49', 'Hospital_7', 'Hospital_42', 'Hospital_45', 'Hospital_17', 'Hospital_6', 'Hospital_43', 'Hospital_36', 'Hospital_32', 'Hospital_21', 'Hospital_10', 'Hospital_28', 'Hospital_26', 'Hospital_11', 'Hospital_29', 'Hospital_18', 'Hospital_2', 'Hospital_44', 'Hospital_39', 'Hospital_20', 'Hospital_38', 'Hospital_47', 'Hospital_35', 'Hospital_15', 'Hospital_46', 'Hospital_5']
+
+Entrenamiento local en Hospital_40...
+Train: 884 | Val: 176 | Test: 119
+Hospital_40 realizará 10 épocas locales con FedProx.
+Hospital_40 -> Train Loss: 0.0147 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_30...
+Train: 884 | Val: 176 | Test: 119
+Hospital_30 realizará 10 épocas locales con FedProx.
+Hospital_30 -> Train Loss: 0.0122 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_3...
+Train: 884 | Val: 176 | Test: 119
+Hospital_3 realizará 10 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0212 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0112 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_49...
+Train: 885 | Val: 177 | Test: 118
+Hospital_49 realizará 10 épocas locales con FedProx.
+Hospital_49 -> Train Loss: 0.5346 | Train Acc: 0.8712
+
+Entrenamiento local en Hospital_7...
+Train: 884 | Val: 176 | Test: 119
+Hospital_7 realizará 10 épocas locales con FedProx.
+Hospital_7 -> Train Loss: 0.0228 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_42...
+Train: 884 | Val: 176 | Test: 119
+Hospital_42 realizará 10 épocas locales con FedProx.
+Hospital_42 -> Train Loss: 0.0131 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_45...
+Train: 884 | Val: 176 | Test: 119
+Hospital_45 realizará 10 épocas locales con FedProx.
+Hospital_45 -> Train Loss: 0.0172 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_17...
+Train: 884 | Val: 176 | Test: 119
+Hospital_17 realizará 10 épocas locales con FedProx.
+Hospital_17 -> Train Loss: 0.0134 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_6...
+Train: 884 | Val: 176 | Test: 119
+Hospital_6 realizará 10 épocas locales con FedProx.
+Hospital_6 -> Train Loss: 0.0232 | Train Acc: 0.9910
+
+Entrenamiento local en Hospital_43...
+Train: 884 | Val: 176 | Test: 119
+Hospital_43 realizará 10 épocas locales con FedProx.
+Hospital_43 -> Train Loss: 0.0097 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_36...
+Train: 885 | Val: 177 | Test: 118
+Hospital_36 realizará 10 épocas locales con FedProx.
+Hospital_36 -> Train Loss: 0.0174 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_32...
+Train: 884 | Val: 176 | Test: 119
+Hospital_32 realizará 10 épocas locales con FedProx.
+Hospital_32 -> Train Loss: 0.0175 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_21...
+Train: 884 | Val: 176 | Test: 119
+Hospital_21 realizará 10 épocas locales con FedProx.
+Hospital_21 -> Train Loss: 0.0166 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_10...
+Train: 884 | Val: 176 | Test: 119
+Hospital_10 realizará 10 épocas locales con FedProx.
+Hospital_10 -> Train Loss: 0.0119 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_28...
+Train: 884 | Val: 176 | Test: 119
+Hospital_28 realizará 10 épocas locales con FedProx.
+Hospital_28 -> Train Loss: 0.0310 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_26...
+Train: 884 | Val: 176 | Test: 119
+Hospital_26 realizará 10 épocas locales con FedProx.
+Hospital_26 -> Train Loss: 0.0256 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_11...
+Train: 884 | Val: 176 | Test: 119
+Hospital_11 realizará 10 épocas locales con FedProx.
+Hospital_11 -> Train Loss: 0.0108 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_29...
+Train: 884 | Val: 176 | Test: 119
+Hospital_29 realizará 10 épocas locales con FedProx.
+Hospital_29 -> Train Loss: 0.0188 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_18...
+Train: 884 | Val: 176 | Test: 119
+Hospital_18 realizará 10 épocas locales con FedProx.
+Hospital_18 -> Train Loss: 0.0171 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0092 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_44...
+Train: 884 | Val: 176 | Test: 119
+Hospital_44 realizará 10 épocas locales con FedProx.
+Hospital_44 -> Train Loss: 0.0148 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_39...
+Train: 884 | Val: 176 | Test: 119
+Hospital_39 realizará 10 épocas locales con FedProx.
+Hospital_39 -> Train Loss: 0.0108 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_20...
+Train: 884 | Val: 176 | Test: 119
+Hospital_20 realizará 10 épocas locales con FedProx.
+Hospital_20 -> Train Loss: 0.0201 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_38...
+Train: 884 | Val: 176 | Test: 119
+Hospital_38 realizará 10 épocas locales con FedProx.
+Hospital_38 -> Train Loss: 0.1509 | Train Acc: 0.9672
+
+Entrenamiento local en Hospital_47...
+Train: 884 | Val: 176 | Test: 119
+Hospital_47 realizará 10 épocas locales con FedProx.
+Hospital_47 -> Train Loss: 0.0224 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_35...
+Train: 884 | Val: 176 | Test: 119
+Hospital_35 realizará 10 épocas locales con FedProx.
+Hospital_35 -> Train Loss: 0.0289 | Train Acc: 0.9910
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 0.0201 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_46...
+Train: 884 | Val: 176 | Test: 119
+Hospital_46 realizará 10 épocas locales con FedProx.
+Hospital_46 -> Train Loss: 0.0180 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_5...
+Train: 884 | Val: 176 | Test: 119
+Hospital_5 realizará 10 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0730 | Train Acc: 0.9774
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 4 ===
+Hospital_1 -> Val Loss: 0.0280 | Val Acc: 0.9830
+Hospital_2 -> Val Loss: 0.0241 | Val Acc: 0.9886
+Hospital_3 -> Val Loss: 0.1256 | Val Acc: 0.9602
+Hospital_4 -> Val Loss: 0.0338 | Val Acc: 0.9886
+Hospital_5 -> Val Loss: 0.0271 | Val Acc: 0.9830
+Hospital_6 -> Val Loss: 0.0065 | Val Acc: 1.0000
+Hospital_7 -> Val Loss: 0.0195 | Val Acc: 0.9943
+Hospital_8 -> Val Loss: 0.0232 | Val Acc: 0.9944
+Hospital_9 -> Val Loss: 0.0086 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0381 | Val Acc: 0.9886
+Hospital_11 -> Val Loss: 0.0263 | Val Acc: 0.9886
+Hospital_12 -> Val Loss: 0.0158 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0131 | Val Acc: 0.9943
+Hospital_14 -> Val Loss: 0.0075 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0091 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0220 | Val Acc: 0.9943
+Hospital_17 -> Val Loss: 0.0774 | Val Acc: 0.9830
+Hospital_18 -> Val Loss: 0.0260 | Val Acc: 0.9943
+Hospital_19 -> Val Loss: 0.0141 | Val Acc: 0.9943
+Hospital_20 -> Val Loss: 0.0400 | Val Acc: 0.9830
+Hospital_21 -> Val Loss: 0.0190 | Val Acc: 0.9943
+Hospital_22 -> Val Loss: 0.0395 | Val Acc: 0.9830
+Hospital_23 -> Val Loss: 0.0224 | Val Acc: 0.9943
+Hospital_24 -> Val Loss: 0.0911 | Val Acc: 0.9831
+Hospital_25 -> Val Loss: 0.0218 | Val Acc: 0.9943
+Hospital_26 -> Val Loss: 0.0580 | Val Acc: 0.9602
+Hospital_27 -> Val Loss: 0.0209 | Val Acc: 0.9886
+Hospital_28 -> Val Loss: 0.0330 | Val Acc: 0.9886
+Hospital_29 -> Val Loss: 0.1404 | Val Acc: 0.9716
+Hospital_30 -> Val Loss: 0.0805 | Val Acc: 0.9773
+Hospital_31 -> Val Loss: 0.0261 | Val Acc: 0.9886
+Hospital_32 -> Val Loss: 0.0238 | Val Acc: 0.9943
+Hospital_33 -> Val Loss: 0.0084 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0733 | Val Acc: 0.9886
+Hospital_35 -> Val Loss: 0.0271 | Val Acc: 0.9886
+Hospital_36 -> Val Loss: 0.0305 | Val Acc: 0.9887
+Hospital_37 -> Val Loss: 0.0090 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0164 | Val Acc: 0.9943
+Hospital_39 -> Val Loss: 0.0379 | Val Acc: 0.9830
+Hospital_40 -> Val Loss: 0.0138 | Val Acc: 0.9943
+Hospital_41 -> Val Loss: 0.0104 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0597 | Val Acc: 0.9716
+Hospital_43 -> Val Loss: 0.0616 | Val Acc: 0.9886
+Hospital_44 -> Val Loss: 0.0243 | Val Acc: 0.9886
+Hospital_45 -> Val Loss: 0.0099 | Val Acc: 1.0000
+Hospital_46 -> Val Loss: 0.0469 | Val Acc: 0.9830
+Hospital_47 -> Val Loss: 0.0164 | Val Acc: 0.9943
+Hospital_48 -> Val Loss: 0.0187 | Val Acc: 0.9886
+Hospital_49 -> Val Loss: 0.0361 | Val Acc: 0.9831
+Hospital_50 -> Val Loss: 0.0845 | Val Acc: 0.9830
+Val Loss medio: 0.0349 | Val Acc media: 0.9890
+Cambio vs ronda anterior: +0.0013 | cambio vs mejor: +0.0013 | umbral mejora: +0.0010
+Tiempo ronda: 51.83s
+Mejor val_acc hasta ahora: 0.9890 (ronda 4)
+
+==============================
+RONDA FEDERADA 5/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_32', 'Hospital_38', 'Hospital_18', 'Hospital_39', 'Hospital_15', 'Hospital_23', 'Hospital_3', 'Hospital_37', 'Hospital_50', 'Hospital_34', 'Hospital_1', 'Hospital_25', 'Hospital_27', 'Hospital_29', 'Hospital_33', 'Hospital_45', 'Hospital_9', 'Hospital_35', 'Hospital_4', 'Hospital_26', 'Hospital_7', 'Hospital_46', 'Hospital_10', 'Hospital_12', 'Hospital_8', 'Hospital_40', 'Hospital_48', 'Hospital_49', 'Hospital_16', 'Hospital_2']
+
+Entrenamiento local en Hospital_32...
+Train: 884 | Val: 176 | Test: 119
+Hospital_32 realizará 10 épocas locales con FedProx.
+Hospital_32 -> Train Loss: 0.0102 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_38...
+Train: 884 | Val: 176 | Test: 119
+Hospital_38 realizará 10 épocas locales con FedProx.
+Hospital_38 -> Train Loss: 0.0085 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 884 | Val: 176 | Test: 119
+Hospital_18 realizará 10 épocas locales con FedProx.
+Hospital_18 -> Train Loss: 0.0092 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_39...
+Train: 884 | Val: 176 | Test: 119
+Hospital_39 realizará 10 épocas locales con FedProx.
+Hospital_39 -> Train Loss: 0.0078 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 0.0087 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_23...
+Train: 884 | Val: 176 | Test: 119
+Hospital_23 realizará 10 épocas locales con FedProx.
+Hospital_23 -> Train Loss: 0.0133 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_3...
+Train: 884 | Val: 176 | Test: 119
+Hospital_3 realizará 10 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0139 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_37...
+Train: 884 | Val: 176 | Test: 119
+Hospital_37 realizará 10 épocas locales con FedProx.
+Hospital_37 -> Train Loss: 0.0074 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_50...
+Train: 884 | Val: 176 | Test: 119
+Hospital_50 realizará 10 épocas locales con FedProx.
+Hospital_50 -> Train Loss: 0.0127 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_34...
+Train: 884 | Val: 176 | Test: 119
+Hospital_34 realizará 10 épocas locales con FedProx.
+Hospital_34 -> Train Loss: 0.0107 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_1...
+Train: 884 | Val: 176 | Test: 119
+Hospital_1 realizará 10 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0169 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_25...
+Train: 884 | Val: 176 | Test: 119
+Hospital_25 realizará 10 épocas locales con FedProx.
+Hospital_25 -> Train Loss: 0.0168 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_27...
+Train: 884 | Val: 176 | Test: 119
+Hospital_27 realizará 10 épocas locales con FedProx.
+Hospital_27 -> Train Loss: 0.0154 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_29...
+Train: 884 | Val: 176 | Test: 119
+Hospital_29 realizará 10 épocas locales con FedProx.
+Hospital_29 -> Train Loss: 0.0688 | Train Acc: 0.9876
+
+Entrenamiento local en Hospital_33...
+Train: 884 | Val: 176 | Test: 119
+Hospital_33 realizará 10 épocas locales con FedProx.
+Hospital_33 -> Train Loss: 0.0166 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_45...
+Train: 884 | Val: 176 | Test: 119
+Hospital_45 realizará 10 épocas locales con FedProx.
+Hospital_45 -> Train Loss: 0.0153 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_9...
+Train: 884 | Val: 176 | Test: 119
+Hospital_9 realizará 10 épocas locales con FedProx.
+Hospital_9 -> Train Loss: 0.0180 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_35...
+Train: 884 | Val: 176 | Test: 119
+Hospital_35 realizará 10 épocas locales con FedProx.
+Hospital_35 -> Train Loss: 0.0190 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0114 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_26...
+Train: 884 | Val: 176 | Test: 119
+Hospital_26 realizará 10 épocas locales con FedProx.
+Hospital_26 -> Train Loss: 0.0141 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_7...
+Train: 884 | Val: 176 | Test: 119
+Hospital_7 realizará 10 épocas locales con FedProx.
+Hospital_7 -> Train Loss: 0.0145 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_46...
+Train: 884 | Val: 176 | Test: 119
+Hospital_46 realizará 10 épocas locales con FedProx.
+Hospital_46 -> Train Loss: 0.0168 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_10...
+Train: 884 | Val: 176 | Test: 119
+Hospital_10 realizará 10 épocas locales con FedProx.
+Hospital_10 -> Train Loss: 0.0100 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_12...
+Train: 884 | Val: 176 | Test: 119
+Hospital_12 realizará 10 épocas locales con FedProx.
+Hospital_12 -> Train Loss: 0.0168 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_8...
+Train: 885 | Val: 177 | Test: 118
+Hospital_8 realizará 10 épocas locales con FedProx.
+Hospital_8 -> Train Loss: 0.0104 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_40...
+Train: 884 | Val: 176 | Test: 119
+Hospital_40 realizará 10 épocas locales con FedProx.
+Hospital_40 -> Train Loss: 0.0096 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_48...
+Train: 884 | Val: 176 | Test: 119
+Hospital_48 realizará 10 épocas locales con FedProx.
+Hospital_48 -> Train Loss: 0.0299 | Train Acc: 0.9898
+
+Entrenamiento local en Hospital_49...
+Train: 885 | Val: 177 | Test: 118
+Hospital_49 realizará 10 épocas locales con FedProx.
+Hospital_49 -> Train Loss: 0.0077 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_16...
+Train: 884 | Val: 176 | Test: 119
+Hospital_16 realizará 10 épocas locales con FedProx.
+Hospital_16 -> Train Loss: 0.0129 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0075 | Train Acc: 0.9966
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.01s
+
+=== Evaluación en VALIDACIÓN después de ronda 5 ===
+Hospital_1 -> Val Loss: 0.0479 | Val Acc: 0.9886
+Hospital_2 -> Val Loss: 0.0487 | Val Acc: 0.9886
+Hospital_3 -> Val Loss: 0.1312 | Val Acc: 0.9602
+Hospital_4 -> Val Loss: 0.0505 | Val Acc: 0.9886
+Hospital_5 -> Val Loss: 0.0187 | Val Acc: 1.0000
+Hospital_6 -> Val Loss: 0.0143 | Val Acc: 1.0000
+Hospital_7 -> Val Loss: 0.0430 | Val Acc: 0.9886
+Hospital_8 -> Val Loss: 0.0263 | Val Acc: 0.9887
+Hospital_9 -> Val Loss: 0.0225 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0773 | Val Acc: 0.9830
+Hospital_11 -> Val Loss: 0.0575 | Val Acc: 0.9886
+Hospital_12 -> Val Loss: 0.0310 | Val Acc: 0.9943
+Hospital_13 -> Val Loss: 0.0252 | Val Acc: 0.9943
+Hospital_14 -> Val Loss: 0.0160 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0194 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0375 | Val Acc: 0.9943
+Hospital_17 -> Val Loss: 0.0535 | Val Acc: 0.9886
+Hospital_18 -> Val Loss: 0.0498 | Val Acc: 0.9943
+Hospital_19 -> Val Loss: 0.0288 | Val Acc: 0.9943
+Hospital_20 -> Val Loss: 0.0566 | Val Acc: 0.9886
+Hospital_21 -> Val Loss: 0.0340 | Val Acc: 0.9943
+Hospital_22 -> Val Loss: 0.0775 | Val Acc: 0.9830
+Hospital_23 -> Val Loss: 0.0436 | Val Acc: 0.9886
+Hospital_24 -> Val Loss: 0.0819 | Val Acc: 0.9831
+Hospital_25 -> Val Loss: 0.0511 | Val Acc: 0.9886
+Hospital_26 -> Val Loss: 0.1001 | Val Acc: 0.9716
+Hospital_27 -> Val Loss: 0.0444 | Val Acc: 0.9886
+Hospital_28 -> Val Loss: 0.0645 | Val Acc: 0.9830
+Hospital_29 -> Val Loss: 0.1661 | Val Acc: 0.9716
+Hospital_30 -> Val Loss: 0.0959 | Val Acc: 0.9773
+Hospital_31 -> Val Loss: 0.0525 | Val Acc: 0.9886
+Hospital_32 -> Val Loss: 0.0458 | Val Acc: 0.9886
+Hospital_33 -> Val Loss: 0.0134 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0754 | Val Acc: 0.9886
+Hospital_35 -> Val Loss: 0.0400 | Val Acc: 0.9943
+Hospital_36 -> Val Loss: 0.0500 | Val Acc: 0.9887
+Hospital_37 -> Val Loss: 0.0115 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0263 | Val Acc: 0.9943
+Hospital_39 -> Val Loss: 0.0600 | Val Acc: 0.9830
+Hospital_40 -> Val Loss: 0.0277 | Val Acc: 0.9943
+Hospital_41 -> Val Loss: 0.0261 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0919 | Val Acc: 0.9716
+Hospital_43 -> Val Loss: 0.0657 | Val Acc: 0.9886
+Hospital_44 -> Val Loss: 0.0569 | Val Acc: 0.9886
+Hospital_45 -> Val Loss: 0.0231 | Val Acc: 1.0000
+Hospital_46 -> Val Loss: 0.0576 | Val Acc: 0.9830
+Hospital_47 -> Val Loss: 0.0361 | Val Acc: 0.9943
+Hospital_48 -> Val Loss: 0.0356 | Val Acc: 0.9943
+Hospital_49 -> Val Loss: 0.0757 | Val Acc: 0.9831
+Hospital_50 -> Val Loss: 0.1174 | Val Acc: 0.9830
+Val Loss medio: 0.0521 | Val Acc media: 0.9892
+Cambio vs ronda anterior: +0.0002 | cambio vs mejor: +0.0002 | umbral mejora: +0.0010
+Tiempo ronda: 51.83s
+Sin mejora en validacion: 1/3
+
+==============================
+RONDA FEDERADA 6/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_48', 'Hospital_23', 'Hospital_18', 'Hospital_50', 'Hospital_26', 'Hospital_37', 'Hospital_7', 'Hospital_22', 'Hospital_27', 'Hospital_3', 'Hospital_25', 'Hospital_46', 'Hospital_47', 'Hospital_39', 'Hospital_21', 'Hospital_12', 'Hospital_4', 'Hospital_16', 'Hospital_2', 'Hospital_28', 'Hospital_40', 'Hospital_29', 'Hospital_24', 'Hospital_20', 'Hospital_38', 'Hospital_19', 'Hospital_13', 'Hospital_10', 'Hospital_17', 'Hospital_31']
+
+Entrenamiento local en Hospital_48...
+Train: 884 | Val: 176 | Test: 119
+Hospital_48 realizará 10 épocas locales con FedProx.
+Hospital_48 -> Train Loss: 0.0102 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_23...
+Train: 884 | Val: 176 | Test: 119
+Hospital_23 realizará 10 épocas locales con FedProx.
+Hospital_23 -> Train Loss: 0.0132 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_18...
+Train: 884 | Val: 176 | Test: 119
+Hospital_18 realizará 10 épocas locales con FedProx.
+Hospital_18 -> Train Loss: 0.0068 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_50...
+Train: 884 | Val: 176 | Test: 119
+Hospital_50 realizará 10 épocas locales con FedProx.
+Hospital_50 -> Train Loss: 0.0082 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_26...
+Train: 884 | Val: 176 | Test: 119
+Hospital_26 realizará 10 épocas locales con FedProx.
+Hospital_26 -> Train Loss: 0.0290 | Train Acc: 0.9921
+
+Entrenamiento local en Hospital_37...
+Train: 884 | Val: 176 | Test: 119
+Hospital_37 realizará 10 épocas locales con FedProx.
+Hospital_37 -> Train Loss: 0.0122 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_7...
+Train: 884 | Val: 176 | Test: 119
+Hospital_7 realizará 10 épocas locales con FedProx.
+Hospital_7 -> Train Loss: 0.0115 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_22...
+Train: 884 | Val: 176 | Test: 119
+Hospital_22 realizará 10 épocas locales con FedProx.
+Hospital_22 -> Train Loss: 0.0079 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_27...
+Train: 884 | Val: 176 | Test: 119
+Hospital_27 realizará 10 épocas locales con FedProx.
+Hospital_27 -> Train Loss: 0.0130 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_3...
+Train: 884 | Val: 176 | Test: 119
+Hospital_3 realizará 10 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0113 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_25...
+Train: 884 | Val: 176 | Test: 119
+Hospital_25 realizará 10 épocas locales con FedProx.
+Hospital_25 -> Train Loss: 0.0107 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_46...
+Train: 884 | Val: 176 | Test: 119
+Hospital_46 realizará 10 épocas locales con FedProx.
+Hospital_46 -> Train Loss: 0.0120 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_47...
+Train: 884 | Val: 176 | Test: 119
+Hospital_47 realizará 10 épocas locales con FedProx.
+Hospital_47 -> Train Loss: 0.0116 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_39...
+Train: 884 | Val: 176 | Test: 119
+Hospital_39 realizará 10 épocas locales con FedProx.
+Hospital_39 -> Train Loss: 0.0059 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 884 | Val: 176 | Test: 119
+Hospital_21 realizará 10 épocas locales con FedProx.
+Hospital_21 -> Train Loss: 0.0076 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_12...
+Train: 884 | Val: 176 | Test: 119
+Hospital_12 realizará 10 épocas locales con FedProx.
+Hospital_12 -> Train Loss: 0.0154 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0075 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_16...
+Train: 884 | Val: 176 | Test: 119
+Hospital_16 realizará 10 épocas locales con FedProx.
+Hospital_16 -> Train Loss: 0.0102 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0048 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 884 | Val: 176 | Test: 119
+Hospital_28 realizará 10 épocas locales con FedProx.
+Hospital_28 -> Train Loss: 0.0212 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_40...
+Train: 884 | Val: 176 | Test: 119
+Hospital_40 realizará 10 épocas locales con FedProx.
+Hospital_40 -> Train Loss: 0.0079 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_29...
+Train: 884 | Val: 176 | Test: 119
+Hospital_29 realizará 10 épocas locales con FedProx.
+Hospital_29 -> Train Loss: 0.4330 | Train Acc: 0.8778
+
+Entrenamiento local en Hospital_24...
+Train: 885 | Val: 177 | Test: 118
+Hospital_24 realizará 10 épocas locales con FedProx.
+Hospital_24 -> Train Loss: 0.0105 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_20...
+Train: 884 | Val: 176 | Test: 119
+Hospital_20 realizará 10 épocas locales con FedProx.
+Hospital_20 -> Train Loss: 0.0120 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_38...
+Train: 884 | Val: 176 | Test: 119
+Hospital_38 realizará 10 épocas locales con FedProx.
+Hospital_38 -> Train Loss: 0.0091 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_19...
+Train: 884 | Val: 176 | Test: 119
+Hospital_19 realizará 10 épocas locales con FedProx.
+Hospital_19 -> Train Loss: 0.0091 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_13...
+Train: 884 | Val: 176 | Test: 119
+Hospital_13 realizará 10 épocas locales con FedProx.
+Hospital_13 -> Train Loss: 0.0050 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_10...
+Train: 884 | Val: 176 | Test: 119
+Hospital_10 realizará 10 épocas locales con FedProx.
+Hospital_10 -> Train Loss: 0.0075 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_17...
+Train: 884 | Val: 176 | Test: 119
+Hospital_17 realizará 10 épocas locales con FedProx.
+Hospital_17 -> Train Loss: 0.0079 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 884 | Val: 176 | Test: 119
+Hospital_31 realizará 10 épocas locales con FedProx.
+Hospital_31 -> Train Loss: 0.0144 | Train Acc: 0.9966
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 6 ===
+Hospital_1 -> Val Loss: 0.0175 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0144 | Val Acc: 1.0000
+Hospital_3 -> Val Loss: 0.0826 | Val Acc: 0.9830
+Hospital_4 -> Val Loss: 0.0211 | Val Acc: 0.9943
+Hospital_5 -> Val Loss: 0.0251 | Val Acc: 0.9886
+Hospital_6 -> Val Loss: 0.0060 | Val Acc: 1.0000
+Hospital_7 -> Val Loss: 0.0130 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0132 | Val Acc: 0.9944
+Hospital_9 -> Val Loss: 0.0056 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0192 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0149 | Val Acc: 1.0000
+Hospital_12 -> Val Loss: 0.0083 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0082 | Val Acc: 1.0000
+Hospital_14 -> Val Loss: 0.0040 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0048 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0166 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0805 | Val Acc: 0.9830
+Hospital_18 -> Val Loss: 0.0159 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0075 | Val Acc: 1.0000
+Hospital_20 -> Val Loss: 0.0338 | Val Acc: 0.9943
+Hospital_21 -> Val Loss: 0.0123 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0296 | Val Acc: 0.9943
+Hospital_23 -> Val Loss: 0.0110 | Val Acc: 1.0000
+Hospital_24 -> Val Loss: 0.0633 | Val Acc: 0.9887
+Hospital_25 -> Val Loss: 0.0137 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0382 | Val Acc: 0.9943
+Hospital_27 -> Val Loss: 0.0128 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0168 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.1066 | Val Acc: 0.9830
+Hospital_30 -> Val Loss: 0.0663 | Val Acc: 0.9886
+Hospital_31 -> Val Loss: 0.0148 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.0138 | Val Acc: 1.0000
+Hospital_33 -> Val Loss: 0.0040 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0647 | Val Acc: 0.9943
+Hospital_35 -> Val Loss: 0.0219 | Val Acc: 0.9943
+Hospital_36 -> Val Loss: 0.0220 | Val Acc: 0.9944
+Hospital_37 -> Val Loss: 0.0072 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0078 | Val Acc: 0.9943
+Hospital_39 -> Val Loss: 0.0223 | Val Acc: 1.0000
+Hospital_40 -> Val Loss: 0.0080 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0069 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0345 | Val Acc: 0.9943
+Hospital_43 -> Val Loss: 0.0651 | Val Acc: 0.9943
+Hospital_44 -> Val Loss: 0.0149 | Val Acc: 1.0000
+Hospital_45 -> Val Loss: 0.0041 | Val Acc: 1.0000
+Hospital_46 -> Val Loss: 0.0403 | Val Acc: 0.9886
+Hospital_47 -> Val Loss: 0.0105 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0112 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0205 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0619 | Val Acc: 0.9943
+Val Loss medio: 0.0248 | Val Acc media: 0.9967
+Cambio vs ronda anterior: +0.0075 | cambio vs mejor: +0.0077 | umbral mejora: +0.0010
+Tiempo ronda: 51.88s
+Mejor val_acc hasta ahora: 0.9967 (ronda 6)
+
+==============================
+RONDA FEDERADA 7/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_47', 'Hospital_21', 'Hospital_11', 'Hospital_50', 'Hospital_37', 'Hospital_22', 'Hospital_15', 'Hospital_39', 'Hospital_7', 'Hospital_35', 'Hospital_18', 'Hospital_12', 'Hospital_49', 'Hospital_1', 'Hospital_25', 'Hospital_14', 'Hospital_9', 'Hospital_40', 'Hospital_31', 'Hospital_19', 'Hospital_36', 'Hospital_20', 'Hospital_6', 'Hospital_48', 'Hospital_30', 'Hospital_45', 'Hospital_34', 'Hospital_13', 'Hospital_5', 'Hospital_2']
+
+Entrenamiento local en Hospital_47...
+Train: 884 | Val: 176 | Test: 119
+Hospital_47 realizará 10 épocas locales con FedProx.
+Hospital_47 -> Train Loss: 0.0064 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_21...
+Train: 884 | Val: 176 | Test: 119
+Hospital_21 realizará 10 épocas locales con FedProx.
+Hospital_21 -> Train Loss: 0.0072 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_11...
+Train: 884 | Val: 176 | Test: 119
+Hospital_11 realizará 10 épocas locales con FedProx.
+Hospital_11 -> Train Loss: 0.0071 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_50...
+Train: 884 | Val: 176 | Test: 119
+Hospital_50 realizará 10 épocas locales con FedProx.
+Hospital_50 -> Train Loss: 0.0074 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 884 | Val: 176 | Test: 119
+Hospital_37 realizará 10 épocas locales con FedProx.
+Hospital_37 -> Train Loss: 0.0076 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_22...
+Train: 884 | Val: 176 | Test: 119
+Hospital_22 realizará 10 épocas locales con FedProx.
+Hospital_22 -> Train Loss: 0.0051 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 0.0055 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_39...
+Train: 884 | Val: 176 | Test: 119
+Hospital_39 realizará 10 épocas locales con FedProx.
+Hospital_39 -> Train Loss: 0.0046 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_7...
+Train: 884 | Val: 176 | Test: 119
+Hospital_7 realizará 10 épocas locales con FedProx.
+Hospital_7 -> Train Loss: 0.0083 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_35...
+Train: 884 | Val: 176 | Test: 119
+Hospital_35 realizará 10 épocas locales con FedProx.
+Hospital_35 -> Train Loss: 0.0143 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_18...
+Train: 884 | Val: 176 | Test: 119
+Hospital_18 realizará 10 épocas locales con FedProx.
+Hospital_18 -> Train Loss: 0.0060 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_12...
+Train: 884 | Val: 176 | Test: 119
+Hospital_12 realizará 10 épocas locales con FedProx.
+Hospital_12 -> Train Loss: 0.0136 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_49...
+Train: 885 | Val: 177 | Test: 118
+Hospital_49 realizará 10 épocas locales con FedProx.
+Hospital_49 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 884 | Val: 176 | Test: 119
+Hospital_1 realizará 10 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.3534 | Train Acc: 0.8778
+
+Entrenamiento local en Hospital_25...
+Train: 884 | Val: 176 | Test: 119
+Hospital_25 realizará 10 épocas locales con FedProx.
+Hospital_25 -> Train Loss: 0.0156 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_14...
+Train: 884 | Val: 176 | Test: 119
+Hospital_14 realizará 10 épocas locales con FedProx.
+Hospital_14 -> Train Loss: 0.0154 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_9...
+Train: 884 | Val: 176 | Test: 119
+Hospital_9 realizará 10 épocas locales con FedProx.
+Hospital_9 -> Train Loss: 0.0066 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_40...
+Train: 884 | Val: 176 | Test: 119
+Hospital_40 realizará 10 épocas locales con FedProx.
+Hospital_40 -> Train Loss: 0.0062 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_31...
+Train: 884 | Val: 176 | Test: 119
+Hospital_31 realizará 10 épocas locales con FedProx.
+Hospital_31 -> Train Loss: 0.0108 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_19...
+Train: 884 | Val: 176 | Test: 119
+Hospital_19 realizará 10 épocas locales con FedProx.
+Hospital_19 -> Train Loss: 0.0080 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_36...
+Train: 885 | Val: 177 | Test: 118
+Hospital_36 realizará 10 épocas locales con FedProx.
+Hospital_36 -> Train Loss: 0.0059 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_20...
+Train: 884 | Val: 176 | Test: 119
+Hospital_20 realizará 10 épocas locales con FedProx.
+Hospital_20 -> Train Loss: 0.0059 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 884 | Val: 176 | Test: 119
+Hospital_6 realizará 10 épocas locales con FedProx.
+Hospital_6 -> Train Loss: 0.0148 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_48...
+Train: 884 | Val: 176 | Test: 119
+Hospital_48 realizará 10 épocas locales con FedProx.
+Hospital_48 -> Train Loss: 0.0110 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_30...
+Train: 884 | Val: 176 | Test: 119
+Hospital_30 realizará 10 épocas locales con FedProx.
+Hospital_30 -> Train Loss: 0.0045 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 884 | Val: 176 | Test: 119
+Hospital_45 realizará 10 épocas locales con FedProx.
+Hospital_45 -> Train Loss: 0.0178 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_34...
+Train: 884 | Val: 176 | Test: 119
+Hospital_34 realizará 10 épocas locales con FedProx.
+Hospital_34 -> Train Loss: 0.0081 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_13...
+Train: 884 | Val: 176 | Test: 119
+Hospital_13 realizará 10 épocas locales con FedProx.
+Hospital_13 -> Train Loss: 0.0050 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 884 | Val: 176 | Test: 119
+Hospital_5 realizará 10 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0057 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0040 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 7 ===
+Hospital_1 -> Val Loss: 0.0213 | Val Acc: 0.9886
+Hospital_2 -> Val Loss: 0.0191 | Val Acc: 0.9886
+Hospital_3 -> Val Loss: 0.0817 | Val Acc: 0.9659
+Hospital_4 -> Val Loss: 0.0210 | Val Acc: 0.9943
+Hospital_5 -> Val Loss: 0.0222 | Val Acc: 0.9886
+Hospital_6 -> Val Loss: 0.0035 | Val Acc: 1.0000
+Hospital_7 -> Val Loss: 0.0161 | Val Acc: 0.9943
+Hospital_8 -> Val Loss: 0.0109 | Val Acc: 0.9944
+Hospital_9 -> Val Loss: 0.0040 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0227 | Val Acc: 0.9943
+Hospital_11 -> Val Loss: 0.0206 | Val Acc: 0.9886
+Hospital_12 -> Val Loss: 0.0051 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0093 | Val Acc: 0.9943
+Hospital_14 -> Val Loss: 0.0028 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0154 | Val Acc: 0.9943
+Hospital_17 -> Val Loss: 0.0726 | Val Acc: 0.9830
+Hospital_18 -> Val Loss: 0.0165 | Val Acc: 0.9943
+Hospital_19 -> Val Loss: 0.0090 | Val Acc: 0.9943
+Hospital_20 -> Val Loss: 0.0331 | Val Acc: 0.9830
+Hospital_21 -> Val Loss: 0.0121 | Val Acc: 0.9943
+Hospital_22 -> Val Loss: 0.0332 | Val Acc: 0.9830
+Hospital_23 -> Val Loss: 0.0118 | Val Acc: 0.9943
+Hospital_24 -> Val Loss: 0.0560 | Val Acc: 0.9831
+Hospital_25 -> Val Loss: 0.0162 | Val Acc: 0.9943
+Hospital_26 -> Val Loss: 0.0486 | Val Acc: 0.9659
+Hospital_27 -> Val Loss: 0.0173 | Val Acc: 0.9886
+Hospital_28 -> Val Loss: 0.0213 | Val Acc: 0.9886
+Hospital_29 -> Val Loss: 0.0915 | Val Acc: 0.9830
+Hospital_30 -> Val Loss: 0.0661 | Val Acc: 0.9773
+Hospital_31 -> Val Loss: 0.0177 | Val Acc: 0.9886
+Hospital_32 -> Val Loss: 0.0159 | Val Acc: 0.9943
+Hospital_33 -> Val Loss: 0.0021 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0622 | Val Acc: 0.9886
+Hospital_35 -> Val Loss: 0.0198 | Val Acc: 0.9886
+Hospital_36 -> Val Loss: 0.0205 | Val Acc: 0.9887
+Hospital_37 -> Val Loss: 0.0051 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0070 | Val Acc: 0.9943
+Hospital_39 -> Val Loss: 0.0261 | Val Acc: 0.9886
+Hospital_40 -> Val Loss: 0.0096 | Val Acc: 0.9943
+Hospital_41 -> Val Loss: 0.0052 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0406 | Val Acc: 0.9830
+Hospital_43 -> Val Loss: 0.0676 | Val Acc: 0.9886
+Hospital_44 -> Val Loss: 0.0202 | Val Acc: 0.9886
+Hospital_45 -> Val Loss: 0.0029 | Val Acc: 1.0000
+Hospital_46 -> Val Loss: 0.0429 | Val Acc: 0.9830
+Hospital_47 -> Val Loss: 0.0118 | Val Acc: 0.9943
+Hospital_48 -> Val Loss: 0.0145 | Val Acc: 0.9943
+Hospital_49 -> Val Loss: 0.0280 | Val Acc: 0.9831
+Hospital_50 -> Val Loss: 0.0594 | Val Acc: 0.9830
+Val Loss medio: 0.0253 | Val Acc media: 0.9903
+Cambio vs ronda anterior: -0.0064 | cambio vs mejor: -0.0064 | umbral mejora: +0.0010
+Tiempo ronda: 51.83s
+Sin mejora en validacion: 1/3
+
+==============================
+RONDA FEDERADA 8/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_49', 'Hospital_28', 'Hospital_44', 'Hospital_50', 'Hospital_11', 'Hospital_4', 'Hospital_26', 'Hospital_38', 'Hospital_18', 'Hospital_47', 'Hospital_40', 'Hospital_8', 'Hospital_5', 'Hospital_10', 'Hospital_25', 'Hospital_17', 'Hospital_45', 'Hospital_14', 'Hospital_39', 'Hospital_23', 'Hospital_24', 'Hospital_41', 'Hospital_2', 'Hospital_12', 'Hospital_15', 'Hospital_43', 'Hospital_13', 'Hospital_6', 'Hospital_34', 'Hospital_36']
+
+Entrenamiento local en Hospital_49...
+Train: 885 | Val: 177 | Test: 118
+Hospital_49 realizará 10 épocas locales con FedProx.
+Hospital_49 -> Train Loss: 0.0048 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_28...
+Train: 884 | Val: 176 | Test: 119
+Hospital_28 realizará 10 épocas locales con FedProx.
+Hospital_28 -> Train Loss: 0.0234 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_44...
+Train: 884 | Val: 176 | Test: 119
+Hospital_44 realizará 10 épocas locales con FedProx.
+Hospital_44 -> Train Loss: 0.0050 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_50...
+Train: 884 | Val: 176 | Test: 119
+Hospital_50 realizará 10 épocas locales con FedProx.
+Hospital_50 -> Train Loss: 0.0051 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_11...
+Train: 884 | Val: 176 | Test: 119
+Hospital_11 realizará 10 épocas locales con FedProx.
+Hospital_11 -> Train Loss: 0.0055 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0053 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_26...
+Train: 884 | Val: 176 | Test: 119
+Hospital_26 realizará 10 épocas locales con FedProx.
+Hospital_26 -> Train Loss: 0.0090 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_38...
+Train: 884 | Val: 176 | Test: 119
+Hospital_38 realizará 10 épocas locales con FedProx.
+Hospital_38 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_18...
+Train: 884 | Val: 176 | Test: 119
+Hospital_18 realizará 10 épocas locales con FedProx.
+Hospital_18 -> Train Loss: 0.0046 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_47...
+Train: 884 | Val: 176 | Test: 119
+Hospital_47 realizará 10 épocas locales con FedProx.
+Hospital_47 -> Train Loss: 0.0064 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_40...
+Train: 884 | Val: 176 | Test: 119
+Hospital_40 realizará 10 épocas locales con FedProx.
+Hospital_40 -> Train Loss: 0.0048 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_8...
+Train: 885 | Val: 177 | Test: 118
+Hospital_8 realizará 10 épocas locales con FedProx.
+Hospital_8 -> Train Loss: 0.0056 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_5...
+Train: 884 | Val: 176 | Test: 119
+Hospital_5 realizará 10 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0067 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_10...
+Train: 884 | Val: 176 | Test: 119
+Hospital_10 realizará 10 épocas locales con FedProx.
+Hospital_10 -> Train Loss: 0.0051 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_25...
+Train: 884 | Val: 176 | Test: 119
+Hospital_25 realizará 10 épocas locales con FedProx.
+Hospital_25 -> Train Loss: 0.0058 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_17...
+Train: 884 | Val: 176 | Test: 119
+Hospital_17 realizará 10 épocas locales con FedProx.
+Hospital_17 -> Train Loss: 0.0047 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_45...
+Train: 884 | Val: 176 | Test: 119
+Hospital_45 realizará 10 épocas locales con FedProx.
+Hospital_45 -> Train Loss: 0.0074 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_14...
+Train: 884 | Val: 176 | Test: 119
+Hospital_14 realizará 10 épocas locales con FedProx.
+Hospital_14 -> Train Loss: 0.0073 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_39...
+Train: 884 | Val: 176 | Test: 119
+Hospital_39 realizará 10 épocas locales con FedProx.
+Hospital_39 -> Train Loss: 0.0044 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_23...
+Train: 884 | Val: 176 | Test: 119
+Hospital_23 realizará 10 épocas locales con FedProx.
+Hospital_23 -> Train Loss: 0.0380 | Train Acc: 0.9853
+
+Entrenamiento local en Hospital_24...
+Train: 885 | Val: 177 | Test: 118
+Hospital_24 realizará 10 épocas locales con FedProx.
+Hospital_24 -> Train Loss: 0.0072 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_41...
+Train: 884 | Val: 176 | Test: 119
+Hospital_41 realizará 10 épocas locales con FedProx.
+Hospital_41 -> Train Loss: 0.0050 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0033 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_12...
+Train: 884 | Val: 176 | Test: 119
+Hospital_12 realizará 10 épocas locales con FedProx.
+Hospital_12 -> Train Loss: 0.0172 | Train Acc: 0.9932
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_43...
+Train: 884 | Val: 176 | Test: 119
+Hospital_43 realizará 10 épocas locales con FedProx.
+Hospital_43 -> Train Loss: 0.0051 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_13...
+Train: 884 | Val: 176 | Test: 119
+Hospital_13 realizará 10 épocas locales con FedProx.
+Hospital_13 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 884 | Val: 176 | Test: 119
+Hospital_6 realizará 10 épocas locales con FedProx.
+Hospital_6 -> Train Loss: 0.0112 | Train Acc: 0.9966
+
+Entrenamiento local en Hospital_34...
+Train: 884 | Val: 176 | Test: 119
+Hospital_34 realizará 10 épocas locales con FedProx.
+Hospital_34 -> Train Loss: 0.0089 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_36...
+Train: 885 | Val: 177 | Test: 118
+Hospital_36 realizará 10 épocas locales con FedProx.
+Hospital_36 -> Train Loss: 0.0050 | Train Acc: 1.0000
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 8 ===
+Hospital_1 -> Val Loss: 0.0073 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0057 | Val Acc: 1.0000
+Hospital_3 -> Val Loss: 0.0607 | Val Acc: 0.9830
+Hospital_4 -> Val Loss: 0.0097 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.0206 | Val Acc: 0.9943
+Hospital_6 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_7 -> Val Loss: 0.0053 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0097 | Val Acc: 0.9944
+Hospital_9 -> Val Loss: 0.0022 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0079 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0056 | Val Acc: 1.0000
+Hospital_12 -> Val Loss: 0.0044 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0032 | Val Acc: 1.0000
+Hospital_14 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0023 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0071 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0803 | Val Acc: 0.9830
+Hospital_18 -> Val Loss: 0.0075 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0030 | Val Acc: 1.0000
+Hospital_20 -> Val Loss: 0.0162 | Val Acc: 0.9943
+Hospital_21 -> Val Loss: 0.0063 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0127 | Val Acc: 1.0000
+Hospital_23 -> Val Loss: 0.0054 | Val Acc: 1.0000
+Hospital_24 -> Val Loss: 0.0423 | Val Acc: 0.9887
+Hospital_25 -> Val Loss: 0.0051 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0242 | Val Acc: 0.9943
+Hospital_27 -> Val Loss: 0.0056 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0067 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0782 | Val Acc: 0.9886
+Hospital_30 -> Val Loss: 0.0480 | Val Acc: 0.9886
+Hospital_31 -> Val Loss: 0.0072 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.0057 | Val Acc: 1.0000
+Hospital_33 -> Val Loss: 0.0022 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0563 | Val Acc: 0.9943
+Hospital_35 -> Val Loss: 0.0117 | Val Acc: 0.9943
+Hospital_36 -> Val Loss: 0.0123 | Val Acc: 0.9944
+Hospital_37 -> Val Loss: 0.0044 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0047 | Val Acc: 0.9943
+Hospital_39 -> Val Loss: 0.0089 | Val Acc: 1.0000
+Hospital_40 -> Val Loss: 0.0035 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0027 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0134 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0633 | Val Acc: 0.9943
+Hospital_44 -> Val Loss: 0.0061 | Val Acc: 1.0000
+Hospital_45 -> Val Loss: 0.0016 | Val Acc: 1.0000
+Hospital_46 -> Val Loss: 0.0355 | Val Acc: 0.9886
+Hospital_47 -> Val Loss: 0.0051 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0058 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0081 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0452 | Val Acc: 0.9943
+Val Loss medio: 0.0160 | Val Acc media: 0.9973
+Cambio vs ronda anterior: +0.0069 | cambio vs mejor: +0.0006 | umbral mejora: +0.0010
+Tiempo ronda: 51.23s
+Sin mejora en validacion: 2/3
+
+==============================
+RONDA FEDERADA 9/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_16', 'Hospital_33', 'Hospital_2', 'Hospital_42', 'Hospital_8', 'Hospital_4', 'Hospital_35', 'Hospital_28', 'Hospital_18', 'Hospital_34', 'Hospital_24', 'Hospital_27', 'Hospital_32', 'Hospital_6', 'Hospital_50', 'Hospital_15', 'Hospital_17', 'Hospital_25', 'Hospital_19', 'Hospital_23', 'Hospital_44', 'Hospital_36', 'Hospital_5', 'Hospital_22', 'Hospital_30', 'Hospital_37', 'Hospital_1', 'Hospital_45', 'Hospital_10', 'Hospital_14']
+
+Entrenamiento local en Hospital_16...
+Train: 884 | Val: 176 | Test: 119
+Hospital_16 realizará 10 épocas locales con FedProx.
+Hospital_16 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_33...
+Train: 884 | Val: 176 | Test: 119
+Hospital_33 realizará 10 épocas locales con FedProx.
+Hospital_33 -> Train Loss: 0.0054 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_2...
+Train: 884 | Val: 176 | Test: 119
+Hospital_2 realizará 10 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0031 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_42...
+Train: 884 | Val: 176 | Test: 119
+Hospital_42 realizará 10 épocas locales con FedProx.
+Hospital_42 -> Train Loss: 0.0044 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_8...
+Train: 885 | Val: 177 | Test: 118
+Hospital_8 realizará 10 épocas locales con FedProx.
+Hospital_8 -> Train Loss: 0.0040 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_4...
+Train: 884 | Val: 176 | Test: 119
+Hospital_4 realizará 10 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_35...
+Train: 884 | Val: 176 | Test: 119
+Hospital_35 realizará 10 épocas locales con FedProx.
+Hospital_35 -> Train Loss: 0.0121 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_28...
+Train: 884 | Val: 176 | Test: 119
+Hospital_28 realizará 10 épocas locales con FedProx.
+Hospital_28 -> Train Loss: 0.0075 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_18...
+Train: 884 | Val: 176 | Test: 119
+Hospital_18 realizará 10 épocas locales con FedProx.
+Hospital_18 -> Train Loss: 0.0035 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_34...
+Train: 884 | Val: 176 | Test: 119
+Hospital_34 realizará 10 épocas locales con FedProx.
+Hospital_34 -> Train Loss: 0.0060 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_24...
+Train: 885 | Val: 177 | Test: 118
+Hospital_24 realizará 10 épocas locales con FedProx.
+Hospital_24 -> Train Loss: 0.0071 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_27...
+Train: 884 | Val: 176 | Test: 119
+Hospital_27 realizará 10 épocas locales con FedProx.
+Hospital_27 -> Train Loss: 0.0085 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_32...
+Train: 884 | Val: 176 | Test: 119
+Hospital_32 realizará 10 épocas locales con FedProx.
+Hospital_32 -> Train Loss: 0.0043 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_6...
+Train: 884 | Val: 176 | Test: 119
+Hospital_6 realizará 10 épocas locales con FedProx.
+Hospital_6 -> Train Loss: 0.0052 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_50...
+Train: 884 | Val: 176 | Test: 119
+Hospital_50 realizará 10 épocas locales con FedProx.
+Hospital_50 -> Train Loss: 0.0045 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_15...
+Train: 884 | Val: 176 | Test: 119
+Hospital_15 realizará 10 épocas locales con FedProx.
+Hospital_15 -> Train Loss: 0.0037 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_17...
+Train: 884 | Val: 176 | Test: 119
+Hospital_17 realizará 10 épocas locales con FedProx.
+Hospital_17 -> Train Loss: 0.0065 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_25...
+Train: 884 | Val: 176 | Test: 119
+Hospital_25 realizará 10 épocas locales con FedProx.
+Hospital_25 -> Train Loss: 0.0051 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_19...
+Train: 884 | Val: 176 | Test: 119
+Hospital_19 realizará 10 épocas locales con FedProx.
+Hospital_19 -> Train Loss: 0.0053 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_23...
+Train: 884 | Val: 176 | Test: 119
+Hospital_23 realizará 10 épocas locales con FedProx.
+Hospital_23 -> Train Loss: 0.0102 | Train Acc: 0.9955
+
+Entrenamiento local en Hospital_44...
+Train: 884 | Val: 176 | Test: 119
+Hospital_44 realizará 10 épocas locales con FedProx.
+Hospital_44 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_36...
+Train: 885 | Val: 177 | Test: 118
+Hospital_36 realizará 10 épocas locales con FedProx.
+Hospital_36 -> Train Loss: 0.0038 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_5...
+Train: 884 | Val: 176 | Test: 119
+Hospital_5 realizará 10 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0045 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_22...
+Train: 884 | Val: 176 | Test: 119
+Hospital_22 realizará 10 épocas locales con FedProx.
+Hospital_22 -> Train Loss: 0.0042 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_30...
+Train: 884 | Val: 176 | Test: 119
+Hospital_30 realizará 10 épocas locales con FedProx.
+Hospital_30 -> Train Loss: 0.0033 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_37...
+Train: 884 | Val: 176 | Test: 119
+Hospital_37 realizará 10 épocas locales con FedProx.
+Hospital_37 -> Train Loss: 0.0036 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 884 | Val: 176 | Test: 119
+Hospital_1 realizará 10 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0052 | Train Acc: 0.9989
+
+Entrenamiento local en Hospital_45...
+Train: 884 | Val: 176 | Test: 119
+Hospital_45 realizará 10 épocas locales con FedProx.
+Hospital_45 -> Train Loss: 0.0072 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_10...
+Train: 884 | Val: 176 | Test: 119
+Hospital_10 realizará 10 épocas locales con FedProx.
+Hospital_10 -> Train Loss: 0.0031 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_14...
+Train: 884 | Val: 176 | Test: 119
+Hospital_14 realizará 10 épocas locales con FedProx.
+Hospital_14 -> Train Loss: 0.0351 | Train Acc: 0.9910
+
+30 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 9 ===
+Hospital_1 -> Val Loss: 0.0046 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0039 | Val Acc: 1.0000
+Hospital_3 -> Val Loss: 0.0486 | Val Acc: 0.9830
+Hospital_4 -> Val Loss: 0.0063 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.0227 | Val Acc: 0.9886
+Hospital_6 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_7 -> Val Loss: 0.0037 | Val Acc: 1.0000
+Hospital_8 -> Val Loss: 0.0069 | Val Acc: 0.9944
+Hospital_9 -> Val Loss: 0.0016 | Val Acc: 1.0000
+Hospital_10 -> Val Loss: 0.0054 | Val Acc: 1.0000
+Hospital_11 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_12 -> Val Loss: 0.0038 | Val Acc: 1.0000
+Hospital_13 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_14 -> Val Loss: 0.0030 | Val Acc: 1.0000
+Hospital_15 -> Val Loss: 0.0021 | Val Acc: 1.0000
+Hospital_16 -> Val Loss: 0.0058 | Val Acc: 1.0000
+Hospital_17 -> Val Loss: 0.0860 | Val Acc: 0.9830
+Hospital_18 -> Val Loss: 0.0057 | Val Acc: 1.0000
+Hospital_19 -> Val Loss: 0.0019 | Val Acc: 1.0000
+Hospital_20 -> Val Loss: 0.0137 | Val Acc: 1.0000
+Hospital_21 -> Val Loss: 0.0051 | Val Acc: 1.0000
+Hospital_22 -> Val Loss: 0.0095 | Val Acc: 1.0000
+Hospital_23 -> Val Loss: 0.0043 | Val Acc: 1.0000
+Hospital_24 -> Val Loss: 0.0376 | Val Acc: 0.9887
+Hospital_25 -> Val Loss: 0.0034 | Val Acc: 1.0000
+Hospital_26 -> Val Loss: 0.0197 | Val Acc: 0.9943
+Hospital_27 -> Val Loss: 0.0037 | Val Acc: 1.0000
+Hospital_28 -> Val Loss: 0.0042 | Val Acc: 1.0000
+Hospital_29 -> Val Loss: 0.0778 | Val Acc: 0.9886
+Hospital_30 -> Val Loss: 0.0455 | Val Acc: 0.9886
+Hospital_31 -> Val Loss: 0.0053 | Val Acc: 1.0000
+Hospital_32 -> Val Loss: 0.0036 | Val Acc: 1.0000
+Hospital_33 -> Val Loss: 0.0021 | Val Acc: 1.0000
+Hospital_34 -> Val Loss: 0.0538 | Val Acc: 0.9943
+Hospital_35 -> Val Loss: 0.0076 | Val Acc: 1.0000
+Hospital_36 -> Val Loss: 0.0103 | Val Acc: 0.9944
+Hospital_37 -> Val Loss: 0.0032 | Val Acc: 1.0000
+Hospital_38 -> Val Loss: 0.0029 | Val Acc: 1.0000
+Hospital_39 -> Val Loss: 0.0052 | Val Acc: 1.0000
+Hospital_40 -> Val Loss: 0.0023 | Val Acc: 1.0000
+Hospital_41 -> Val Loss: 0.0024 | Val Acc: 1.0000
+Hospital_42 -> Val Loss: 0.0098 | Val Acc: 1.0000
+Hospital_43 -> Val Loss: 0.0652 | Val Acc: 0.9943
+Hospital_44 -> Val Loss: 0.0037 | Val Acc: 1.0000
+Hospital_45 -> Val Loss: 0.0012 | Val Acc: 1.0000
+Hospital_46 -> Val Loss: 0.0309 | Val Acc: 0.9943
+Hospital_47 -> Val Loss: 0.0036 | Val Acc: 1.0000
+Hospital_48 -> Val Loss: 0.0035 | Val Acc: 1.0000
+Hospital_49 -> Val Loss: 0.0056 | Val Acc: 1.0000
+Hospital_50 -> Val Loss: 0.0508 | Val Acc: 0.9943
+Val Loss medio: 0.0143 | Val Acc media: 0.9976
+Cambio vs ronda anterior: +0.0003 | cambio vs mejor: +0.0009 | umbral mejora: +0.0010
+Tiempo ronda: 52.30s
+Sin mejora en validacion: 3/3
+Early stopping activado en la ronda 9. Mejor val_acc=0.9967 en ronda 6.
+
+==============================
+RESUMEN FINAL POR RONDAS
+==============================
+Ronda 1 -> Val Loss: 0.1650 | Val Acc: 0.9641
+Ronda 2 -> Val Loss: 0.1032 | Val Acc: 0.9781
+Ronda 3 -> Val Loss: 0.0406 | Val Acc: 0.9877
+Ronda 4 -> Val Loss: 0.0349 | Val Acc: 0.9890
+Ronda 5 -> Val Loss: 0.0521 | Val Acc: 0.9892
+Ronda 6 -> Val Loss: 0.0248 | Val Acc: 0.9967
+Ronda 7 -> Val Loss: 0.0253 | Val Acc: 0.9903
+Ronda 8 -> Val Loss: 0.0160 | Val Acc: 0.9973
+Ronda 9 -> Val Loss: 0.0143 | Val Acc: 0.9976
+
+==============================
+EVALUACIÓN FINAL EN TEST
+==============================
+Hospital_1 -> Test Loss: 0.0061 | Test Acc: 1.0000
+Hospital_2 -> Test Loss: 0.0153 | Test Acc: 0.9916
+Hospital_3 -> Test Loss: 0.0038 | Test Acc: 1.0000
+Hospital_4 -> Test Loss: 0.0022 | Test Acc: 1.0000
+Hospital_5 -> Test Loss: 0.0027 | Test Acc: 1.0000
+Hospital_6 -> Test Loss: 0.0059 | Test Acc: 1.0000
+Hospital_7 -> Test Loss: 0.0052 | Test Acc: 1.0000
+Hospital_8 -> Test Loss: 0.0088 | Test Acc: 1.0000
+Hospital_9 -> Test Loss: 0.0334 | Test Acc: 0.9832
+Hospital_10 -> Test Loss: 0.0021 | Test Acc: 1.0000
+Hospital_11 -> Test Loss: 0.0008 | Test Acc: 1.0000
+Hospital_12 -> Test Loss: 0.0063 | Test Acc: 1.0000
+Hospital_13 -> Test Loss: 0.0046 | Test Acc: 1.0000
+Hospital_14 -> Test Loss: 0.0040 | Test Acc: 1.0000
+Hospital_15 -> Test Loss: 0.0552 | Test Acc: 0.9916
+Hospital_16 -> Test Loss: 0.0033 | Test Acc: 1.0000
+Hospital_17 -> Test Loss: 0.0038 | Test Acc: 1.0000
+Hospital_18 -> Test Loss: 0.0160 | Test Acc: 0.9916
+Hospital_19 -> Test Loss: 0.0151 | Test Acc: 0.9916
+Hospital_20 -> Test Loss: 0.0021 | Test Acc: 1.0000
+Hospital_21 -> Test Loss: 0.0324 | Test Acc: 0.9916
+Hospital_22 -> Test Loss: 0.0562 | Test Acc: 0.9916
+Hospital_23 -> Test Loss: 0.0025 | Test Acc: 1.0000
+Hospital_24 -> Test Loss: 0.0015 | Test Acc: 1.0000
+Hospital_25 -> Test Loss: 0.0066 | Test Acc: 1.0000
+Hospital_26 -> Test Loss: 0.0130 | Test Acc: 0.9916
+Hospital_27 -> Test Loss: 0.0010 | Test Acc: 1.0000
+Hospital_28 -> Test Loss: 0.0115 | Test Acc: 0.9916
+Hospital_29 -> Test Loss: 0.0083 | Test Acc: 0.9916
+Hospital_30 -> Test Loss: 0.0072 | Test Acc: 1.0000
+Hospital_31 -> Test Loss: 0.0054 | Test Acc: 1.0000
+Hospital_32 -> Test Loss: 0.0071 | Test Acc: 1.0000
+Hospital_33 -> Test Loss: 0.0063 | Test Acc: 1.0000
+Hospital_34 -> Test Loss: 0.0034 | Test Acc: 1.0000
+Hospital_35 -> Test Loss: 0.0227 | Test Acc: 0.9916
+Hospital_36 -> Test Loss: 0.1193 | Test Acc: 0.9915
+Hospital_37 -> Test Loss: 0.0012 | Test Acc: 1.0000
+Hospital_38 -> Test Loss: 0.0040 | Test Acc: 1.0000
+Hospital_39 -> Test Loss: 0.0070 | Test Acc: 1.0000
+Hospital_40 -> Test Loss: 0.0456 | Test Acc: 0.9916
+Hospital_41 -> Test Loss: 0.0025 | Test Acc: 1.0000
+Hospital_42 -> Test Loss: 0.0116 | Test Acc: 0.9916
+Hospital_43 -> Test Loss: 0.0119 | Test Acc: 1.0000
+Hospital_44 -> Test Loss: 0.0021 | Test Acc: 1.0000
+Hospital_45 -> Test Loss: 0.0129 | Test Acc: 1.0000
+Hospital_46 -> Test Loss: 0.0041 | Test Acc: 1.0000
+Hospital_47 -> Test Loss: 0.0095 | Test Acc: 1.0000
+Hospital_48 -> Test Loss: 0.0089 | Test Acc: 0.9916
+Hospital_49 -> Test Loss: 0.0041 | Test Acc: 1.0000
+Hospital_50 -> Test Loss: 0.0018 | Test Acc: 1.0000
+
+Test Loss medio: 0.0126
+Test Acc media:  0.9973
+
+Guardando predicciones...
+Predicciones guardadas en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\iid\results_iid\K50\fedprox\seed_999
+Modelo guardado en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\iid\results_iid\K50\fedprox\seed_999\modelo_final.pt
+
+Tiempo total: 492.12s
+Tiempos guardados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\iid\results_iid\K50\fedprox\seed_999\tiempos.csv

@@ -1,0 +1,30 @@
+# Configuración central que guía al script crear_hospitales.py.
+# Este archivo no ejecuta nada por sí mismo, sino que contiene
+# todos los parámetros necesarios para que el script sepa cómo
+# crear los hospitales y cómo repartir las imágenes del dataset
+# original.
+#
+# Aquí se define:
+# - la semilla para garantizar reproducibilidad
+# - el número de hospitales
+# - la ruta del dataset original
+# - la ruta de salida de los datos federados
+# - las clases dominantes de cada hospital
+# - las proporciones de reparto de imágenes
+# - las extensiones de archivo válidas
+
+# configuración central que guía al script crear_hospitales.py.No ejecuta nada por sí mismo, pero contiene todas las instrucciones que el 
+# script necesita para saber cómo y dónde crear los hospitales y cómo repartir las imágenes.
+
+random_seed: 1935
+n_hospitals: 15
+client_fraction: 0.6
+num_rounds: 50
+local_epochs: 5
+learning_rate: 0.1
+early_stopping_patience: 3
+raw_dataset_dir: "../../data/medical_mnist"
+federated_output_dir: "data_non_iid"
+
+# extensiones válidas
+valid_ext: [".png", ".jpg", ".jpeg", ".bmp", ".tiff"]

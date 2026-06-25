@@ -1,0 +1,742 @@
+Agregador: FEDPROX
+Dispositivo: cuda
+Escenario: non_iid
+Config cargada desde: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\config_non_iid.yaml
+Número de hospitales: 5
+Hospitales: ['Hospital_1', 'Hospital_2', 'Hospital_3', 'Hospital_4', 'Hospital_5']
+Rondas federadas: 50
+Épocas locales por ronda: 5
+Fracción de clientes por ronda: 0.6
+Semilla aleatoria: 999
+Learning rate: 0.1
+Early stopping patience: 5
+FedProx mu: 0.001
+FedProx variable local epochs: False
+Resultados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedprox\seed_999
+
+==============================
+RONDA FEDERADA 1/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_4', 'Hospital_2']
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.2197 | Train Acc: 0.9221
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.5707 | Train Acc: 0.8810
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0877 | Train Acc: 0.9774
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.01s
+
+=== Evaluación en VALIDACIÓN después de ronda 1 ===
+Hospital_1 -> Val Loss: 0.5197 | Val Acc: 0.9371
+Hospital_2 -> Val Loss: 1.0487 | Val Acc: 0.7328
+Hospital_3 -> Val Loss: 0.6671 | Val Acc: 0.9390
+Hospital_4 -> Val Loss: 0.4675 | Val Acc: 0.9275
+Hospital_5 -> Val Loss: 1.4509 | Val Acc: 0.3333
+Val Loss medio: 0.8308 | Val Acc media: 0.7740
+Tiempo ronda: 2.70s
+Mejor val_acc hasta ahora: 0.7740 (ronda 1)
+
+==============================
+RONDA FEDERADA 2/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_3', 'Hospital_4']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.2140 | Train Acc: 0.9578
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0428 | Train Acc: 0.9879
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0648 | Train Acc: 0.9887
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 2 ===
+Hospital_1 -> Val Loss: 0.2789 | Val Acc: 0.9371
+Hospital_2 -> Val Loss: 0.3503 | Val Acc: 0.8435
+Hospital_3 -> Val Loss: 0.2949 | Val Acc: 0.9343
+Hospital_4 -> Val Loss: 0.2599 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 1.1244 | Val Acc: 0.3929
+Val Loss medio: 0.4617 | Val Acc media: 0.8187
+Tiempo ronda: 2.59s
+Mejor val_acc hasta ahora: 0.8187 (ronda 2)
+
+==============================
+RONDA FEDERADA 3/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_2', 'Hospital_5']
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0405 | Train Acc: 0.9864
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0463 | Train Acc: 0.9827
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.1183 | Train Acc: 0.9658
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 3 ===
+Hospital_1 -> Val Loss: 0.3011 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0987 | Val Acc: 0.9809
+Hospital_3 -> Val Loss: 0.2102 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.4282 | Val Acc: 0.9275
+Hospital_5 -> Val Loss: 0.3652 | Val Acc: 0.9643
+Val Loss medio: 0.2807 | Val Acc media: 0.9702
+Tiempo ronda: 2.79s
+Mejor val_acc hasta ahora: 0.9702 (ronda 3)
+
+==============================
+RONDA FEDERADA 4/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_1', 'Hospital_5']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0762 | Train Acc: 0.9814
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.2496 | Train Acc: 0.9159
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0633 | Train Acc: 0.9835
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 4 ===
+Hospital_1 -> Val Loss: 0.2954 | Val Acc: 0.8491
+Hospital_2 -> Val Loss: 1.9675 | Val Acc: 0.4847
+Hospital_3 -> Val Loss: 0.1999 | Val Acc: 0.9343
+Hospital_4 -> Val Loss: 0.4138 | Val Acc: 0.8841
+Hospital_5 -> Val Loss: 0.6173 | Val Acc: 0.8036
+Val Loss medio: 0.6988 | Val Acc media: 0.7911
+Tiempo ronda: 2.59s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 5/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_4', 'Hospital_1']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0372 | Train Acc: 0.9851
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0352 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0515 | Train Acc: 0.9790
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 5 ===
+Hospital_1 -> Val Loss: 0.0781 | Val Acc: 0.9497
+Hospital_2 -> Val Loss: 0.6504 | Val Acc: 0.7824
+Hospital_3 -> Val Loss: 0.0654 | Val Acc: 0.9531
+Hospital_4 -> Val Loss: 0.0807 | Val Acc: 0.9420
+Hospital_5 -> Val Loss: 0.7034 | Val Acc: 0.4345
+Val Loss medio: 0.3156 | Val Acc media: 0.8123
+Tiempo ronda: 2.14s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 6/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_1', 'Hospital_2']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0175 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0250 | Train Acc: 0.9951
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0374 | Train Acc: 0.9842
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 6 ===
+Hospital_1 -> Val Loss: 0.0418 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.1087 | Val Acc: 0.9656
+Hospital_3 -> Val Loss: 0.0433 | Val Acc: 0.9812
+Hospital_4 -> Val Loss: 0.0559 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.2432 | Val Acc: 0.8988
+Val Loss medio: 0.0986 | Val Acc media: 0.9650
+Tiempo ronda: 2.41s
+Sin mejora en validacion: 3/5
+
+==============================
+RONDA FEDERADA 7/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_2', 'Hospital_3']
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0220 | Train Acc: 0.9913
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0252 | Train Acc: 0.9895
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0209 | Train Acc: 0.9926
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 7 ===
+Hospital_1 -> Val Loss: 0.0484 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.0799 | Val Acc: 0.9695
+Hospital_3 -> Val Loss: 0.0348 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.1011 | Val Acc: 0.9420
+Hospital_5 -> Val Loss: 0.1757 | Val Acc: 0.9702
+Val Loss medio: 0.0880 | Val Acc media: 0.9720
+Tiempo ronda: 2.98s
+Mejor val_acc hasta ahora: 0.9720 (ronda 7)
+
+==============================
+RONDA FEDERADA 8/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_5', 'Hospital_2', 'Hospital_1']
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0690 | Train Acc: 0.9835
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0407 | Train Acc: 0.9857
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0260 | Train Acc: 0.9864
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 8 ===
+Hospital_1 -> Val Loss: 0.0555 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0714 | Val Acc: 0.9809
+Hospital_3 -> Val Loss: 0.0435 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.1321 | Val Acc: 0.9565
+Hospital_5 -> Val Loss: 0.1654 | Val Acc: 0.9762
+Val Loss medio: 0.0936 | Val Acc media: 0.9818
+Tiempo ronda: 2.81s
+Mejor val_acc hasta ahora: 0.9818 (ronda 8)
+
+==============================
+RONDA FEDERADA 9/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_2', 'Hospital_1']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0173 | Train Acc: 0.9926
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0145 | Train Acc: 0.9947
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0173 | Train Acc: 0.9926
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 9 ===
+Hospital_1 -> Val Loss: 0.0329 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0648 | Val Acc: 0.9771
+Hospital_3 -> Val Loss: 0.0267 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0775 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1526 | Val Acc: 0.9702
+Val Loss medio: 0.0709 | Val Acc media: 0.9818
+Tiempo ronda: 3.04s
+Mejor val_acc hasta ahora: 0.9818 (ronda 9)
+
+==============================
+RONDA FEDERADA 10/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_5', 'Hospital_4', 'Hospital_3']
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0528 | Train Acc: 0.9870
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0247 | Train Acc: 0.9943
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0209 | Train Acc: 0.9907
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 10 ===
+Hospital_1 -> Val Loss: 0.0223 | Val Acc: 0.9874
+Hospital_2 -> Val Loss: 0.1108 | Val Acc: 0.9427
+Hospital_3 -> Val Loss: 0.0226 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0400 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.1513 | Val Acc: 0.9167
+Val Loss medio: 0.0694 | Val Acc media: 0.9646
+Tiempo ronda: 2.18s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 11/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_2', 'Hospital_5']
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0117 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0110 | Train Acc: 0.9977
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0407 | Train Acc: 0.9894
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 11 ===
+Hospital_1 -> Val Loss: 0.0277 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0279 | Val Acc: 0.9885
+Hospital_3 -> Val Loss: 0.0308 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0648 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1125 | Val Acc: 0.9702
+Val Loss medio: 0.0527 | Val Acc media: 0.9841
+Tiempo ronda: 3.02s
+Mejor val_acc hasta ahora: 0.9841 (ronda 11)
+
+==============================
+RONDA FEDERADA 12/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_5', 'Hospital_1']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0136 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0383 | Train Acc: 0.9894
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0134 | Train Acc: 0.9926
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 12 ===
+Hospital_1 -> Val Loss: 0.0106 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0402 | Val Acc: 0.9885
+Hospital_3 -> Val Loss: 0.0196 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0386 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0947 | Val Acc: 0.9405
+Val Loss medio: 0.0407 | Val Acc media: 0.9807
+Tiempo ronda: 1.93s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 13/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_2', 'Hospital_5']
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0123 | Train Acc: 0.9938
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0070 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0519 | Train Acc: 0.9894
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 13 ===
+Hospital_1 -> Val Loss: 0.0195 | Val Acc: 0.9937
+Hospital_2 -> Val Loss: 0.0190 | Val Acc: 0.9962
+Hospital_3 -> Val Loss: 0.0362 | Val Acc: 0.9906
+Hospital_4 -> Val Loss: 0.0891 | Val Acc: 0.9710
+Hospital_5 -> Val Loss: 0.1137 | Val Acc: 0.9821
+Val Loss medio: 0.0555 | Val Acc media: 0.9867
+Tiempo ronda: 2.83s
+Mejor val_acc hasta ahora: 0.9867 (ronda 13)
+
+==============================
+RONDA FEDERADA 14/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_4', 'Hospital_5']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0190 | Train Acc: 0.9925
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0201 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0337 | Train Acc: 0.9882
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 14 ===
+Hospital_1 -> Val Loss: 0.0191 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0186 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0262 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0385 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.0845 | Val Acc: 0.9940
+Val Loss medio: 0.0374 | Val Acc media: 0.9963
+Tiempo ronda: 2.39s
+Mejor val_acc hasta ahora: 0.9963 (ronda 14)
+
+==============================
+RONDA FEDERADA 15/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_5', 'Hospital_3', 'Hospital_1']
+
+Entrenamiento local en Hospital_5...
+Train: 847 | Val: 168 | Test: 117
+Hospital_5 realizará 5 épocas locales con FedProx.
+Hospital_5 -> Train Loss: 0.0207 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0047 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0107 | Train Acc: 0.9975
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 15 ===
+Hospital_1 -> Val Loss: 0.0031 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0314 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0132 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0378 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0450 | Val Acc: 0.9940
+Val Loss medio: 0.0261 | Val Acc media: 0.9934
+Tiempo ronda: 2.58s
+Sin mejora en validacion: 1/5
+
+==============================
+RONDA FEDERADA 16/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_4', 'Hospital_1']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0104 | Train Acc: 0.9962
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0182 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0042 | Train Acc: 1.0000
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 16 ===
+Hospital_1 -> Val Loss: 0.0093 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0159 | Val Acc: 0.9962
+Hospital_3 -> Val Loss: 0.0187 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0238 | Val Acc: 0.9855
+Hospital_5 -> Val Loss: 0.0905 | Val Acc: 0.9643
+Val Loss medio: 0.0317 | Val Acc media: 0.9883
+Tiempo ronda: 2.35s
+Sin mejora en validacion: 2/5
+
+==============================
+RONDA FEDERADA 17/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_2', 'Hospital_1']
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0090 | Train Acc: 0.9972
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0049 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0172 | Train Acc: 0.9901
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 17 ===
+Hospital_1 -> Val Loss: 0.0094 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0146 | Val Acc: 0.9962
+Hospital_3 -> Val Loss: 0.0210 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0211 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.1124 | Val Acc: 0.9524
+Val Loss medio: 0.0357 | Val Acc media: 0.9888
+Tiempo ronda: 2.37s
+Sin mejora en validacion: 3/5
+
+==============================
+RONDA FEDERADA 18/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_1', 'Hospital_4']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0043 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0305 | Train Acc: 0.9913
+
+Entrenamiento local en Hospital_4...
+Train: 353 | Val: 69 | Test: 52
+Hospital_4 realizará 5 épocas locales con FedProx.
+Hospital_4 -> Train Loss: 0.0049 | Train Acc: 1.0000
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 18 ===
+Hospital_1 -> Val Loss: 0.0038 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0186 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0194 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0141 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.1014 | Val Acc: 0.9524
+Val Loss medio: 0.0314 | Val Acc media: 0.9880
+Tiempo ronda: 2.40s
+Sin mejora en validacion: 4/5
+
+==============================
+RONDA FEDERADA 19/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_1', 'Hospital_3']
+
+Entrenamiento local en Hospital_2...
+Train: 1328 | Val: 262 | Test: 184
+Hospital_2 realizará 5 épocas locales con FedProx.
+Hospital_2 -> Train Loss: 0.0035 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_1...
+Train: 809 | Val: 159 | Test: 113
+Hospital_1 realizará 5 épocas locales con FedProx.
+Hospital_1 -> Train Loss: 0.0025 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_3...
+Train: 1075 | Val: 213 | Test: 149
+Hospital_3 realizará 5 épocas locales con FedProx.
+Hospital_3 -> Train Loss: 0.0033 | Train Acc: 1.0000
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDPROX...
+Modelo global actualizado con FEDPROX.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 19 ===
+Hospital_1 -> Val Loss: 0.0080 | Val Acc: 1.0000
+Hospital_2 -> Val Loss: 0.0139 | Val Acc: 0.9924
+Hospital_3 -> Val Loss: 0.0220 | Val Acc: 0.9953
+Hospital_4 -> Val Loss: 0.0213 | Val Acc: 1.0000
+Hospital_5 -> Val Loss: 0.0879 | Val Acc: 0.9881
+Val Loss medio: 0.0306 | Val Acc media: 0.9952
+Tiempo ronda: 2.99s
+Sin mejora en validacion: 5/5
+Early stopping activado en la ronda 19. Mejor val_acc=0.9963 en ronda 14.
+
+==============================
+RESUMEN FINAL POR RONDAS
+==============================
+Ronda 1 -> Val Loss: 0.8308 | Val Acc: 0.7740
+Ronda 2 -> Val Loss: 0.4617 | Val Acc: 0.8187
+Ronda 3 -> Val Loss: 0.2807 | Val Acc: 0.9702
+Ronda 4 -> Val Loss: 0.6988 | Val Acc: 0.7911
+Ronda 5 -> Val Loss: 0.3156 | Val Acc: 0.8123
+Ronda 6 -> Val Loss: 0.0986 | Val Acc: 0.9650
+Ronda 7 -> Val Loss: 0.0880 | Val Acc: 0.9720
+Ronda 8 -> Val Loss: 0.0936 | Val Acc: 0.9818
+Ronda 9 -> Val Loss: 0.0709 | Val Acc: 0.9818
+Ronda 10 -> Val Loss: 0.0694 | Val Acc: 0.9646
+Ronda 11 -> Val Loss: 0.0527 | Val Acc: 0.9841
+Ronda 12 -> Val Loss: 0.0407 | Val Acc: 0.9807
+Ronda 13 -> Val Loss: 0.0555 | Val Acc: 0.9867
+Ronda 14 -> Val Loss: 0.0374 | Val Acc: 0.9963
+Ronda 15 -> Val Loss: 0.0261 | Val Acc: 0.9934
+Ronda 16 -> Val Loss: 0.0317 | Val Acc: 0.9883
+Ronda 17 -> Val Loss: 0.0357 | Val Acc: 0.9888
+Ronda 18 -> Val Loss: 0.0314 | Val Acc: 0.9880
+Ronda 19 -> Val Loss: 0.0306 | Val Acc: 0.9952
+
+==============================
+EVALUACIÓN FINAL EN TEST
+==============================
+Hospital_1 -> Test Loss: 0.0028 | Test Acc: 1.0000
+Hospital_2 -> Test Loss: 0.0272 | Test Acc: 0.9891
+Hospital_3 -> Test Loss: 0.0190 | Test Acc: 1.0000
+Hospital_4 -> Test Loss: 0.0370 | Test Acc: 1.0000
+Hospital_5 -> Test Loss: 0.0170 | Test Acc: 0.9915
+
+Test Loss medio: 0.0206
+Test Acc media:  0.9961
+
+Guardando predicciones...
+Predicciones guardadas en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedprox\seed_999
+Modelo guardado en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedprox\seed_999\modelo_final.pt
+
+Tiempo total: 51.69s
+Tiempos guardados en: C:\Users\maria\Desktop\UNI\TGF\TFG\escenarios\non_iid\results_non_iid\K5\fedprox\seed_999\tiempos.csv

@@ -1,0 +1,177 @@
+Agregador: FEDEWA
+Dispositivo: cuda
+Escenario: iid
+Config cargada desde: C:\MJ\iid\config_iid.yaml
+Número de hospitales: 5
+Hospitales: ['Hospital_1', 'Hospital_2', 'Hospital_3', 'Hospital_4', 'Hospital_5']
+Rondas federadas: 50
+Épocas locales por ronda: 10
+Fracción de clientes por ronda: 0.6
+Semilla aleatoria: 16
+Learning rate: 0.1
+Early stopping patience: 3
+Resultados en: C:\MJ\iid\results_iid\K5\fedewa\seed_16
+
+==============================
+RONDA FEDERADA 1/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_4', 'Hospital_2']
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: 0.0148 | Train Acc: 0.9947
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0072 | Train Acc: 0.9983
+
+Entrenamiento local en Hospital_2...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_2 -> Train Loss: 0.0071 | Train Acc: 0.9981
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDEWA...
+Modelo global actualizado con FEDEWA.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 1 ===
+Hospital_1 -> Val Loss: 0.0329 | Val Acc: 0.9949
+Hospital_2 -> Val Loss: 0.0090 | Val Acc: 0.9972
+Hospital_3 -> Val Loss: 0.0180 | Val Acc: 0.9955
+Hospital_4 -> Val Loss: 0.0276 | Val Acc: 0.9955
+Hospital_5 -> Val Loss: 0.0079 | Val Acc: 0.9977
+Val Loss medio: 0.0191 | Val Acc media: 0.9962
+Cambio vs ronda anterior: NA (primera ronda)
+Tiempo ronda: 521.33s
+Mejor val_acc hasta ahora: 0.9962 (ronda 1)
+
+==============================
+RONDA FEDERADA 2/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_4', 'Hospital_1']
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: 0.0019 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0021 | Train Acc: 0.9994
+
+Entrenamiento local en Hospital_1...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_1 -> Train Loss: 0.0075 | Train Acc: 0.9980
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDEWA...
+Modelo global actualizado con FEDEWA.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 2 ===
+Hospital_1 -> Val Loss: 0.0248 | Val Acc: 0.9926
+Hospital_2 -> Val Loss: 0.0188 | Val Acc: 0.9943
+Hospital_3 -> Val Loss: 0.0190 | Val Acc: 0.9966
+Hospital_4 -> Val Loss: 0.0140 | Val Acc: 0.9955
+Hospital_5 -> Val Loss: 0.0111 | Val Acc: 0.9966
+Val Loss medio: 0.0175 | Val Acc media: 0.9951
+Cambio vs ronda anterior: -0.0010 | cambio vs mejor: -0.0010 | umbral mejora: +0.0010
+Tiempo ronda: 527.41s
+Sin mejora en validacion: 1/3
+
+==============================
+RONDA FEDERADA 3/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_1', 'Hospital_2']
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0192 | Train Acc: 0.9953
+
+Entrenamiento local en Hospital_1...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_1 -> Train Loss: 0.0033 | Train Acc: 0.9991
+
+Entrenamiento local en Hospital_2...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_2 -> Train Loss: 0.0049 | Train Acc: 0.9986
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDEWA...
+Modelo global actualizado con FEDEWA.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 3 ===
+Hospital_1 -> Val Loss: 0.2900 | Val Acc: 0.9768
+Hospital_2 -> Val Loss: 0.1704 | Val Acc: 0.9745
+Hospital_3 -> Val Loss: 0.2010 | Val Acc: 0.9762
+Hospital_4 -> Val Loss: 0.2359 | Val Acc: 0.9762
+Hospital_5 -> Val Loss: 0.1030 | Val Acc: 0.9802
+Val Loss medio: 0.2001 | Val Acc media: 0.9768
+Cambio vs ronda anterior: -0.0183 | cambio vs mejor: -0.0193 | umbral mejora: +0.0010
+Tiempo ronda: 526.23s
+Sin mejora en validacion: 2/3
+
+==============================
+RONDA FEDERADA 4/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_2', 'Hospital_5']
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: nan | Train Acc: 0.1696
+
+Entrenamiento local en Hospital_2...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_2 -> Train Loss: 0.0029 | Train Acc: 0.9992
+
+Entrenamiento local en Hospital_5...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_5 -> Train Loss: 0.0044 | Train Acc: 0.9988
+
+3 modelos locales entrenados correctamente.
+
+Agregando con FEDEWA...
+Modelo global actualizado con FEDEWA.
+Tiempo de agregación: 0.00s
+
+=== Evaluación en VALIDACIÓN después de ronda 4 ===
+Hospital_1 -> Val Loss: nan | Val Acc: 0.1697
+Hospital_2 -> Val Loss: nan | Val Acc: 0.1697
+Hospital_3 -> Val Loss: nan | Val Acc: 0.1697
+Hospital_4 -> Val Loss: nan | Val Acc: 0.1697
+Hospital_5 -> Val Loss: nan | Val Acc: 0.1697
+Val Loss medio: nan | Val Acc media: 0.1697
+Cambio vs ronda anterior: -0.8071 | cambio vs mejor: -0.8265 | umbral mejora: +0.0010
+Tiempo ronda: 541.57s
+Sin mejora en validacion: 3/3
+Early stopping activado en la ronda 4. Mejor val_acc=0.9962 en ronda 1.
+
+==============================
+RESUMEN FINAL POR RONDAS
+==============================
+Ronda 1 -> Val Loss: 0.0191 | Val Acc: 0.9962
+Ronda 2 -> Val Loss: 0.0175 | Val Acc: 0.9951
+Ronda 3 -> Val Loss: 0.2001 | Val Acc: 0.9768
+Ronda 4 -> Val Loss: nan | Val Acc: 0.1697
+
+==============================
+EVALUACIÓN FINAL EN TEST
+==============================
+Hospital_1 -> Test Loss: nan | Test Acc: 0.1695
+Hospital_2 -> Test Loss: nan | Test Acc: 0.1695
+Hospital_3 -> Test Loss: nan | Test Acc: 0.1695
+Hospital_4 -> Test Loss: nan | Test Acc: 0.1695
+Hospital_5 -> Test Loss: nan | Test Acc: 0.1695
+
+Test Loss medio: nan
+Test Acc media:  0.1695
+
+Guardando predicciones...
+Predicciones guardadas en: C:\MJ\iid\results_iid\K5\fedewa\seed_16
+Modelo guardado en: C:\MJ\iid\results_iid\K5\fedewa\seed_16\modelo_final.pt
+
+Tiempo total: 2157.61s
+Tiempos guardados en: C:\MJ\iid\results_iid\K5\fedewa\seed_16\tiempos.csv

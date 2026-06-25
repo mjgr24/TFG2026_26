@@ -1,0 +1,299 @@
+Agregador: MH
+Solver MH: de
+Dispositivo: cuda
+Escenario: iid
+Config cargada desde: C:\MJ\iid\config_iid.yaml
+Número de hospitales: 5
+Hospitales: ['Hospital_1', 'Hospital_2', 'Hospital_3', 'Hospital_4', 'Hospital_5']
+Rondas federadas: 50
+Épocas locales por ronda: 10
+Fracción de clientes por ronda: 0.6
+Semilla aleatoria: 16
+Learning rate: 0.1
+Early stopping patience: 3
+MH lambda_reg: 0.0001
+MH gamma_reg: 0.005
+Resultados en: C:\MJ\iid\results_iid\K5\mh\de\seed_16
+
+==============================
+RONDA FEDERADA 1/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_3', 'Hospital_4', 'Hospital_2']
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: 0.0068 | Train Acc: 0.9984
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0332 | Train Acc: 0.9906
+
+Entrenamiento local en Hospital_2...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_2 -> Train Loss: 0.0152 | Train Acc: 0.9958
+
+3 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 11.31s
+Alphas: [0.3394, 0.3303, 0.3303]
+Valor función objetivo: 0.976121
+
+=== Evaluación en VALIDACIÓN después de ronda 1 ===
+Hospital_1 -> Val Loss: 0.1769 | Val Acc: 0.9751
+Hospital_2 -> Val Loss: 0.1562 | Val Acc: 0.9768
+Hospital_3 -> Val Loss: 0.1653 | Val Acc: 0.9706
+Hospital_4 -> Val Loss: 0.1598 | Val Acc: 0.9762
+Hospital_5 -> Val Loss: 0.1606 | Val Acc: 0.9729
+Val Loss medio: 0.1638 | Val Acc media: 0.9743
+Cambio vs ronda anterior: NA (primera ronda)
+Tiempo ronda: 85.20s
+Mejor val_acc hasta ahora: 0.9743 (ronda 1)
+
+==============================
+RONDA FEDERADA 2/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_3', 'Hospital_2']
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0051 | Train Acc: 0.9985
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: 0.0054 | Train Acc: 0.9984
+
+Entrenamiento local en Hospital_2...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_2 -> Train Loss: 0.0073 | Train Acc: 0.9979
+
+3 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 11.28s
+Alphas: [0.3335, 0.3341, 0.3324]
+Valor función objetivo: 0.993900
+
+=== Evaluación en VALIDACIÓN después de ronda 2 ===
+Hospital_1 -> Val Loss: 0.0191 | Val Acc: 0.9955
+Hospital_2 -> Val Loss: 0.0054 | Val Acc: 0.9989
+Hospital_3 -> Val Loss: 0.0117 | Val Acc: 0.9955
+Hospital_4 -> Val Loss: 0.0118 | Val Acc: 0.9966
+Hospital_5 -> Val Loss: 0.0089 | Val Acc: 0.9966
+Val Loss medio: 0.0114 | Val Acc media: 0.9966
+Cambio vs ronda anterior: +0.0223 | cambio vs mejor: +0.0223 | umbral mejora: +0.0010
+Tiempo ronda: 84.80s
+Mejor val_acc hasta ahora: 0.9966 (ronda 2)
+
+==============================
+RONDA FEDERADA 3/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_5', 'Hospital_3', 'Hospital_2']
+
+Entrenamiento local en Hospital_5...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_5 -> Train Loss: 0.0053 | Train Acc: 0.9990
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: 0.0053 | Train Acc: 0.9982
+
+Entrenamiento local en Hospital_2...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_2 -> Train Loss: 0.0035 | Train Acc: 0.9991
+
+3 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 15.33s
+Alphas: [0.2683, 0.2689, 0.4627]
+Valor función objetivo: 0.984961
+
+=== Evaluación en VALIDACIÓN después de ronda 3 ===
+Hospital_1 -> Val Loss: 0.2614 | Val Acc: 0.9248
+Hospital_2 -> Val Loss: 0.2376 | Val Acc: 0.9304
+Hospital_3 -> Val Loss: 0.2576 | Val Acc: 0.9186
+Hospital_4 -> Val Loss: 0.2666 | Val Acc: 0.9174
+Hospital_5 -> Val Loss: 0.2549 | Val Acc: 0.9225
+Val Loss medio: 0.2556 | Val Acc media: 0.9227
+Cambio vs ronda anterior: -0.0739 | cambio vs mejor: -0.0739 | umbral mejora: +0.0010
+Tiempo ronda: 88.66s
+Sin mejora en validacion: 1/3
+
+==============================
+RONDA FEDERADA 4/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_4', 'Hospital_5']
+
+Entrenamiento local en Hospital_1...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_1 -> Train Loss: 0.0026 | Train Acc: 0.9993
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0020 | Train Acc: 0.9995
+
+Entrenamiento local en Hospital_5...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_5 -> Train Loss: 0.0031 | Train Acc: 0.9992
+
+3 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 16.16s
+Alphas: [0.3337, 0.3318, 0.3346]
+Valor función objetivo: 0.994124
+
+=== Evaluación en VALIDACIÓN después de ronda 4 ===
+Hospital_1 -> Val Loss: 0.0137 | Val Acc: 0.9955
+Hospital_2 -> Val Loss: 0.0060 | Val Acc: 0.9983
+Hospital_3 -> Val Loss: 0.0029 | Val Acc: 0.9994
+Hospital_4 -> Val Loss: 0.0091 | Val Acc: 0.9983
+Hospital_5 -> Val Loss: 0.0029 | Val Acc: 0.9989
+Val Loss medio: 0.0069 | Val Acc media: 0.9981
+Cambio vs ronda anterior: +0.0753 | cambio vs mejor: +0.0015 | umbral mejora: +0.0010
+Tiempo ronda: 90.29s
+Mejor val_acc hasta ahora: 0.9981 (ronda 4)
+
+==============================
+RONDA FEDERADA 5/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_1', 'Hospital_5', 'Hospital_3']
+
+Entrenamiento local en Hospital_1...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_1 -> Train Loss: 0.0010 | Train Acc: 0.9999
+
+Entrenamiento local en Hospital_5...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_5 -> Train Loss: 0.0015 | Train Acc: 0.9999
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: 0.0011 | Train Acc: 0.9999
+
+3 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 11.14s
+Alphas: [0.3335, 0.3333, 0.3332]
+Valor función objetivo: 0.997659
+
+=== Evaluación en VALIDACIÓN después de ronda 5 ===
+Hospital_1 -> Val Loss: 0.0117 | Val Acc: 0.9983
+Hospital_2 -> Val Loss: 0.0036 | Val Acc: 0.9989
+Hospital_3 -> Val Loss: 0.0015 | Val Acc: 0.9994
+Hospital_4 -> Val Loss: 0.0053 | Val Acc: 0.9989
+Hospital_5 -> Val Loss: 0.0032 | Val Acc: 0.9994
+Val Loss medio: 0.0051 | Val Acc media: 0.9990
+Cambio vs ronda anterior: +0.0009 | cambio vs mejor: +0.0009 | umbral mejora: +0.0010
+Tiempo ronda: 85.68s
+Sin mejora en validacion: 1/3
+
+==============================
+RONDA FEDERADA 6/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_2', 'Hospital_4', 'Hospital_3']
+
+Entrenamiento local en Hospital_2...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_2 -> Train Loss: 0.1907 | Train Acc: 0.9718
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0008 | Train Acc: 0.9998
+
+Entrenamiento local en Hospital_3...
+Train: 8842 | Val: 1768 | Test: 1180
+Hospital_3 -> Train Loss: 0.0010 | Train Acc: 0.9999
+
+3 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 16.24s
+Alphas: [0.3156, 0.3507, 0.3336]
+Valor función objetivo: 0.993526
+
+=== Evaluación en VALIDACIÓN después de ronda 6 ===
+Hospital_1 -> Val Loss: 0.1740 | Val Acc: 0.9327
+Hospital_2 -> Val Loss: 0.1523 | Val Acc: 0.9497
+Hospital_3 -> Val Loss: 0.1693 | Val Acc: 0.9378
+Hospital_4 -> Val Loss: 0.1782 | Val Acc: 0.9287
+Hospital_5 -> Val Loss: 0.1519 | Val Acc: 0.9389
+Val Loss medio: 0.1651 | Val Acc media: 0.9376
+Cambio vs ronda anterior: -0.0614 | cambio vs mejor: -0.0605 | umbral mejora: +0.0010
+Tiempo ronda: 89.22s
+Sin mejora en validacion: 2/3
+
+==============================
+RONDA FEDERADA 7/50
+==============================
+Hospitales seleccionados en esta ronda: ['Hospital_4', 'Hospital_5', 'Hospital_1']
+
+Entrenamiento local en Hospital_4...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_4 -> Train Loss: 0.0017 | Train Acc: 0.9995
+
+Entrenamiento local en Hospital_5...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_5 -> Train Loss: 0.0011 | Train Acc: 1.0000
+
+Entrenamiento local en Hospital_1...
+Train: 8843 | Val: 1768 | Test: 1180
+Hospital_1 -> Train Loss: 0.0031 | Train Acc: 0.9994
+
+3 modelos locales entrenados correctamente.
+
+Agregando con MH...
+Modelo global actualizado con MH.
+Tiempo de agregación: 13.98s
+Alphas: [0.3368, 0.3319, 0.3312]
+Valor función objetivo: 0.994260
+
+=== Evaluación en VALIDACIÓN después de ronda 7 ===
+Hospital_1 -> Val Loss: 0.0354 | Val Acc: 0.9904
+Hospital_2 -> Val Loss: 0.0221 | Val Acc: 0.9915
+Hospital_3 -> Val Loss: 0.0195 | Val Acc: 0.9926
+Hospital_4 -> Val Loss: 0.0275 | Val Acc: 0.9910
+Hospital_5 -> Val Loss: 0.0135 | Val Acc: 0.9943
+Val Loss medio: 0.0236 | Val Acc media: 0.9920
+Cambio vs ronda anterior: +0.0544 | cambio vs mejor: -0.0061 | umbral mejora: +0.0010
+Tiempo ronda: 87.75s
+Sin mejora en validacion: 3/3
+Early stopping activado en la ronda 7. Mejor val_acc=0.9981 en ronda 4.
+
+==============================
+RESUMEN FINAL POR RONDAS
+==============================
+Ronda 1 -> Val Loss: 0.1638 | Val Acc: 0.9743
+Ronda 2 -> Val Loss: 0.0114 | Val Acc: 0.9966
+Ronda 3 -> Val Loss: 0.2556 | Val Acc: 0.9227
+Ronda 4 -> Val Loss: 0.0069 | Val Acc: 0.9981
+Ronda 5 -> Val Loss: 0.0051 | Val Acc: 0.9990
+Ronda 6 -> Val Loss: 0.1651 | Val Acc: 0.9376
+Ronda 7 -> Val Loss: 0.0236 | Val Acc: 0.9920
+
+==============================
+EVALUACIÓN FINAL EN TEST
+==============================
+Hospital_1 -> Test Loss: 0.0410 | Test Acc: 0.9907
+Hospital_2 -> Test Loss: 0.0238 | Test Acc: 0.9881
+Hospital_3 -> Test Loss: 0.0204 | Test Acc: 0.9898
+Hospital_4 -> Test Loss: 0.0179 | Test Acc: 0.9915
+Hospital_5 -> Test Loss: 0.0217 | Test Acc: 0.9890
+
+Test Loss medio: 0.0250
+Test Acc media:  0.9898
+
+Guardando predicciones...
+Predicciones guardadas en: C:\MJ\iid\results_iid\K5\mh\de\seed_16
+Modelo guardado en: C:\MJ\iid\results_iid\K5\mh\de\seed_16\modelo_final.pt
+
+Tiempo total: 651.57s
+Tiempos guardados en: C:\MJ\iid\results_iid\K5\mh\de\seed_16\tiempos.csv
